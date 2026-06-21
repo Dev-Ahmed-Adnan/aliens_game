@@ -1109,3 +1109,1174 @@ Memory consumption went from 330.2 MB to 330.2 MB.
 Total: 52.121167 ms (FindLiveObjects: 2.388750 ms CreateObjectMapping: 4.344417 ms MarkObjects: 44.609291 ms  DeleteObjects: 0.777166 ms)
 
 [Licensing::Client] Successfully resolved entitlement details
+Failed to find entry-points:
+System.DllNotFoundException: Unable to load the unmanaged library `/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib` Reason: dlopen(/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib, 0x0002): tried: '/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib' (slice is not valid mach-o file), '/System/Volumes/Preboot/Cryptexes/OS/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib' (no such file), '/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib' (slice is not valid mach-o file)
+  at Burst.Backend.UnmanagedLibrary+MacOSUnmanagedLibrary.LoadLibrary (System.String name, System.Boolean addPlatformPrefix, System.Boolean addPlatformFileExtension, System.Boolean addArchitecturePostfix) [0x000a1] in <c6081d66416a4b579fa919569b56c9a2>:0 
+  at Burst.Backend.UnmanagedLibrary.LoadLibrary (System.String name, System.Boolean addPlatformPrefix, System.Boolean addPlatformFileExtension, System.Boolean addArchitecturePostfix) [0x00020] in <c6081d66416a4b579fa919569b56c9a2>:0 
+  at Burst.Backend.StandardCompilerBackend..ctor (System.String nativeSharedLibraryName) [0x0000d] in <c6081d66416a4b579fa919569b56c9a2>:0 
+  at Burst.Backend.StandardCompilerBackend.GetSingleton (System.String backendName) [0x0001f] in <c6081d66416a4b579fa919569b56c9a2>:0 
+  at Burst.Compiler.IL.Server.LibraryCompiler..ctor (Burst.Compiler.IL.Server.GlobalContext globalContext, System.String backendName) [0x00026] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+  at Burst.Compiler.IL.Server.CompilerServer.CompileLibrary (Burst.Compiler.IL.Server.CompileLibraryJob request, Burst.Compiler.IL.Server.CompilationMessageStreamer streamer, Burst.Compiler.IL.Server.ProgressMessageHelper progressHelper, System.Threading.CancellationToken cancellationToken) [0x000bd] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+  at Burst.Compiler.IL.Server.CompilerServer+<>c__DisplayClass25_0.<RunTask>b__0 () [0x00138] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+  at Burst.Compiler.IL.Server.CompilerServer.RunTask (Burst.Compiler.IL.Server.TargetKey target, System.String taskName, System.String[] assemblyFolders, System.Threading.CancellationToken cancellationToken, System.Func`2[T,TResult] function) [0x0012e] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+  at Burst.Compiler.IL.Server.CompilerServer.Compile (Burst.Compiler.IL.Server.CompilerServerOptions options, Burst.Compiler.IL.Server.CompilationMessageStreamer streamer, System.Threading.CancellationToken cancellationToken) [0x003d5] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+
+While compiling job:
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+AssetDatabase: script compilation time: 0.016854s
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 19.0667ms
+Starting: /Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 154.1487ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 137 defines and 354 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 20.3632ms
+ExitCode: 0 Duration: 2s763ms
+[ 774/1019  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1015/1019  2s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1016/1019  0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 137 defines and 354 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1017/1019  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1018/1019  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (2.68 seconds), 5 items updated, 1019 evaluated
+Total cache size 73957388
+Total cache size after purge 73957388, took 00:00:00.1150987
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+2026-06-21 14:26:53.753 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa10479180 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 14:26:53.760 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa104135c0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 14:26:53.767 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0fbf77a0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 14:26:53.773 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0fbf59a0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Thread 0x17a107000 may have been prematurely finalized
+Refreshing native plugins compatible for Editor in 3.21 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+2026-06-21 14:26:57.619 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0fbf69e0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.545 seconds
+Domain Reload Profiling: 4489ms
+	BeginReloadAssembly (2075ms)
+		DisableScriptedObjects (435ms)
+		CreateAndSetChildDomain (937ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (741ms)
+		LoadAssemblies (812ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (22ms)
+			BuildScriptInfoCaches (185ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1546ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (387ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+		AwakeInstancesAfterBackupRestoration (377ms)
+
+Asset Pipeline Refresh (id=930f3cc2b8b1f4f108c0eb11e529e4fc): Total: 10.610 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3113 ms
+		Asset DB Callback time: managed=110 ms, native=29 ms
+		Scripting: domain reloads=1, domain reload time=3121 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1570, non-scripts=3491
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 1.660ms
+	ApplyChangesToAssetFolders: 0.626ms
+	Scan: 431.515ms
+	Collect global state as custom dependencies: 5.250ms
+	ProcessAssetsWithTransientArtifactChanges: 12.120ms
+	CategorizeAssets: 198.235ms
+	CompileScripts: 2.088ms
+	ImportOutOfDateAssets: 1606.222ms (1565.858ms without children)
+		CollectScriptTypesHashes: 14.461ms
+		ReloadNativeAssets: 1.220ms
+		UnloadImportedAssets: 0.274ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.634ms
+		ImportSchedulerStart: 38.177ms
+	PostProcessAllAssets: 46.617ms
+		PostProcessCallbackCreateDeferredMaterials 0.933ms
+		ShaderAssetModifiedCallback 0.253ms
+		XRBuildSystem.XRAssetImported 0.138ms
+		MonoPostProcessAllAssets: 43.669ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 6.848ms
+			SyncVS.PostprocessSyncProject 6.183ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.428ms
+			AssetChangedListener.OnPostprocessAllAssets 3.289ms
+			AssetPostprocessor.OnPostprocessAllAssets 2.685ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 1.469ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.227ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.058ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.919ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.722ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.690ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.453ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.393ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.390ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.343ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.338ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.300ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.278ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.256ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.203ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.202ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.195ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.192ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.187ms
+			PostProcessor.OnPostprocessAllAssets 0.153ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.124ms
+			AssetEvents.OnPostprocessAllAssets 0.121ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.117ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.110ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.099ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.094ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.088ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.075ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.071ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.071ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.061ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.050ms
+	PostAssetChangesProfiler: 13.335ms
+	PersistCurrentRevisions: 0.135ms
+	GenerateScriptTypeHashes: 2.229ms
+	GenerateScriptTypeSerializationHashes: 3.601ms
+	Untracked: 3416.429ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Failed to find entry-points:
+System.DllNotFoundException: Unable to load the unmanaged library `/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib` Reason: dlopen(/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib, 0x0002): tried: '/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib' (slice is not valid mach-o file), '/System/Volumes/Preboot/Cryptexes/OS/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib' (no such file), '/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib' (slice is not valid mach-o file)
+  at Burst.Backend.UnmanagedLibrary+MacOSUnmanagedLibrary.LoadLibrary (System.String name, System.Boolean addPlatformPrefix, System.Boolean addPlatformFileExtension, System.Boolean addArchitecturePostfix) [0x000a1] in <c6081d66416a4b579fa919569b56c9a2>:0 
+  at Burst.Backend.UnmanagedLibrary.LoadLibrary (System.String name, System.Boolean addPlatformPrefix, System.Boolean addPlatformFileExtension, System.Boolean addArchitecturePostfix) [0x00020] in <c6081d66416a4b579fa919569b56c9a2>:0 
+  at Burst.Backend.StandardCompilerBackend..ctor (System.String nativeSharedLibraryName) [0x0000d] in <c6081d66416a4b579fa919569b56c9a2>:0 
+  at Burst.Backend.StandardCompilerBackend.GetSingleton (System.String backendName) [0x0001f] in <c6081d66416a4b579fa919569b56c9a2>:0 
+  at Burst.Compiler.IL.Server.LibraryCompiler..ctor (Burst.Compiler.IL.Server.GlobalContext globalContext, System.String backendName) [0x00026] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+  at Burst.Compiler.IL.Server.CompilerServer.CompileLibrary (Burst.Compiler.IL.Server.CompileLibraryJob request, Burst.Compiler.IL.Server.CompilationMessageStreamer streamer, Burst.Compiler.IL.Server.ProgressMessageHelper progressHelper, System.Threading.CancellationToken cancellationToken) [0x000bd] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+  at Burst.Compiler.IL.Server.CompilerServer+<>c__DisplayClass25_0.<RunTask>b__0 () [0x00138] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+  at Burst.Compiler.IL.Server.CompilerServer.RunTask (Burst.Compiler.IL.Server.TargetKey target, System.String taskName, System.String[] assemblyFolders, System.Threading.CancellationToken cancellationToken, System.Func`2[T,TResult] function) [0x0012e] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+  at Burst.Compiler.IL.Server.CompilerServer.Compile (Burst.Compiler.IL.Server.CompilerServerOptions options, Burst.Compiler.IL.Server.CompilationMessageStreamer streamer, System.Threading.CancellationToken cancellationToken) [0x003d5] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+
+While compiling job:
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 4.4083ms
+Starting: /Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 5.4625ms
+ExitCode: 3 Duration: 0s680ms
+[ 774/1019  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1015/1019  0s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)
+##### CommandLine
+"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/DotNetSdk/dotnet" exec "/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/DotNetSdk/sdk/8.0.318/Roslyn/bincore/csc.dll" /nostdlib /noconfig /shared "@Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp" "@Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp2"
+##### Contents of Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp
+-target:library
+-out:"Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll"
+-refout:"Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.ref.dll"
+-define:UNITY_6000_5_0
+-define:UNITY_6000_5
+-define:UNITY_6000
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:UNITY_2022_1_OR_NEWER
+-define:UNITY_2022_2_OR_NEWER
+-define:UNITY_2022_3_OR_NEWER
+-define:UNITY_2023_1_OR_NEWER
+-define:UNITY_2023_2_OR_NEWER
+-define:UNITY_2023_3_OR_NEWER
+-define:UNITY_6000_0_OR_NEWER
+-define:UNITY_6000_1_OR_NEWER
+-define:UNITY_6000_2_OR_NEWER
+-define:UNITY_6000_3_OR_NEWER
+-define:UNITY_6000_4_OR_NEWER
+-define:UNITY_6000_5_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_INCLUDE_TESTS
+-define:UNITY_ENABLE_CLOUD_SERVICES_ENGINE_DIAGNOSTICS_MANAGED
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_AUDIO_SCRIPTABLE_PIPELINE
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_UNITY_CONSENT
+-define:ENABLE_UNITY_CLOUD_IDENTIFIERS
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_EDITOR_GAME_SERVICES
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_MARSHALLING_TESTS
+-define:ENABLE_VIDEO
+-define:ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:ENABLE_ACCESSIBILITY_SCREEN_READER
+-define:TEXTCORE_1_0_OR_NEWER
+-define:EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED
+-define:PLATFORM_STANDALONE_OSX
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_OSX
+-define:UNITY_STANDALONE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_CLOUD_SERVICES_ENGINE_DIAGNOSTICS
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_SPATIALTRACKING
+-define:PLATFORM_HAS_CUSTOM_MUTEX
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS
+-define:PLATFORM_REQUIRES_PATH_NORMALIZATION
+-define:ENABLE_MONO
+-define:NET_STANDARD_2_0
+-define:NET_STANDARD
+-define:NET_STANDARD_2_1
+-define:NETSTANDARD
+-define:NETSTANDARD2_1
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
+-define:TEXTCORE_FONT_ENGINE_1_6_OR_NEWER
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/ref/Microsoft.Bcl.AsyncInterfaces.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/ref/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/ref/Microsoft.Extensions.Logging.Abstractions.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Collections.Immutable.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Diagnostics.DiagnosticSource.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.IO.Hashing.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Reflection.Metadata.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Runtime.CompilerServices.Unsafe.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Text.Encodings.Web.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Text.Json.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/PlaybackEngines/MacStandaloneSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/Unity.Scripting.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.AIModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.AdaptivePerformanceModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.AssetComplianceModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.BuildProfileModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.ClothModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.ContentLoadModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.CoreBusinessMetricsModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.EmbreeModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.GIModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.GenericRemoteModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.GraphToolkitModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.GraphicsStateCollectionSerializerModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.GridAndSnapModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.GridModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.HierarchyModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.LightingModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.MathematicsModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.MediaModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.MultiplayerModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.Physics2DModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.PhysicsCore2DModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.PhysicsModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.PlayModeModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.ProjectAuditorModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.PropertiesModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.QuickInstallModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.SafeModeModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.SceneViewModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.ShaderBuildSettingsModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.ShaderCompilationModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.ShaderFoundryModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.SketchUpModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.SpriteMaskModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.SpriteShapeModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.SubstanceModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.TerrainModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.TextRenderingModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.TilemapModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.TreeModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.U2DModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.UIAutomationModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.UIToolkitAuthoringModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.UmbraModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.VFXModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.VectorGraphicsModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.VideoModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.XRModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.AdaptivePerformanceModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.GIModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.GraphicsStateCollectionSerializerModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.HierarchyCoreModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.IdentifiersModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.InputForUIModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.InsightsModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.MarshallingModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.MathematicsModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.MultiplayerModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.PhysicsBackendPhysXModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.PhysicsCore2DModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.PropertiesModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.RenderAs2DModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ScriptingModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ShaderVariantAnalyticsModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.U2DRuntimeModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityConsentModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.VectorGraphicsModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"Library/PackageCache/com.unity.collections@a43cabe808ca/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
+-r:"Library/PackageCache/com.unity.ext.nunit@44f7d31723bd/net472/unity-custom/nunit.framework.dll"
+-r:"Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/PsdPlugin.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Animation.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Animation.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Aseprite.Common.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Aseprite.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Common.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Common.Path.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Common.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.IK.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.IK.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Psdimporter.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.SpriteShape.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.SpriteShape.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Tilemap.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Tilemap.Extras.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Tilemap.Extras.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Tooling.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Burst.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Burst.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Collections.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Collections.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.InputSystem.ForUI.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.InputSystem.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.InternalAPIEditorBridge.001.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.InternalAPIEditorBridge.ShaderGraph.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.InternalAPIEngineBridge.001.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.InternalAPIEngineBridge.004.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.InternalAPIEngineBridge.RenderPipelines.Core.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.InternalAPIEngineBridge.RenderPipelines.Core.Runtime.Shared.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Mathematics.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Multiplayer.Center.Common.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Multiplayer.Center.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.PathTracing.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.PathTracing.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Rendering.LightTransport.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Editor.Shared.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.Runtime.Shared.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Core.ShaderLibrary.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.GPUDriven.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Universal.2D.Editor.Overrides.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Universal.2D.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Universal.Config.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Universal.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Universal.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.RenderPipelines.Universal.Shaders.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Rider.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Searcher.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.SurfaceCache.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.UnifiedRayTracing.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Shared.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.State.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.State.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualStudio.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.Analytics.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
+-analyzer:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/BuildPipeline/Unity.Analyzers.Common/Unity.Analyzers.Common.dll"
+-analyzer:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/BuildPipeline/Unity.Analyzers.LongLiving/Unity.Analyzers.LongLiving.dll"
+-analyzer:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
+-analyzer:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+-analyzer:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+-analyzer:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/analyzers/dotnet/roslyn4.0/cs/Microsoft.Extensions.Logging.Generators.dll"
+-analyzer:"/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll"
+"Assets/Scripts/Player.cs"
+-langversion:9.0
+/deterministic
+/optimize+
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+/nowarn:0169
+/nowarn:0649
+/nowarn:0282
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+/additionalfile:"Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
+##### Custom Environment Variables
+DOTNET_HOST_PATH=/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/DotNetSdk/dotnet
+DOTNET_MULTILEVEL_LOOKUP=0
+##### ExitCode
+1
+##### Output
+Assets/Scripts/Player.cs(26,9): error CS0103: The name '_defaultSprite' does not exist in the current context
+*** Tundra build failed (0.64 seconds), 2 items updated, 1019 evaluated
+## Script Compilation Error for: Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)
+## CmdLine: "/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/DotNetSdk/dotnet" exec "/Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/Scripting/DotNetSdk/sdk/8.0.318/Roslyn/bincore/csc.dll" /nostdlib /noconfig /shared "@Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp" "@Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp2"
+## Output:
+Assets/Scripts/Player.cs(26,9): error CS0103: The name '_defaultSprite' does not exist in the current context
+
+Assets/Scripts/Player.cs(26,9): error CS0103: The name '_defaultSprite' does not exist in the current context
+Total cache size 73957388
+Total cache size after purge 73957388, took 00:00:00.1522835
+Refreshing native plugins compatible for Editor in 6.75 ms, found 3 plugins.
+
+Asset Pipeline Refresh (id=8b37e158235fe4b8790d0834b1e03fa9): Total: 1.862 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=736 ms
+		Asset DB Callback time: managed=16 ms, native=21 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1570, non-scripts=3491
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 0.194ms
+	ApplyChangesToAssetFolders: 0.436ms
+	Scan: 130.872ms
+	Collect global state as custom dependencies: 0.228ms
+	ProcessAssetsWithTransientArtifactChanges: 2.588ms
+	CategorizeAssets: 90.664ms
+	ImportOutOfDateAssets: 149.333ms (73.720ms without children)
+		ReloadNativeAssets: 0.058ms
+		UnloadImportedAssets: 0.508ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.582ms
+		ImportSchedulerStart: 74.463ms
+	PostProcessAllAssets: 13.495ms
+		XRBuildSystem.XRAssetImported 0.932ms
+		PostProcessCallbackCreateDeferredMaterials 0.872ms
+		ShaderAssetModifiedCallback 0.419ms
+		WindowTitlePostprocess 0.370ms
+		MonoPostProcessAllAssets: 8.900ms
+			SyncVS.PostprocessSyncProject 3.597ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.651ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.619ms
+			AssetPostprocessor.OnPostprocessAllAssets 0.592ms
+			AssetChangedListener.OnPostprocessAllAssets 0.425ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.266ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.225ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 0.136ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.067ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.062ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.058ms
+	PostAssetChangesProfiler: 10.996ms
+	PersistCurrentRevisions: 0.142ms
+	Untracked: 33.855ms
+
+Asset Pipeline Refresh (id=b6884b916c77848d1a3576cac31355e0): Total: 0.172 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 0.8422ms
+Starting: /Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 4.1850ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 137 defines and 354 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 85.0753ms
+ExitCode: 0 Duration: 0s697ms
+[ 774/1019  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1015/1019  0s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1016/1019  0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 137 defines and 354 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1017/1019  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[1018/1019  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+*** Tundra build success (0.67 seconds), 5 items updated, 1019 evaluated
+Total cache size 73957388
+Total cache size after purge 73957388, took 00:00:00.0409398
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+2026-06-21 14:29:14.291 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c871860 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 14:29:14.295 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c8554a0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 14:29:14.300 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c82ad00 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 14:29:14.304 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c8545a0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Refreshing native plugins compatible for Editor in 2.69 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+2026-06-21 14:29:16.462 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c877e80 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.364 seconds
+Domain Reload Profiling: 2708ms
+	BeginReloadAssembly (924ms)
+		DisableScriptedObjects (107ms)
+		CreateAndSetChildDomain (600ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (162ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (12ms)
+			BuildScriptInfoCaches (154ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1364ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (312ms)
+			ProcessInitializeOnLoadAttributes (301ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+		AwakeInstancesAfterBackupRestoration (333ms)
+
+Asset Pipeline Refresh (id=e49ff5da1bf274357adcb5b66df37d7f): Total: 4.787 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2250 ms
+		Asset DB Callback time: managed=62 ms, native=9 ms
+		Scripting: domain reloads=1, domain reload time=1414 ms, compile time=4 ms, other=0 ms
+		Project Asset Count: scripts=1570, non-scripts=3491
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 0.726ms
+	ApplyChangesToAssetFolders: 0.609ms
+	Scan: 398.671ms
+	Collect global state as custom dependencies: 2.095ms
+	ProcessAssetsWithTransientArtifactChanges: 5.781ms
+	CategorizeAssets: 173.586ms
+	CompileScripts: 4.126ms
+	ImportOutOfDateAssets: 1427.544ms (1377.812ms without children)
+		CollectScriptTypesHashes: 3.253ms
+		ReloadNativeAssets: 1.109ms
+		UnloadImportedAssets: 0.245ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.617ms
+		ImportSchedulerStart: 47.683ms
+	PostProcessAllAssets: 63.924ms
+		PostProcessCallbackCreateDeferredMaterials 0.800ms
+		XRBuildSystem.XRAssetImported 0.375ms
+		MonoPostProcessAllAssets: 61.715ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 9.611ms
+			SyncVS.PostprocessSyncProject 8.604ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.922ms
+			AssetChangedListener.OnPostprocessAllAssets 4.198ms
+			AssetPostprocessor.OnPostprocessAllAssets 2.879ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.075ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 2.003ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.980ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.437ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.955ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.898ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.891ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.661ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.606ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.477ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.413ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.411ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.409ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.396ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.347ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.304ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.271ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.248ms
+			PostProcessor.OnPostprocessAllAssets 0.242ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.225ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.213ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.195ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.173ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.150ms
+			AssetEvents.OnPostprocessAllAssets 0.146ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.141ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.134ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.119ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.118ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.098ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.080ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.068ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.059ms
+			AssetProcessor.OnPostprocessAllAssets 0.054ms
+	PostAssetChangesProfiler: 5.169ms
+	PersistCurrentRevisions: 0.141ms
+	GenerateScriptTypeHashes: 2.403ms
+	GenerateScriptTypeSerializationHashes: 3.881ms
+	Untracked: 1484.730ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Worker1] Imported GUID: 3d9828b43b6514bcd800639bb2eba1ff - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_climb2.png - Importer: PreviewImporter -> (ImportResultId: '7abc5b4823dd2b2bc81a7bd8760e374a') in 0.411898458 seconds
+[Worker0] Imported GUID: 0880fbd2bbaff4efabea2db118a6c16d - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_climb1.png - Importer: PreviewImporter -> (ImportResultId: '8ac39c2ad5aea015fac71ecc11f95acd') in 0.420166167 seconds
+[Worker0] Imported GUID: 318f2795e8bea4e46b0db83f9113aa3b - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_hit.png - Importer: PreviewImporter -> (ImportResultId: 'a7dda7e90dd137ce9054942939ba73ec') in 0.018029084 seconds
+[Worker1] Imported GUID: eea63b35266dc4dbfb8439fc908a89b8 - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_jump.png - Importer: PreviewImporter -> (ImportResultId: '7b590cbb26b5ede6a9a5478a8e7490af') in 0.018763375 seconds
+[Worker1] Imported GUID: ac1765b4669de47b99a8c4ee650308dc - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_front.png - Importer: PreviewImporter -> (ImportResultId: 'ff5b55c4e9e419e6ce1be329b6818400') in 0.016739 seconds
+[Worker0] Imported GUID: 308db8feb08fe447383b0f50d92d5431 - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_duck.png - Importer: PreviewImporter -> (ImportResultId: '2a443b0ec35ce5aaf873fb58909735fd') in 0.017003084 seconds
+[Worker0] Imported GUID: ae23d50e104c94140a96fad409f0e7e6 - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_stand.png - Importer: PreviewImporter -> (ImportResultId: '8a0edb768b21ce0a353394d4823bbf00') in 0.036141791 seconds
+[Worker1] Imported GUID: 3540fe444c6bc44c89fa032a65901c7a - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_swim1.png - Importer: PreviewImporter -> (ImportResultId: 'bc3322ae7062ff98a7d4ebe6acad6fe3') in 0.033033084 seconds
+[Worker1] Imported GUID: 14b120766145d4bfdbac7d76edc46e97 - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_swim2.png - Importer: PreviewImporter -> (ImportResultId: '0be7289b7525e255d9c49ae10429d749') in 0.021635 seconds
+[Worker0] Imported GUID: b439e34d3520f487d8f48a463e17dfca - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_walk2.png - Importer: PreviewImporter -> (ImportResultId: '5f5555131f9a3deba84239503daa9a9d') in 0.023042541 seconds
+[Worker1] Imported GUID: 5d62e2cfe43894c4fbea69ecfb8baed6 - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_walk1.png - Importer: PreviewImporter -> (ImportResultId: '19fd506c4e307e1f27fa2328b6b6febd') in 0.016138667 seconds
+[Worker0] Imported GUID: a3ba2fdd307ed458aa8afc015236e03c - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_climb1.png - Importer: PreviewImporter -> (ImportResultId: 'daca9c65ff0fb5cbbe118e147f582313') in 0.018264833 seconds
+[Worker1] Imported GUID: 944f0849195dc4251a32fc46dc4a2c5e - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_climb2.png - Importer: PreviewImporter -> (ImportResultId: '353c681955513a42a110619bffb54f44') in 0.017718791 seconds
+[Worker0] Imported GUID: 91eb0324deed44a91a540afcdc2d70c8 - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_duck.png - Importer: PreviewImporter -> (ImportResultId: '11ff05b0745e1596374b1b5f562eeae1') in 0.0171475 seconds
+[Worker1] Imported GUID: 9b04f6a8fbcbd4eba89be5c72e9e96c2 - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_front.png - Importer: PreviewImporter -> (ImportResultId: '11685f20f0259be6c3ec35f64a271fdf') in 0.015668166 seconds
+[Worker0] Imported GUID: e0f9c0941bdc84c7b9ad01211d254d25 - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_hit.png - Importer: PreviewImporter -> (ImportResultId: 'e730a6f76cf75bdc25e1ac788a653da1') in 0.01629525 seconds
+[Worker1] Imported GUID: ab73919f5e6094b00a6eec424a48c4c8 - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_jump.png - Importer: PreviewImporter -> (ImportResultId: 'ed14c0f126cd452cef2e7e3114d7e125') in 0.015938459 seconds
+[Worker0] Imported GUID: bbbe0da793d4e414fbb611483215482c - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_stand.png - Importer: PreviewImporter -> (ImportResultId: '81970186440e6c078f170cedea6e8c46') in 0.027203166 seconds
+[Worker1] Imported GUID: 2dc65cbb94a574380be1cf5bcb92596c - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_swim1.png - Importer: PreviewImporter -> (ImportResultId: '6093ce064a51f9240c31850458fa1710') in 0.027023625 seconds
+[Worker0] Imported GUID: 3e4d33cc628a9445cb72d61a6f916f35 - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_swim2.png - Importer: PreviewImporter -> (ImportResultId: '9cd47e6f32f55755ce64bb733d4e5375') in 0.028319541 seconds
+[Worker1] Imported GUID: 762d933aedabf42799970dda56eec1c2 - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_hit.png - Importer: PreviewImporter -> (ImportResultId: 'b04917c68c832c751947f18505c64bec') in 0.027846708 seconds
+[Worker0] Imported GUID: e2ec266c731474db7b6d8ae55b3783e9 - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_jump.png - Importer: PreviewImporter -> (ImportResultId: 'c37022c15e77091fefc9221b9b41e7d3') in 0.027281458 seconds
+[Worker1] Imported GUID: 2420241170bbd49c78c9e63bc71a93ec - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_walk2.png - Importer: PreviewImporter -> (ImportResultId: 'b64eb031115a10ca93efa56ff0ce3340') in 0.026901375 seconds
+[Worker0] Imported GUID: f7a01f96270d14a5087c0a3f0fcfe192 - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_stand.png - Importer: PreviewImporter -> (ImportResultId: '8eb04d1490285f5bb2e6c40e8829f678') in 0.017437 seconds
+[Worker1] Imported GUID: 312393aa798e24354a2b2b707039bd10 - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_walk1.png - Importer: PreviewImporter -> (ImportResultId: 'de644fd8124168c97ddf585301165069') in 0.016646625 seconds
+[Worker1] Imported GUID: 5c31a388a0d834d6eb500b492033f0bf - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_duck.png - Importer: PreviewImporter -> (ImportResultId: '0ab71e2d81b24a67b262bd81c1adf6ed') in 0.016776875 seconds
+[Worker0] Imported GUID: adc711521697448f0a964ec60b68b35b - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_climb1.png - Importer: PreviewImporter -> (ImportResultId: '37f972fc2c7e1d2c5d9769606f2b021c') in 0.018278917 seconds
+[Worker1] Imported GUID: 338824fbe237a4e09bf1cf0d1381fc05 - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_swim1.png - Importer: PreviewImporter -> (ImportResultId: 'cf9f63dde8c01fe29d00d81b92ebfc9f') in 0.0277445 seconds
+[Worker0] Imported GUID: 6432bdcb6b0984e58a89415acc8c68ef - Path: Assets/Art/Enemies/barnacle.png - Importer: PreviewImporter -> (ImportResultId: 'b7678ad792c85c1aad1231b6a5193f4c') in 0.027436333 seconds
+[Worker0] Imported GUID: b23dc5a063544473b94f8faea39f25f0 - Path: Assets/Art/Enemies/barnacle_attack.png - Importer: PreviewImporter -> (ImportResultId: '8ba11f705db28c738d43cde2fe7a797a') in 0.023414708 seconds
+[Worker1] Imported GUID: 6b44e40e9030f4705817009b232061eb - Path: Assets/Art/Enemies/barnacle_dead.png - Importer: PreviewImporter -> (ImportResultId: '8833f5f61c860dabf25ffbf8c079dce0') in 0.025014667 seconds
+[Worker0] Imported GUID: 911bdfda5431a483d904fa46f9446f14 - Path: Assets/Art/Tiles/bridgeB.png - Importer: PreviewImporter -> (ImportResultId: '9774d6ca38ccbd3a01d4fb5dc8058ab7') in 0.018649208 seconds
+[Worker1] Imported GUID: 2f358089a84fa4e5bba38e2d9aa4afac - Path: Assets/Art/Tiles/boxCrate_warning.png - Importer: PreviewImporter -> (ImportResultId: '57bb0bbb232af414df16f6ea1f19bcda') in 0.018186875 seconds
+[Worker0] Imported GUID: fd473cb73de334834826074eedb6807b - Path: Assets/Art/Tiles/boxCoin_disabled_boxed.png - Importer: PreviewImporter -> (ImportResultId: '29ea5cc8c8df2e94e7d408def1ad1a3d') in 0.018399875 seconds
+[Worker1] Imported GUID: a7a94b3596806497db180934373fe3c4 - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_jump.png - Importer: PreviewImporter -> (ImportResultId: 'de445a7dd5093d170891c97acddb8f92') in 0.018918208 seconds
+[Worker0] Imported GUID: 84710473de82d4c0690402f536dd6f37 - Path: Assets/Art/Tiles/brickBrown.png - Importer: PreviewImporter -> (ImportResultId: 'c68d26ef90cd7cf477ee6829d9292890') in 0.019673083 seconds
+[Worker1] Imported GUID: 1e5882585c2644d98ad6fe83f7e6da6b - Path: Assets/Art/Particles/brickGrey.png - Importer: PreviewImporter -> (ImportResultId: '1673b8829bfd91daf941657143bf4fa9') in 0.019627208 seconds
+[Worker1] Imported GUID: c7e663754a1fb4ff59fd32866f3d5379 - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_swim2.png - Importer: PreviewImporter -> (ImportResultId: 'e994959e551ad9dc4162fdae22941184') in 0.022065084 seconds
+[Worker0] Imported GUID: eee8701e6128e4eb48fe7e4720f3344d - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_walk1.png - Importer: PreviewImporter -> (ImportResultId: '7d544c9b6f6e2d9e9d72b5230f7813f1') in 0.022893458 seconds
+[Worker0] Imported GUID: 737b94af79d21467ea71f64128e475fa - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_hit.png - Importer: PreviewImporter -> (ImportResultId: 'f86842f69e75ef364ee57871abf3842e') in 0.01606025 seconds
+[Worker1] Imported GUID: fbfee282b2cfb45649c2d706049a2ceb - Path: Assets/Art/Tiles/boxCrate_single.png - Importer: PreviewImporter -> (ImportResultId: '6c73a91924fbf087f4db69696531ec61') in 0.017024208 seconds
+[Worker0] Imported GUID: f80d21f2206e34424b40184049767fa9 - Path: Assets/Art/Tiles/boxExplosive.png - Importer: PreviewImporter -> (ImportResultId: '8b5840369c6f7cb234fe49ec3010cd28') in 0.01690275 seconds
+[Worker1] Imported GUID: bed030fe7ea874e44bb0d47b117c77ff - Path: Assets/Art/Backgrounds/blue_grass.png - Importer: PreviewImporter -> (ImportResultId: '3225eb0c5694b976bc08e93c8423d2f7') in 0.016142292 seconds
+[Worker0] Imported GUID: 686f36f5d6f67436aab9be7c09918b0f - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_climb2.png - Importer: PreviewImporter -> (ImportResultId: '28998dd79c3f9f19dd203c92eba9b8df') in 0.016563291 seconds
+[Worker1] Imported GUID: f4a138c44ad6041ce90a899c3cdef974 - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_duck.png - Importer: PreviewImporter -> (ImportResultId: 'cbbd22371e7c10a979111ef8fa387617') in 0.016160791 seconds
+[Worker0] Imported GUID: e4b64b8bb64bd46db9ac80482df51901 - Path: Assets/Art/Tiles/boxCrate.png - Importer: PreviewImporter -> (ImportResultId: '858d3bfb95db3da682ffc9cf4bea9f84') in 0.016852292 seconds
+[Worker1] Imported GUID: 67cb8c879dc524940a6d8dc70dabb1e4 - Path: Assets/Art/Backgrounds/blue_desert.png - Importer: PreviewImporter -> (ImportResultId: 'a1a40b2fe5ec471b02192b7e7715e27b') in 0.016881291 seconds
+[Worker1] Imported GUID: 032c6147b5e264dfaaf53e6655bda773 - Path: Assets/Art/Particles/brickBrown.png - Importer: PreviewImporter -> (ImportResultId: '360bb4a235416f8df587a137486f5665') in 0.020351209 seconds
+[Worker0] Imported GUID: 7250ce9487bd348098d5d377b0e60265 - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_walk2.png - Importer: PreviewImporter -> (ImportResultId: '8a491666d29e40a6fc5c6967b04f54a9') in 0.021378083 seconds
+[Worker1] Imported GUID: 2478f6f68656842a2968b04a038ce993 - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_walk1.png - Importer: PreviewImporter -> (ImportResultId: 'a0403e46b2d1cea5b750e444d0820986') in 0.018399 seconds
+[Worker0] Imported GUID: 4f939266aaa524ce8ad67f05638607a6 - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_stand.png - Importer: PreviewImporter -> (ImportResultId: 'ac7c5bdabd2ca7105c5292ae6f2656ac') in 0.017515417 seconds
+[Worker0] Imported GUID: a71037f5b3ebd44bd9168e262018c93c - Path: Assets/Art/Tiles/boxExplosive_used.png - Importer: PreviewImporter -> (ImportResultId: '10a61e8419805aa3ab80f2b8841c2c46') in 0.016166 seconds
+[Worker1] Imported GUID: d201c7bcd3de04814bf72d5ad4b33945 - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_swim1.png - Importer: PreviewImporter -> (ImportResultId: '079884cb2b2cc3aed662423e5e37888d') in 0.01654275 seconds
+[Worker0] Imported GUID: 4b0d5e6b7894c48398de95251abd349d - Path: Assets/Art/Tiles/boxItem_disabled.png - Importer: PreviewImporter -> (ImportResultId: '9f39d409b752968b0ce5fdbfd7e69dbf') in 0.015752291 seconds
+[Worker1] Imported GUID: 00552f5923f204068a679b15dddd8649 - Path: Assets/Art/Enemies/bee_move.png - Importer: PreviewImporter -> (ImportResultId: '0c00e1b5ddbbad4bb628ea35f892c8b7') in 0.016229083 seconds
+[Worker1] Imported GUID: e12427b626a804f5f89d9d82115c052c - Path: Assets/Art/Enemies/bee.png - Importer: PreviewImporter -> (ImportResultId: 'a70c0ee85c9b0588efa077ba17e5b341') in 0.016302292 seconds
+[Worker0] Imported GUID: 4f75e1f38ed9f4d238ab7679f43598dd - Path: Assets/Art/Tiles/bomb.png - Importer: PreviewImporter -> (ImportResultId: 'a3729edd9a924e1fd651ab8746d0bd9d') in 0.01644225 seconds
+[Worker0] Imported GUID: 242be28d5ee474940874e1d81d75d474 - Path: Assets/Art/Tiles/brickGrey.png - Importer: PreviewImporter -> (ImportResultId: '936d28e20b2560a2e1c7397c0ebf2075') in 0.016409917 seconds
+[Worker1] Imported GUID: 4a858f8f9be674ffc9fca53c630962ab - Path: Assets/Art/Tiles/boxItem.png - Importer: PreviewImporter -> (ImportResultId: '22d7225d031681dc8d1477daaaa7c09e') in 0.016142 seconds
+[Worker1] Imported GUID: 0f394ecb24f1c4969968f4ec25ee2771 - Path: Assets/Art/Enemies/bee_dead.png - Importer: PreviewImporter -> (ImportResultId: 'fc39808c5cf891603e54ad307e7729dc') in 0.0173715 seconds
+[Worker0] Imported GUID: c92ecbb4f54544567979611a6bc20d82 - Path: Assets/Art/Tiles/boxItem_disabled_boxed.png - Importer: PreviewImporter -> (ImportResultId: 'a82fa26f4bcbca69421b0ddfd024a286') in 0.017820625 seconds
+[Worker0] Imported GUID: 65423d5e7030a4c0d9bfb285857387c7 - Path: Assets/Art/Tiles/bush.png - Importer: PreviewImporter -> (ImportResultId: 'b7a52a29990f7455965b928d9c1bd31f') in 0.018399875 seconds
+[Worker1] Imported GUID: 06501ead3efaa41f4916acd7924a51b5 - Path: Assets/Art/Backgrounds/blue_land.png - Importer: PreviewImporter -> (ImportResultId: 'b9f262a904dd9f67a869703c81752f77') in 0.019012333 seconds
+[Worker0] Imported GUID: 70b4ebd42ed8b44f4995e7a726b84035 - Path: Assets/Art/Tiles/bombWhite.png - Importer: PreviewImporter -> (ImportResultId: '540fe5a9d761442049a71c39dec75ecf') in 0.018650875 seconds
+[Worker1] Imported GUID: 22483b5abeb9041d683910428a6eb9ea - Path: Assets/Art/Tiles/boxExplosive_disabled.png - Importer: PreviewImporter -> (ImportResultId: '44103233eb54149d67133ca1a9189137') in 0.018510584 seconds
+[Worker1] Imported GUID: 295139a127e2143ada90c51395cc8bda - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_walk2.png - Importer: PreviewImporter -> (ImportResultId: '7f7076ab051a2903aff866351fe95c51') in 0.016935 seconds
+[Worker0] Imported GUID: 75c935dcd95b748edb024218ead87e3c - Path: Assets/Art/Backgrounds/blue_shroom.png - Importer: PreviewImporter -> (ImportResultId: '4809bc8573dcdf62a1e86cd522a0fe83') in 0.017371792 seconds
+[Worker0] Imported GUID: 6994e9d9fde2c48ba9ab71798be27eee - Path: Assets/Art/Tiles/boxCrate_double.png - Importer: PreviewImporter -> (ImportResultId: '33a756dccb428457fd7ed81c6d5ed676') in 0.017037 seconds
+[Worker1] Imported GUID: be5cda9f8bdc84b2d93cd52cd80dcd9d - Path: Assets/Art/Tiles/bridgeA.png - Importer: PreviewImporter -> (ImportResultId: '8ef0191067d5a2f9f0e100e0dfffc3a9') in 0.0168465 seconds
+[Worker0] Imported GUID: ed98f55cfe3a7443b828fac2aebbb07e - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_climb1.png - Importer: PreviewImporter -> (ImportResultId: 'ee61e1d2b032b346995be642693251c4') in 0.019044625 seconds
+[Worker1] Imported GUID: efe7c88f198894d259d82e307ca3e4b8 - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_swim2.png - Importer: PreviewImporter -> (ImportResultId: '5cc8691a84c28af1f671e235c4e2b91d') in 0.018910625 seconds
+[Worker0] Imported GUID: 338b4a089e8634e2b85d9835586c24ff - Path: Assets/Art/Tiles/boxCoin_boxed.png - Importer: PreviewImporter -> (ImportResultId: '1cef11b9ee8888ce54f2b3bd6dac1d4c') in 0.020024667 seconds
+[Worker1] Imported GUID: b379c2ccf93e24b44a5d39a8c2094da7 - Path: Assets/Art/Tiles/boxCoin_disabled.png - Importer: PreviewImporter -> (ImportResultId: '18567c47fcbbed94a48faf0af40c9b05') in 0.020194417 seconds
+[Worker0] Imported GUID: bafae4b8b49b24d2ebc56d6c2f80bfc6 - Path: Assets/Art/Tiles/boxItem_boxed.png - Importer: PreviewImporter -> (ImportResultId: '215376e49d7c3cd8f3b18fe4bc0fb866') in 0.023567792 seconds
+[Worker1] Imported GUID: 8ae482ab94c1e477d93c31bd4f3d3460 - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_front.png - Importer: PreviewImporter -> (ImportResultId: '37c635d6e7d2fd81bdafef4252504ba9') in 0.023725709 seconds
+[Worker0] Imported GUID: db6fa8928e6af4f738247af59c84a590 - Path: Assets/Art/Tiles/chain.png - Importer: PreviewImporter -> (ImportResultId: '673fa726fc0921f21f1622facd69c463') in 0.019080625 seconds
+[Worker1] Imported GUID: bf12e06c9c0154b9a8c7fdbe56fc13bb - Path: Assets/Art/Items/coinGold.png - Importer: PreviewImporter -> (ImportResultId: 'f64382a69210b2681f3d1cb8e2b8cacf') in 0.017319709 seconds
+[Worker0] Imported GUID: 1c0fb50e0c091422eb65e31c316cec29 - Path: Assets/Art/Ground/Dirt/dirtCliffAlt_left.png - Importer: PreviewImporter -> (ImportResultId: '2e1ae935521f5e26d99b0b329d4a2589') in 0.020097167 seconds
+[Worker1] Imported GUID: 05d2df91b466c4691a4353a8754b680a - Path: Assets/Art/Backgrounds/colored_shroom.png - Importer: PreviewImporter -> (ImportResultId: '8ae55c053f93fc446dc64bddc79eb39d') in 0.02186125 seconds
+[Worker0] Imported GUID: 721f52d8850b24bbcb3f4fe2a6e7be23 - Path: Assets/Art/Backgrounds/colored_land.png - Importer: PreviewImporter -> (ImportResultId: 'e07b361c35a77cd50b8ea3cacf32c629') in 0.028072334 seconds
+[Worker1] Imported GUID: 123d3a9266bcb47a18bee3019fb61df3 - Path: Assets/Art/Ground/Dirt/dirtCliff_right.png - Importer: PreviewImporter -> (ImportResultId: '6e87392012dd12490ce8799dcfc93197') in 0.027200916 seconds
+[Worker0] Imported GUID: 48bcfbaed827c41849364c35d334f4bb - Path: Assets/Art/Ground/Dirt/dirtCliffAlt_right.png - Importer: PreviewImporter -> (ImportResultId: '0b78cf98f408bb11dc3a7aeb2ca6f487') in 0.020059291 seconds
+[Worker1] Imported GUID: 4c4bf4fd9c4f442a693105a3476d313c - Path: Assets/Art/Tiles/cactus.png - Importer: PreviewImporter -> (ImportResultId: 'd8c5bcd0f3df36becbc9bc53b1e79f5e') in 0.0201125 seconds
+[Worker1] Imported GUID: 5a4c8a92a0bce4062926b7df94470306 - Path: Assets/Art/Items/coinSilver.png - Importer: PreviewImporter -> (ImportResultId: '618891a8c403a6729e350b20c8042643') in 0.015586083 seconds
+[Worker0] Imported GUID: a7a16eae99f8f4e42aa2ccd247be5cf9 - Path: Assets/Art/Backgrounds/colored_desert.png - Importer: PreviewImporter -> (ImportResultId: '93f6667b2ceefb901a10449c34e85abf') in 0.0173195 seconds
+[Worker1] Imported GUID: 047daff1e52854e1cac0e5915f7d43f4 - Path: Assets/Art/Ground/Dirt/dirtCenter.png - Importer: PreviewImporter -> (ImportResultId: 'bed46ef9c603dfcebbe017af56d7c85a') in 0.016712917 seconds
+[Worker0] Imported GUID: 35c9e844af9414d77b9716859375dd8f - Path: Assets/Art/Items/coinBronze.png - Importer: PreviewImporter -> (ImportResultId: '790250da4be123f00cdc47bfbb8818af') in 0.016358333 seconds
+[Worker1] Imported GUID: 141561fe1ae3247beba57980cb7f9778 - Path: Assets/Art/Ground/Dirt/dirt.png - Importer: PreviewImporter -> (ImportResultId: '4a44812737c1896a2aa2357e41dbbc8d') in 0.01787 seconds
+[Worker0] Imported GUID: 2910d53b8ce5b4fdc8e8004497466e74 - Path: Assets/Art/Ground/Dirt/dirtCliff_left.png - Importer: PreviewImporter -> (ImportResultId: '7a230ad24430a7eee7da4df53fe5ecf9') in 0.017123167 seconds
+[Worker1] Imported GUID: 4447d718a59044528b3919c96a860957 - Path: Assets/Art/Backgrounds/colored_grass.png - Importer: PreviewImporter -> (ImportResultId: 'e04a376be1e723b7c22ab411e735604f') in 0.022149375 seconds
+[Worker0] Imported GUID: 3924b2c3a91f3475584bd20dd62e250d - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_front.png - Importer: PreviewImporter -> (ImportResultId: 'c05d771442b81bf7b06e6b4a644d9036') in 0.024055167 seconds
+[Worker1] Imported GUID: 7982d98795dd64734be469c6527ee4be - Path: Assets/Art/Tiles/boxCoin.png - Importer: PreviewImporter -> (ImportResultId: '5eba176c28fe965557683133a06f960a') in 0.016897708 seconds
+[Worker0] Imported GUID: 521c0b82b393b43ce80a4e7443815edc - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_climb2.png - Importer: PreviewImporter -> (ImportResultId: '7b8aafb3dbece675eb0b80453d6fdf02') in 0.016749084 seconds
+[Worker1] Imported GUID: 19a368c67ad44433bae3e25d30188a29 - Path: Assets/Art/Ground/Dirt/dirtCenter_rounded.png - Importer: PreviewImporter -> (ImportResultId: '087b995a659b39337dca22f77de51641') in 0.018366459 seconds
+Thread 0x17983b000 may have been prematurely finalized
+SpriteAtlasPacking completed in 0.089543 sec
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+2026-06-21 14:30:51.828 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c82a6c0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 14:30:51.832 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c829180 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 14:30:51.836 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c871d60 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 14:30:51.841 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa1047bca0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.280 seconds
+Domain Reload Profiling: 2470ms
+	BeginReloadAssembly (964ms)
+		DisableScriptedObjects (79ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (695ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (120ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (13ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1281ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (284ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+		AwakeInstancesAfterBackupRestoration (454ms)
+
+Asset Pipeline Refresh (id=7d5f74edfe96b40aa8cfaf012ebe3be1): Total: 2.950 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1624 ms
+		Asset DB Callback time: managed=24 ms, native=1 ms
+		Scripting: domain reloads=1, domain reload time=1297 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1570, non-scripts=3491
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.280ms
+	ApplyChangesToAssetFolders: 0.727ms
+	Collect global state as custom dependencies: 1.363ms
+	ProcessAssetsWithTransientArtifactChanges: 1.700ms
+	CategorizeAssets: 144.800ms
+	CompileScripts: 1.667ms
+	ImportOutOfDateAssets: 1336.156ms (1295.050ms without children)
+		CollectScriptTypesHashes: 1.721ms
+		ReloadNativeAssets: 1.006ms
+		UnloadImportedAssets: 0.139ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.609ms
+		ImportSchedulerStart: 39.319ms
+	PostProcessAllAssets: 24.731ms
+		MonoPostProcessAllAssets: 24.726ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 6.853ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.922ms
+			SyncVS.PostprocessSyncProject 5.597ms
+			AssetChangedListener.OnPostprocessAllAssets 4.198ms
+			AssetPostprocessor.OnPostprocessAllAssets 2.879ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 2.003ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.980ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.358ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.073ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.955ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.898ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.661ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.606ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.413ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.412ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.409ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.396ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.347ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.271ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.248ms
+			PostProcessor.OnPostprocessAllAssets 0.242ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.221ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.212ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.195ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.173ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.162ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.150ms
+			AssetEvents.OnPostprocessAllAssets 0.146ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.141ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.134ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.119ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.118ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.096ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.091ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.087ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.080ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.068ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.059ms
+			AssetProcessor.OnPostprocessAllAssets 0.054ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.798ms
+	UnloadStreamsBegin: 11.597ms
+	PersistCurrentRevisions: 0.136ms
+	GenerateScriptTypeHashes: 2.106ms
+	GenerateScriptTypeSerializationHashes: 3.518ms
+	Untracked: 1417.267ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.565 ms
+	Integration:            592.359 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.005 ms
+	Total Operation Time:   593.930 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x30293f000 may have been prematurely finalized
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.305 ms
+	Integration:            354.734 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.004 ms
+	Total Operation Time:   356.044 ms
+Unloading 70 unused Assets / (18.7 MB). Loaded Objects now: 9284.
+Memory consumption went from 352.2 MB to 333.5 MB.
+Total: 47.523584 ms (FindLiveObjects: 1.956791 ms CreateObjectMapping: 2.729292 ms MarkObjects: 30.419792 ms  DeleteObjects: 12.417042 ms)
+
+[Licensing::Client] Successfully resolved entitlement details

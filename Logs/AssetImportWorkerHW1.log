@@ -416,3 +416,585 @@ Memory consumption went from 207.5 MB to 203.1 MB.
 Total: 22.599292 ms (FindLiveObjects: 2.931875 ms CreateObjectMapping: 2.331208 ms MarkObjects: 12.734000 ms  DeleteObjects: 4.600125 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x16decb000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.556 seconds
+Domain Reload Profiling: 2734ms
+	BeginReloadAssembly (997ms)
+		DisableScriptedObjects (103ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (127ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (1082ms)
+		LoadAssemblies (1224ms)
+		AnalyzeDomain (272ms)
+			TypeCache.Refresh (51ms)
+			BuildScriptInfoCaches (203ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (557ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (218ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7157 unused Assets / (4.2 MB). Loaded Objects now: 8041.
+Memory consumption went from 211.3 MB to 207.1 MB.
+Total: 9.688958 ms (FindLiveObjects: 0.474000 ms CreateObjectMapping: 1.645792 ms MarkObjects: 5.396375 ms  DeleteObjects: 2.170959 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7142 unused Assets / (2.9 MB). Loaded Objects now: 8041.
+Memory consumption went from 204.9 MB to 202.1 MB.
+Total: 30.119458 ms (FindLiveObjects: 2.395958 ms CreateObjectMapping: 2.927666 ms MarkObjects: 19.918250 ms  DeleteObjects: 4.877084 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x16dc9b000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.610 seconds
+Domain Reload Profiling: 2013ms
+	BeginReloadAssembly (425ms)
+		DisableScriptedObjects (40ms)
+		CreateAndSetChildDomain (104ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (886ms)
+		LoadAssemblies (507ms)
+		AnalyzeDomain (386ms)
+			TypeCache.Refresh (55ms)
+			BuildScriptInfoCaches (298ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (611ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7157 unused Assets / (4.2 MB). Loaded Objects now: 8044.
+Memory consumption went from 212.7 MB to 208.4 MB.
+Total: 10.001750 ms (FindLiveObjects: 0.566625 ms CreateObjectMapping: 1.932583 ms MarkObjects: 5.300834 ms  DeleteObjects: 2.201292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:40.381245Z
+  Time since last request: 2075.9849663330001 seconds.
+  importAddress: GUID: 3d9828b43b6514bcd800639bb2eba1ff - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_climb2.png - Importer: PreviewImporter
+Importing 'GUID: 3d9828b43b6514bcd800639bb2eba1ff - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_climb2.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3d9828b43b6514bcd800639bb2eba1ff' -> (Import Result ID: '7abc5b4823dd2b2bc81a7bd8760e374a') in 0.380 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=366a8a8fc083d40ac9ffdc4754386581 DependenciesID=3e787ff676535ae3c6c800793fd640eb StaticDependenciesID=379ad0a2770593c4fd95e2a055525de1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:40.799278Z
+  Time since last request: 0.00398475 seconds.
+  importAddress: GUID: eea63b35266dc4dbfb8439fc908a89b8 - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_jump.png - Importer: PreviewImporter
+Importing 'GUID: eea63b35266dc4dbfb8439fc908a89b8 - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_jump.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: eea63b35266dc4dbfb8439fc908a89b8' -> (Import Result ID: '7b590cbb26b5ede6a9a5478a8e7490af') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=730a8fd3ecdc795cfb3f44557dc2f66b DependenciesID=f9c6a006b3ecea964326b047fb3ec4dc StaticDependenciesID=623dd954273c54c489c26370aaa00665 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:40.818607Z
+  Time since last request: 0.000498583 seconds.
+  importAddress: GUID: ac1765b4669de47b99a8c4ee650308dc - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_front.png - Importer: PreviewImporter
+Importing 'GUID: ac1765b4669de47b99a8c4ee650308dc - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_front.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ac1765b4669de47b99a8c4ee650308dc' -> (Import Result ID: 'ff5b55c4e9e419e6ce1be329b6818400') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=13f1e796c77c1749a2f49bef24f0bfad DependenciesID=2e2ea57c10189ce7ed78cf80019169bf StaticDependenciesID=276d4ea430651c3d9c4340289c03b624 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:44.973859Z
+  Time since last request: 4.1383925 seconds.
+  importAddress: GUID: 3540fe444c6bc44c89fa032a65901c7a - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_swim1.png - Importer: PreviewImporter
+Importing 'GUID: 3540fe444c6bc44c89fa032a65901c7a - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_swim1.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3540fe444c6bc44c89fa032a65901c7a' -> (Import Result ID: 'bc3322ae7062ff98a7d4ebe6acad6fe3') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=37fa915d9426927174f6125eeb6f9c99 DependenciesID=60b78c284f39367cfc93d779d60b4199 StaticDependenciesID=b5e0c57b1e54626c9a14606b3db65b7d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:45.007713Z
+  Time since last request: 0.000622083 seconds.
+  importAddress: GUID: 14b120766145d4bfdbac7d76edc46e97 - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_swim2.png - Importer: PreviewImporter
+Importing 'GUID: 14b120766145d4bfdbac7d76edc46e97 - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_swim2.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 14b120766145d4bfdbac7d76edc46e97' -> (Import Result ID: '0be7289b7525e255d9c49ae10429d749') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=99d50732ff5ff53433e7eee77d1f76eb DependenciesID=c9f8a6bd29e1803a61995b9a7ee9d5a6 StaticDependenciesID=66f10058af20d2b9662149421b697150 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:45.029845Z
+  Time since last request: 0.000422667 seconds.
+  importAddress: GUID: 5d62e2cfe43894c4fbea69ecfb8baed6 - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_walk1.png - Importer: PreviewImporter
+Importing 'GUID: 5d62e2cfe43894c4fbea69ecfb8baed6 - Path: Assets/Art/Players/Variable sizes/Blue/alienBlue_walk1.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5d62e2cfe43894c4fbea69ecfb8baed6' -> (Import Result ID: '19fd506c4e307e1f27fa2328b6b6febd') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ebe6922f22c5f93343efaa88635c39d DependenciesID=949c78472ab83dad5cdc0f4e0750196a StaticDependenciesID=63ba1525ba8531339960f1a382bc77e6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:45.085798Z
+  Time since last request: 0.039746791 seconds.
+  importAddress: GUID: 944f0849195dc4251a32fc46dc4a2c5e - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_climb2.png - Importer: PreviewImporter
+Importing 'GUID: 944f0849195dc4251a32fc46dc4a2c5e - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_climb2.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 944f0849195dc4251a32fc46dc4a2c5e' -> (Import Result ID: '353c681955513a42a110619bffb54f44') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7fe5d064342018bf1043a187ced1a4bd DependenciesID=4830ab4abc1b4625e668ece6dbd724da StaticDependenciesID=f37549d0babe10b442a7c22bff55ea18 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:45.104871Z
+  Time since last request: 0.001243042 seconds.
+  importAddress: GUID: 9b04f6a8fbcbd4eba89be5c72e9e96c2 - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_front.png - Importer: PreviewImporter
+Importing 'GUID: 9b04f6a8fbcbd4eba89be5c72e9e96c2 - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_front.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9b04f6a8fbcbd4eba89be5c72e9e96c2' -> (Import Result ID: '11685f20f0259be6c3ec35f64a271fdf') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2812db677b6a16a66d66484465a320cc DependenciesID=1f825411e0c8a35b8cb67d0c7cd736e2 StaticDependenciesID=bff09b4dddcd99ca9cda3622de9f1fc6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:45.120895Z
+  Time since last request: 0.000295166 seconds.
+  importAddress: GUID: ab73919f5e6094b00a6eec424a48c4c8 - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_jump.png - Importer: PreviewImporter
+Importing 'GUID: ab73919f5e6094b00a6eec424a48c4c8 - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_jump.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ab73919f5e6094b00a6eec424a48c4c8' -> (Import Result ID: 'ed14c0f126cd452cef2e7e3114d7e125') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ebe1e00ce32fb04482cf0e292401b58 DependenciesID=da69b08c3c3f5ac151aa892f1d55a72b StaticDependenciesID=93860264cd5aadd1a218696fb765d882 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.339046Z
+  Time since last request: 4.202095584 seconds.
+  importAddress: GUID: 2dc65cbb94a574380be1cf5bcb92596c - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_swim1.png - Importer: PreviewImporter
+Importing 'GUID: 2dc65cbb94a574380be1cf5bcb92596c - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_swim1.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2dc65cbb94a574380be1cf5bcb92596c' -> (Import Result ID: '6093ce064a51f9240c31850458fa1710') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b48b7205bcbdd3fe32d3a9eb1a3dac00 DependenciesID=bd75f558b8ddfc99b4f3c1724aaed708 StaticDependenciesID=4ebe1186c835400496cbd5da22f46321 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.366881Z
+  Time since last request: 0.000658208 seconds.
+  importAddress: GUID: 762d933aedabf42799970dda56eec1c2 - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_hit.png - Importer: PreviewImporter
+Importing 'GUID: 762d933aedabf42799970dda56eec1c2 - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_hit.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 762d933aedabf42799970dda56eec1c2' -> (Import Result ID: 'b04917c68c832c751947f18505c64bec') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9268964285e6804309ea3c4ce03e9807 DependenciesID=2322baa18fdebfe6976755d937efcef2 StaticDependenciesID=adec4fb7f77085e1b5aba7ec428c2a12 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.397737Z
+  Time since last request: 0.002768834 seconds.
+  importAddress: GUID: 2420241170bbd49c78c9e63bc71a93ec - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_walk2.png - Importer: PreviewImporter
+Importing 'GUID: 2420241170bbd49c78c9e63bc71a93ec - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_walk2.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2420241170bbd49c78c9e63bc71a93ec' -> (Import Result ID: 'b64eb031115a10ca93efa56ff0ce3340') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a314ef0e2d3027073722637250b767d2 DependenciesID=25c0e5e3373826f1ab58e65a6f5bcd53 StaticDependenciesID=a0463a60c4dee286f10c3e26551bf90e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.427616Z
+  Time since last request: 0.002852042 seconds.
+  importAddress: GUID: 312393aa798e24354a2b2b707039bd10 - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_walk1.png - Importer: PreviewImporter
+Importing 'GUID: 312393aa798e24354a2b2b707039bd10 - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_walk1.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 312393aa798e24354a2b2b707039bd10' -> (Import Result ID: 'de644fd8124168c97ddf585301165069') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c598afe46f60d587b862eda23b5ada93 DependenciesID=72c0976975dd07b42221d44c89b68037 StaticDependenciesID=3ae2a9b54200a7f41564291716ebe663 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.445563Z
+  Time since last request: 0.001204208 seconds.
+  importAddress: GUID: 5c31a388a0d834d6eb500b492033f0bf - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_duck.png - Importer: PreviewImporter
+Importing 'GUID: 5c31a388a0d834d6eb500b492033f0bf - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_duck.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5c31a388a0d834d6eb500b492033f0bf' -> (Import Result ID: '0ab71e2d81b24a67b262bd81c1adf6ed') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ed4aa46fe0673336098c36bb8924247 DependenciesID=ad5a59e950dba7998f55054c68ed8460 StaticDependenciesID=792c0eedc763d5c1475cdda906321307 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.46298Z
+  Time since last request: 0.000569167 seconds.
+  importAddress: GUID: 338824fbe237a4e09bf1cf0d1381fc05 - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_swim1.png - Importer: PreviewImporter
+Importing 'GUID: 338824fbe237a4e09bf1cf0d1381fc05 - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_swim1.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 338824fbe237a4e09bf1cf0d1381fc05' -> (Import Result ID: 'cf9f63dde8c01fe29d00d81b92ebfc9f') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7e8ec6a6c9821791f2331de10123ce13 DependenciesID=1d797c05b75b0f6dff3c9e579b071c17 StaticDependenciesID=5f9838d44f79a3031efd9e3e97f1e59e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.49174Z
+  Time since last request: 0.000930958 seconds.
+  importAddress: GUID: 6b44e40e9030f4705817009b232061eb - Path: Assets/Art/Enemies/barnacle_dead.png - Importer: PreviewImporter
+Importing 'GUID: 6b44e40e9030f4705817009b232061eb - Path: Assets/Art/Enemies/barnacle_dead.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6b44e40e9030f4705817009b232061eb' -> (Import Result ID: '8833f5f61c860dabf25ffbf8c079dce0') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d29abc846a67511ed43f5bcc9544143 DependenciesID=f5322e41b5b947bab55742a22d7bf3a6 StaticDependenciesID=56f9509c5b9831bf5140c653d1a36e5b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.517875Z
+  Time since last request: 0.001009292 seconds.
+  importAddress: GUID: 2f358089a84fa4e5bba38e2d9aa4afac - Path: Assets/Art/Tiles/boxCrate_warning.png - Importer: PreviewImporter
+Importing 'GUID: 2f358089a84fa4e5bba38e2d9aa4afac - Path: Assets/Art/Tiles/boxCrate_warning.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2f358089a84fa4e5bba38e2d9aa4afac' -> (Import Result ID: '57bb0bbb232af414df16f6ea1f19bcda') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=347e06a75b106ce06e623848234df98a DependenciesID=1606d01a2ee00d73f40b1c33743a8bcf StaticDependenciesID=88be4657275a874c349aa5abb68272cd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.537366Z
+  Time since last request: 0.001225333 seconds.
+  importAddress: GUID: a7a94b3596806497db180934373fe3c4 - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_jump.png - Importer: PreviewImporter
+Importing 'GUID: a7a94b3596806497db180934373fe3c4 - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_jump.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a7a94b3596806497db180934373fe3c4' -> (Import Result ID: 'de445a7dd5093d170891c97acddb8f92') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=80cbb99bb38cea5615e3d22e19f09186 DependenciesID=6600339e93666b08562b1ef46c1c7b11 StaticDependenciesID=8f6767e4d40af7d4d81e89ff3cd0d104 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.557648Z
+  Time since last request: 0.001245792 seconds.
+  importAddress: GUID: 1e5882585c2644d98ad6fe83f7e6da6b - Path: Assets/Art/Particles/brickGrey.png - Importer: PreviewImporter
+Importing 'GUID: 1e5882585c2644d98ad6fe83f7e6da6b - Path: Assets/Art/Particles/brickGrey.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1e5882585c2644d98ad6fe83f7e6da6b' -> (Import Result ID: '1673b8829bfd91daf941657143bf4fa9') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=06ba57d5cf208e4ab36b49214d56ee1a DependenciesID=15c67819f15da8e0a6f320fe6cb73798 StaticDependenciesID=9af699b633db3339fde43f161830914f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.578453Z
+  Time since last request: 0.001103292 seconds.
+  importAddress: GUID: c7e663754a1fb4ff59fd32866f3d5379 - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_swim2.png - Importer: PreviewImporter
+Importing 'GUID: c7e663754a1fb4ff59fd32866f3d5379 - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_swim2.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c7e663754a1fb4ff59fd32866f3d5379' -> (Import Result ID: 'e994959e551ad9dc4162fdae22941184') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=49f7cd3246503e8b76bf93d237bd4e25 DependenciesID=b0ee89c97ee243efd45e97c411ca9d8d StaticDependenciesID=60a8e16cbac1bcb4e6903e5e0570931e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.601036Z
+  Time since last request: 0.000442167 seconds.
+  importAddress: GUID: fbfee282b2cfb45649c2d706049a2ceb - Path: Assets/Art/Tiles/boxCrate_single.png - Importer: PreviewImporter
+Importing 'GUID: fbfee282b2cfb45649c2d706049a2ceb - Path: Assets/Art/Tiles/boxCrate_single.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: fbfee282b2cfb45649c2d706049a2ceb' -> (Import Result ID: '6c73a91924fbf087f4db69696531ec61') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3c30a26d007329411cb6791955205953 DependenciesID=137ad3daa96f649a7ae1a82ea6dddf9f StaticDependenciesID=c125d8a67d5f449c9dcaf3e86fb3d066 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.619144Z
+  Time since last request: 0.001012125 seconds.
+  importAddress: GUID: bed030fe7ea874e44bb0d47b117c77ff - Path: Assets/Art/Backgrounds/blue_grass.png - Importer: PreviewImporter
+Importing 'GUID: bed030fe7ea874e44bb0d47b117c77ff - Path: Assets/Art/Backgrounds/blue_grass.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bed030fe7ea874e44bb0d47b117c77ff' -> (Import Result ID: '3225eb0c5694b976bc08e93c8423d2f7') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f44fdff54daa60710f822b48fed8aca0 DependenciesID=f20847a794e82f2d6584a9aaee6bb19a StaticDependenciesID=502ee8f32ffdc0ad4eeba85202d55475 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.636196Z
+  Time since last request: 0.000834375 seconds.
+  importAddress: GUID: f4a138c44ad6041ce90a899c3cdef974 - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_duck.png - Importer: PreviewImporter
+Importing 'GUID: f4a138c44ad6041ce90a899c3cdef974 - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_duck.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4a138c44ad6041ce90a899c3cdef974' -> (Import Result ID: 'cbbd22371e7c10a979111ef8fa387617') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b8b9bd71a490fdfefcedbca3480505bb DependenciesID=b41032c53d6f9a246fa9727770ad9a2a StaticDependenciesID=9314a9246b4a5c422b7c15e674395f1b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.653453Z
+  Time since last request: 0.001027084 seconds.
+  importAddress: GUID: 67cb8c879dc524940a6d8dc70dabb1e4 - Path: Assets/Art/Backgrounds/blue_desert.png - Importer: PreviewImporter
+Importing 'GUID: 67cb8c879dc524940a6d8dc70dabb1e4 - Path: Assets/Art/Backgrounds/blue_desert.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 67cb8c879dc524940a6d8dc70dabb1e4' -> (Import Result ID: 'a1a40b2fe5ec471b02192b7e7715e27b') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a63bd677e2f998d894bf242a0f5f0da DependenciesID=0c499562db38bc1954e671be6293fa7c StaticDependenciesID=de4cd5c29ec5a848df469fc6aa23cd7f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.670988Z
+  Time since last request: 0.000594083 seconds.
+  importAddress: GUID: 032c6147b5e264dfaaf53e6655bda773 - Path: Assets/Art/Particles/brickBrown.png - Importer: PreviewImporter
+Importing 'GUID: 032c6147b5e264dfaaf53e6655bda773 - Path: Assets/Art/Particles/brickBrown.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 032c6147b5e264dfaaf53e6655bda773' -> (Import Result ID: '360bb4a235416f8df587a137486f5665') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb0150037a7c8b39ddc17a14edd849ac DependenciesID=62045aeaf48d2ea47cf2b0acafde3f9a StaticDependenciesID=b4de4a34b7f19a5a174d05e9f29f9a4a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.691672Z
+  Time since last request: 0.000260208 seconds.
+  importAddress: GUID: 2478f6f68656842a2968b04a038ce993 - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_walk1.png - Importer: PreviewImporter
+Importing 'GUID: 2478f6f68656842a2968b04a038ce993 - Path: Assets/Art/Players/Variable sizes/Green/alienGreen_walk1.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2478f6f68656842a2968b04a038ce993' -> (Import Result ID: 'a0403e46b2d1cea5b750e444d0820986') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a35ced8d3dc96ff583fb6df4ac31f63 DependenciesID=e3438355ae2af08ee9155e4e19704aff StaticDependenciesID=db4fef07d2da0b6415c9f792906f46f4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.710594Z
+  Time since last request: 0.000447417 seconds.
+  importAddress: GUID: d201c7bcd3de04814bf72d5ad4b33945 - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_swim1.png - Importer: PreviewImporter
+Importing 'GUID: d201c7bcd3de04814bf72d5ad4b33945 - Path: Assets/Art/Players/Variable sizes/Pink/alienPink_swim1.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d201c7bcd3de04814bf72d5ad4b33945' -> (Import Result ID: '079884cb2b2cc3aed662423e5e37888d') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=313ed8dcafa6a605608521e01be86282 DependenciesID=581afab5897942bad17a2872784d3d7e StaticDependenciesID=c18ed4becd81dbcc60b8211f623fe3fb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.727763Z
+  Time since last request: 0.00055925 seconds.
+  importAddress: GUID: 00552f5923f204068a679b15dddd8649 - Path: Assets/Art/Enemies/bee_move.png - Importer: PreviewImporter
+Importing 'GUID: 00552f5923f204068a679b15dddd8649 - Path: Assets/Art/Enemies/bee_move.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 00552f5923f204068a679b15dddd8649' -> (Import Result ID: '0c00e1b5ddbbad4bb628ea35f892c8b7') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1911177f6d9cdf98e0ede73df6d70f54 DependenciesID=a6cd665ac9ef273b922cf2393bf7f57f StaticDependenciesID=8eb986aed07f3b79c519e21cb2fc4519 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.744513Z
+  Time since last request: 0.000467208 seconds.
+  importAddress: GUID: e12427b626a804f5f89d9d82115c052c - Path: Assets/Art/Enemies/bee.png - Importer: PreviewImporter
+Importing 'GUID: e12427b626a804f5f89d9d82115c052c - Path: Assets/Art/Enemies/bee.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e12427b626a804f5f89d9d82115c052c' -> (Import Result ID: 'a70c0ee85c9b0588efa077ba17e5b341') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=74a68d7fcbaed717463ada734792f263 DependenciesID=88c122d15c92a33919b80b0700d3da1c StaticDependenciesID=f091353ed8be803604ee474bac1a921c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.761667Z
+  Time since last request: 0.000783166 seconds.
+  importAddress: GUID: 4a858f8f9be674ffc9fca53c630962ab - Path: Assets/Art/Tiles/boxItem.png - Importer: PreviewImporter
+Importing 'GUID: 4a858f8f9be674ffc9fca53c630962ab - Path: Assets/Art/Tiles/boxItem.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4a858f8f9be674ffc9fca53c630962ab' -> (Import Result ID: '22d7225d031681dc8d1477daaaa7c09e') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b87c1816c477b83377a4ce4a13b6cd12 DependenciesID=430d235c45128e35353facaa06f77f9a StaticDependenciesID=21c18c896fe52a030166cb283a0affec 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.77902Z
+  Time since last request: 0.001142208 seconds.
+  importAddress: GUID: 0f394ecb24f1c4969968f4ec25ee2771 - Path: Assets/Art/Enemies/bee_dead.png - Importer: PreviewImporter
+Importing 'GUID: 0f394ecb24f1c4969968f4ec25ee2771 - Path: Assets/Art/Enemies/bee_dead.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0f394ecb24f1c4969968f4ec25ee2771' -> (Import Result ID: 'fc39808c5cf891603e54ad307e7729dc') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=adee35fbd43e6b2af83e20d9324c7658 DependenciesID=67efff8d2a53d35bdf49fa141e1fc80e StaticDependenciesID=8498a359c48eefd1dff21c30a7b4d097 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.797035Z
+  Time since last request: 0.000573625 seconds.
+  importAddress: GUID: 06501ead3efaa41f4916acd7924a51b5 - Path: Assets/Art/Backgrounds/blue_land.png - Importer: PreviewImporter
+Importing 'GUID: 06501ead3efaa41f4916acd7924a51b5 - Path: Assets/Art/Backgrounds/blue_land.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 06501ead3efaa41f4916acd7924a51b5' -> (Import Result ID: 'b9f262a904dd9f67a869703c81752f77') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ee39676052bc9dfd082b66c324e0b553 DependenciesID=5a8728821d48fcbea5dbaf08321ecb65 StaticDependenciesID=0f73a0f3c6b14813bd64c04edfa5efba 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.816705Z
+  Time since last request: 0.000602542 seconds.
+  importAddress: GUID: 22483b5abeb9041d683910428a6eb9ea - Path: Assets/Art/Tiles/boxExplosive_disabled.png - Importer: PreviewImporter
+Importing 'GUID: 22483b5abeb9041d683910428a6eb9ea - Path: Assets/Art/Tiles/boxExplosive_disabled.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 22483b5abeb9041d683910428a6eb9ea' -> (Import Result ID: '44103233eb54149d67133ca1a9189137') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0853c4b11d54d1d4db8ea28662934e8d DependenciesID=299bfa377a8dd51d492730f053a747b6 StaticDependenciesID=6bc0b3dae2b2b6e95052add6c2e54f3f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.836438Z
+  Time since last request: 0.001160792 seconds.
+  importAddress: GUID: 295139a127e2143ada90c51395cc8bda - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_walk2.png - Importer: PreviewImporter
+Importing 'GUID: 295139a127e2143ada90c51395cc8bda - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_walk2.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 295139a127e2143ada90c51395cc8bda' -> (Import Result ID: '7f7076ab051a2903aff866351fe95c51') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cb7feb8e4a68a69f95373065643c7684 DependenciesID=0ce0f521df0ff865b8e1585bbaabb525 StaticDependenciesID=9e3a4b0f6a8e47fa659773c96ce1232d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.85442Z
+  Time since last request: 0.00098875 seconds.
+  importAddress: GUID: be5cda9f8bdc84b2d93cd52cd80dcd9d - Path: Assets/Art/Tiles/bridgeA.png - Importer: PreviewImporter
+Importing 'GUID: be5cda9f8bdc84b2d93cd52cd80dcd9d - Path: Assets/Art/Tiles/bridgeA.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: be5cda9f8bdc84b2d93cd52cd80dcd9d' -> (Import Result ID: '8ef0191067d5a2f9f0e100e0dfffc3a9') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=494ab85e1ca619b96758306aeae5e10a DependenciesID=17f11b6f409c05f3479c55a7a4baef8a StaticDependenciesID=6df49b51b256ba7bd3829ff1a2028221 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.871966Z
+  Time since last request: 0.000635375 seconds.
+  importAddress: GUID: efe7c88f198894d259d82e307ca3e4b8 - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_swim2.png - Importer: PreviewImporter
+Importing 'GUID: efe7c88f198894d259d82e307ca3e4b8 - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_swim2.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: efe7c88f198894d259d82e307ca3e4b8' -> (Import Result ID: '5cc8691a84c28af1f671e235c4e2b91d') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c4213672525cfda928580eb109c3d6fd DependenciesID=4743ec0d35aeee4241ab8451874b638a StaticDependenciesID=9c781481169105a2f1d893c9ed7eb00d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.892243Z
+  Time since last request: 0.001286542 seconds.
+  importAddress: GUID: b379c2ccf93e24b44a5d39a8c2094da7 - Path: Assets/Art/Tiles/boxCoin_disabled.png - Importer: PreviewImporter
+Importing 'GUID: b379c2ccf93e24b44a5d39a8c2094da7 - Path: Assets/Art/Tiles/boxCoin_disabled.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b379c2ccf93e24b44a5d39a8c2094da7' -> (Import Result ID: '18567c47fcbbed94a48faf0af40c9b05') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=adf31a12705487f1444e112de88b3412 DependenciesID=1ebd0e15e7471eb42c65b40020c8a276 StaticDependenciesID=867d4f0514f9daa5d2fee0f9fe6fd4f5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.914737Z
+  Time since last request: 0.002197083 seconds.
+  importAddress: GUID: 8ae482ab94c1e477d93c31bd4f3d3460 - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_front.png - Importer: PreviewImporter
+Importing 'GUID: 8ae482ab94c1e477d93c31bd4f3d3460 - Path: Assets/Art/Players/Variable sizes/Yellow/alienYellow_front.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8ae482ab94c1e477d93c31bd4f3d3460' -> (Import Result ID: '37c635d6e7d2fd81bdafef4252504ba9') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=49b9202e2123a58658800ec09072a07d DependenciesID=5a7d41cf9ece5024d479ae8502351b17 StaticDependenciesID=7359c266a5e3b919fe6eb5fd488da7f5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.93898Z
+  Time since last request: 0.000321292 seconds.
+  importAddress: GUID: bf12e06c9c0154b9a8c7fdbe56fc13bb - Path: Assets/Art/Items/coinGold.png - Importer: PreviewImporter
+Importing 'GUID: bf12e06c9c0154b9a8c7fdbe56fc13bb - Path: Assets/Art/Items/coinGold.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bf12e06c9c0154b9a8c7fdbe56fc13bb' -> (Import Result ID: 'f64382a69210b2681f3d1cb8e2b8cacf') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8410d8626b8484e0c7fe9eade8b2ead3 DependenciesID=dd70fbb661c8e5d9dea2cdf859240eb0 StaticDependenciesID=c8bb6976c32ca4fa9602739d04f4b822 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.957409Z
+  Time since last request: 0.001049084 seconds.
+  importAddress: GUID: 05d2df91b466c4691a4353a8754b680a - Path: Assets/Art/Backgrounds/colored_shroom.png - Importer: PreviewImporter
+Importing 'GUID: 05d2df91b466c4691a4353a8754b680a - Path: Assets/Art/Backgrounds/colored_shroom.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 05d2df91b466c4691a4353a8754b680a' -> (Import Result ID: '8ae55c053f93fc446dc64bddc79eb39d') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c5efbd90e8f3fca8434615646baf77c4 DependenciesID=27ad9da3d0773c303f88313b12b9a9d8 StaticDependenciesID=13d4d31ad10fe583c0eb67490e9bbad3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:49.979883Z
+  Time since last request: 0.000509375 seconds.
+  importAddress: GUID: 123d3a9266bcb47a18bee3019fb61df3 - Path: Assets/Art/Ground/Dirt/dirtCliff_right.png - Importer: PreviewImporter
+Importing 'GUID: 123d3a9266bcb47a18bee3019fb61df3 - Path: Assets/Art/Ground/Dirt/dirtCliff_right.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 123d3a9266bcb47a18bee3019fb61df3' -> (Import Result ID: '6e87392012dd12490ce8799dcfc93197') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a86eab591b1b9ddbc5225363c7a1cdc4 DependenciesID=f92abe3efc3ac75eb106b28df32ca840 StaticDependenciesID=9697c5aae1c2cae4d0427b84710e1168 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:50.007716Z
+  Time since last request: 0.000475125 seconds.
+  importAddress: GUID: 4c4bf4fd9c4f442a693105a3476d313c - Path: Assets/Art/Tiles/cactus.png - Importer: PreviewImporter
+Importing 'GUID: 4c4bf4fd9c4f442a693105a3476d313c - Path: Assets/Art/Tiles/cactus.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4c4bf4fd9c4f442a693105a3476d313c' -> (Import Result ID: 'd8c5bcd0f3df36becbc9bc53b1e79f5e') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=828defc8dc1b84cfb00389abf416361c DependenciesID=382f3de84af152f3eafe87324b518c21 StaticDependenciesID=54731e7d8b0dafdaf6f58bd3e30954d7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:50.028996Z
+  Time since last request: 0.001091709 seconds.
+  importAddress: GUID: 5a4c8a92a0bce4062926b7df94470306 - Path: Assets/Art/Items/coinSilver.png - Importer: PreviewImporter
+Importing 'GUID: 5a4c8a92a0bce4062926b7df94470306 - Path: Assets/Art/Items/coinSilver.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5a4c8a92a0bce4062926b7df94470306' -> (Import Result ID: '618891a8c403a6729e350b20c8042643') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b569d8cf61db8e7adb70dc5c463d746 DependenciesID=25dc18d3d900cc65a5cb4d6f02e92003 StaticDependenciesID=08f0122cf2b23a4bea5ab864c0662526 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:50.045547Z
+  Time since last request: 0.000866708 seconds.
+  importAddress: GUID: 047daff1e52854e1cac0e5915f7d43f4 - Path: Assets/Art/Ground/Dirt/dirtCenter.png - Importer: PreviewImporter
+Importing 'GUID: 047daff1e52854e1cac0e5915f7d43f4 - Path: Assets/Art/Ground/Dirt/dirtCenter.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 047daff1e52854e1cac0e5915f7d43f4' -> (Import Result ID: 'bed46ef9c603dfcebbe017af56d7c85a') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d68e85fee8b89c075ce1ef3ff4f3ac4 DependenciesID=d1cb7e91838c1d440740312663c3029f StaticDependenciesID=46790bcd60ae384402cf913753bf31aa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:50.062929Z
+  Time since last request: 0.000582125 seconds.
+  importAddress: GUID: 141561fe1ae3247beba57980cb7f9778 - Path: Assets/Art/Ground/Dirt/dirt.png - Importer: PreviewImporter
+Importing 'GUID: 141561fe1ae3247beba57980cb7f9778 - Path: Assets/Art/Ground/Dirt/dirt.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 141561fe1ae3247beba57980cb7f9778' -> (Import Result ID: '4a44812737c1896a2aa2357e41dbbc8d') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=56be174833b1f6be1022461b3f9d082d DependenciesID=2b4d545d050c03ff30990dabf52459c7 StaticDependenciesID=8d3e39e23a0f6b5b82865b1f351d2315 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:50.081458Z
+  Time since last request: 0.000584875 seconds.
+  importAddress: GUID: 4447d718a59044528b3919c96a860957 - Path: Assets/Art/Backgrounds/colored_grass.png - Importer: PreviewImporter
+Importing 'GUID: 4447d718a59044528b3919c96a860957 - Path: Assets/Art/Backgrounds/colored_grass.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4447d718a59044528b3919c96a860957' -> (Import Result ID: 'e04a376be1e723b7c22ab411e735604f') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9efa327229cd1640de5d8e222ca5cd85 DependenciesID=fc58f4b2148f4fa346ac0106f5b92339 StaticDependenciesID=0ffb3f9b5d13c295ce98106d503a4d98 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:50.103918Z
+  Time since last request: 0.000225416 seconds.
+  importAddress: GUID: 7982d98795dd64734be469c6527ee4be - Path: Assets/Art/Tiles/boxCoin.png - Importer: PreviewImporter
+Importing 'GUID: 7982d98795dd64734be469c6527ee4be - Path: Assets/Art/Tiles/boxCoin.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7982d98795dd64734be469c6527ee4be' -> (Import Result ID: '5eba176c28fe965557683133a06f960a') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=194830d18c89603940a21ef3d32220d5 DependenciesID=7a7b4b14ce8373f936b726c9b78a89f0 StaticDependenciesID=5fec978523974e4b6befdf17d9d00d96 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-21T11:29:50.121418Z
+  Time since last request: 0.000516625 seconds.
+  importAddress: GUID: 19a368c67ad44433bae3e25d30188a29 - Path: Assets/Art/Ground/Dirt/dirtCenter_rounded.png - Importer: PreviewImporter
+Importing 'GUID: 19a368c67ad44433bae3e25d30188a29 - Path: Assets/Art/Ground/Dirt/dirtCenter_rounded.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 19a368c67ad44433bae3e25d30188a29' -> (Import Result ID: '087b995a659b39337dca22f77de51641') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d8ea1fe80a1ec40910a60a52e9d6d478 DependenciesID=5b70bd35e7bcafdcf2be789909601fcc StaticDependenciesID=ab04bc93fea834df5a14eff5d14a8a2c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x16dc9b000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.691 seconds
+Domain Reload Profiling: 1429ms
+	BeginReloadAssembly (258ms)
+		DisableScriptedObjects (27ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (409ms)
+		LoadAssemblies (350ms)
+		AnalyzeDomain (45ms)
+			TypeCache.Refresh (20ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (691ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7157 unused Assets / (3.2 MB). Loaded Objects now: 8085.
+Memory consumption went from 217.5 MB to 214.4 MB.
+Total: 21.144125 ms (FindLiveObjects: 3.246125 ms CreateObjectMapping: 2.685750 ms MarkObjects: 6.820291 ms  DeleteObjects: 8.391542 ms)
+
+Prepare: number of updated asset objects reloaded= 0

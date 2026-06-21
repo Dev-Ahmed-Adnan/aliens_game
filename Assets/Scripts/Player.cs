@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
     private float _jumpEndTime;
 
     private Rigidbody2D _rb;
+    private SpriteRenderer _spriteRenderer;
 
     private bool IsGrounded;
 
@@ -13,19 +14,32 @@ public class Player : MonoBehaviour
     [SerializeField] private float _horizontalVelocity = 5f;
     [SerializeField] private float _jumpDuration = 0.5f;
 
+    [SerializeField] Sprite _defaultSprite;
+    [SerializeField] Sprite _jumpSprite;
+
+
+
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _defaultSprite = _spriteRenderer.sprite;
     }
 
     void Update()
     {
-        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
-        Vector2 origin = new Vector2(transform.position.x, transform.position.y - spriteRenderer.bounds.extents.y);
+        Vector2 origin = new Vector2(transform.position.x, transform.position.y - _spriteRenderer.bounds.extents.y);
         var hit = Physics2D.Raycast(origin, Vector2.down, 0.1f);
         if (hit.collider != null)
+        {
             IsGrounded = true;
-        else IsGrounded = false;
+            _spriteRenderer.sprite = _defaultSprite;
+        }
+        else 
+        {
+            IsGrounded = false;
+            _spriteRenderer.sprite = _jumpSprite;
+        }
 
         float horizontal = 0f;
 
