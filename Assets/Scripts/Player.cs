@@ -16,6 +16,9 @@ public class Player : MonoBehaviour
 
     [SerializeField] Sprite _defaultSprite;
     [SerializeField] Sprite _jumpSprite;
+    [SerializeField] Sprite _walkingSprite;
+
+    private float _horizontal;
 
 
 
@@ -31,24 +34,18 @@ public class Player : MonoBehaviour
         Vector2 origin = new Vector2(transform.position.x, transform.position.y - _spriteRenderer.bounds.extents.y);
         var hit = Physics2D.Raycast(origin, Vector2.down, 0.1f);
         if (hit.collider != null)
-        {
             IsGrounded = true;
-            _spriteRenderer.sprite = _defaultSprite;
-        }
         else 
-        {
             IsGrounded = false;
-            _spriteRenderer.sprite = _jumpSprite;
-        }
 
-        float horizontal = 0f;
+        _horizontal = 0f;
 
         if (Keyboard.current != null)
         {
             if (Keyboard.current.dKey.isPressed || Keyboard.current.rightArrowKey.isPressed)
-                horizontal += 1f;
+                _horizontal += 1f;
             if (Keyboard.current.aKey.isPressed || Keyboard.current.leftArrowKey.isPressed)
-                horizontal -= 1f;
+                _horizontal -= 1f;
         }
 
         var vertical = _rb.linearVelocity.y;
@@ -62,7 +59,22 @@ public class Player : MonoBehaviour
             vertical = _jumpVelocity;
         }
 
-        horizontal *= _horizontalVelocity;
-        _rb.linearVelocity = new Vector2(horizontal, vertical);
+        _horizontal *= _horizontalVelocity;
+        _rb.linearVelocity = new Vector2(_horizontal, vertical);
+
+        UpdateSprite();
+    }
+
+    private void UpdateSprite()
+    {
+        if (IsGrounded)
+            _spriteRenderer.sprite = _defaultSprite;
+        else 
+            _spriteRenderer.sprite = _jumpSprite;
+
+        if (_horizontal > 0f)
+            _spriteRenderer.flipX = false;
+        else if (_horizontal < 0f)
+            _spriteRenderer.flipX = true;
     }
 }

@@ -2280,3 +2280,458 @@ Memory consumption went from 352.2 MB to 333.5 MB.
 Total: 47.523584 ms (FindLiveObjects: 1.956791 ms CreateObjectMapping: 2.729292 ms MarkObjects: 30.419792 ms  DeleteObjects: 12.417042 ms)
 
 [Licensing::Client] Successfully resolved entitlement details
+Failed to find entry-points:
+System.DllNotFoundException: Unable to load the unmanaged library `/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib` Reason: dlopen(/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib, 0x0002): tried: '/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib' (slice is not valid mach-o file), '/System/Volumes/Preboot/Cryptexes/OS/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib' (no such file), '/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib' (slice is not valid mach-o file)
+  at Burst.Backend.UnmanagedLibrary+MacOSUnmanagedLibrary.LoadLibrary (System.String name, System.Boolean addPlatformPrefix, System.Boolean addPlatformFileExtension, System.Boolean addArchitecturePostfix) [0x000a1] in <c6081d66416a4b579fa919569b56c9a2>:0 
+  at Burst.Backend.UnmanagedLibrary.LoadLibrary (System.String name, System.Boolean addPlatformPrefix, System.Boolean addPlatformFileExtension, System.Boolean addArchitecturePostfix) [0x00020] in <c6081d66416a4b579fa919569b56c9a2>:0 
+  at Burst.Backend.StandardCompilerBackend..ctor (System.String nativeSharedLibraryName) [0x0000d] in <c6081d66416a4b579fa919569b56c9a2>:0 
+  at Burst.Backend.StandardCompilerBackend.GetSingleton (System.String backendName) [0x0001f] in <c6081d66416a4b579fa919569b56c9a2>:0 
+  at Burst.Compiler.IL.Server.LibraryCompiler..ctor (Burst.Compiler.IL.Server.GlobalContext globalContext, System.String backendName) [0x00026] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+  at Burst.Compiler.IL.Server.CompilerServer.CompileLibrary (Burst.Compiler.IL.Server.CompileLibraryJob request, Burst.Compiler.IL.Server.CompilationMessageStreamer streamer, Burst.Compiler.IL.Server.ProgressMessageHelper progressHelper, System.Threading.CancellationToken cancellationToken) [0x000bd] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+  at Burst.Compiler.IL.Server.CompilerServer+<>c__DisplayClass25_0.<RunTask>b__0 () [0x00138] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+  at Burst.Compiler.IL.Server.CompilerServer.RunTask (Burst.Compiler.IL.Server.TargetKey target, System.String taskName, System.String[] assemblyFolders, System.Threading.CancellationToken cancellationToken, System.Func`2[T,TResult] function) [0x0012e] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+  at Burst.Compiler.IL.Server.CompilerServer.Compile (Burst.Compiler.IL.Server.CompilerServerOptions options, Burst.Compiler.IL.Server.CompilationMessageStreamer streamer, System.Threading.CancellationToken cancellationToken) [0x003d5] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+
+While compiling job:
+[Licensing::Client] Successfully resolved entitlement details
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+AssetDatabase: script compilation time: 0.043485s
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 23.2042ms
+Starting: /Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 4.3140ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 137 defines and 354 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 101.4334ms
+ExitCode: 0 Duration: 3s23ms
+[ 774/1019  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1015/1019  2s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1016/1019  0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 137 defines and 354 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1017/1019  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1018/1019  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (2.79 seconds), 5 items updated, 1019 evaluated
+Total cache size 73957388
+Total cache size after purge 73957388, took 00:00:00.1258523
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+2026-06-21 14:55:04.125 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c828d20 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 14:55:04.130 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c85c460 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 14:55:04.135 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c85dfe0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 14:55:04.140 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c85f160 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Thread 0x17f50b000 may have been prematurely finalized
+Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+2026-06-21 14:55:07.305 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c8243c0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.492 seconds
+Domain Reload Profiling: 4390ms
+	BeginReloadAssembly (2178ms)
+		DisableScriptedObjects (131ms)
+		CreateAndSetChildDomain (882ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (597ms)
+		LoadAssemblies (624ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (21ms)
+			BuildScriptInfoCaches (169ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1493ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (324ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+		AwakeInstancesAfterBackupRestoration (400ms)
+
+Asset Pipeline Refresh (id=4bfee4dc6eb2248b8ae81b9f9db779f3): Total: 11.534 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3308 ms
+		Asset DB Callback time: managed=164 ms, native=42 ms
+		Scripting: domain reloads=1, domain reload time=3110 ms, compile time=4 ms, other=0 ms
+		Project Asset Count: scripts=1570, non-scripts=3491
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 0.786ms
+	ApplyChangesToAssetFolders: 1.363ms
+	Scan: 539.771ms
+	Collect global state as custom dependencies: 7.223ms
+	OnSourceAssetsModified: 0.188ms
+	ProcessAssetsWithTransientArtifactChanges: 13.689ms
+	CategorizeAssets: 235.938ms
+	CompileScripts: 4.065ms
+	ImportOutOfDateAssets: 1550.579ms (1511.583ms without children)
+		CollectScriptTypesHashes: 10.847ms
+		ReloadNativeAssets: 1.087ms
+		UnloadImportedAssets: 0.267ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.611ms
+		ImportSchedulerStart: 36.941ms
+	PostProcessAllAssets: 57.489ms
+		PostProcessCallbackCreateDeferredMaterials 3.270ms
+		ShaderAssetModifiedCallback 0.630ms
+		XRBuildSystem.XRAssetImported 0.146ms
+		MonoPostProcessAllAssets: 46.153ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 7.937ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 6.247ms
+			SyncVS.PostprocessSyncProject 6.088ms
+			AssetChangedListener.OnPostprocessAllAssets 3.616ms
+			AssetPostprocessor.OnPostprocessAllAssets 3.360ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 1.468ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.187ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.111ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.014ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.787ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.580ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.402ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.382ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.347ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.340ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.337ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.265ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.257ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.242ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.235ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.222ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.216ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.205ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.202ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.185ms
+			PostProcessor.OnPostprocessAllAssets 0.173ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.150ms
+			AssetEvents.OnPostprocessAllAssets 0.138ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.116ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.113ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.094ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.086ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.080ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.077ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.069ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.059ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.056ms
+	PostAssetChangesProfiler: 17.753ms
+	PersistCurrentRevisions: 0.137ms
+	GenerateScriptTypeHashes: 2.125ms
+	GenerateScriptTypeSerializationHashes: 3.425ms
+	Untracked: 3496.975ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 1.4745ms
+Starting: /Applications/Unity/Hub/Editor/6000.5.0f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 3.0469ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 137 defines and 354 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 37.6703ms
+ExitCode: 0 Duration: 0s723ms
+[ 774/1019  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1015/1019  0s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1016/1019  0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 137 defines and 354 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1017/1019  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[1018/1019  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+*** Tundra build success (0.69 seconds), 5 items updated, 1019 evaluated
+Total cache size 73957388
+Total cache size after purge 73957388, took 00:00:00.0392288
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+2026-06-21 14:55:30.228 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c876800 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 14:55:30.232 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c826da0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 14:55:30.236 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c8757c0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 14:55:30.240 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c84bac0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+2026-06-21 14:55:32.218 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c8672a0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.345 seconds
+Domain Reload Profiling: 2581ms
+	BeginReloadAssembly (874ms)
+		DisableScriptedObjects (112ms)
+		CreateAndSetChildDomain (583ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (129ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (14ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1346ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (325ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+		AwakeInstancesAfterBackupRestoration (335ms)
+
+Asset Pipeline Refresh (id=6da820606586449fbbe42f00e1f50ac0): Total: 4.608 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2101 ms
+		Asset DB Callback time: managed=53 ms, native=9 ms
+		Scripting: domain reloads=1, domain reload time=1301 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1570, non-scripts=3491
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 0.794ms
+	ApplyChangesToAssetFolders: 0.527ms
+	Scan: 400.804ms
+	Collect global state as custom dependencies: 1.771ms
+	ProcessAssetsWithTransientArtifactChanges: 5.718ms
+	CategorizeAssets: 57.427ms
+	CompileScripts: 1.561ms
+	ImportOutOfDateAssets: 1412.046ms (1360.161ms without children)
+		CollectScriptTypesHashes: 1.212ms
+		ReloadNativeAssets: 0.870ms
+		UnloadImportedAssets: 0.273ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.615ms
+		ImportSchedulerStart: 50.065ms
+	PostProcessAllAssets: 48.719ms
+		PostProcessCallbackCreateDeferredMaterials 0.673ms
+		XRBuildSystem.XRAssetImported 0.181ms
+		MonoPostProcessAllAssets: 46.716ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 7.451ms
+			SyncVS.PostprocessSyncProject 5.689ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 4.597ms
+			AssetChangedListener.OnPostprocessAllAssets 4.081ms
+			AssetPostprocessor.OnPostprocessAllAssets 2.513ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 1.502ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.423ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.332ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.196ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.983ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.570ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.423ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.397ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.356ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.354ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.288ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.262ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.249ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.240ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.233ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.225ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.211ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.208ms
+			PostProcessor.OnPostprocessAllAssets 0.195ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.181ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.175ms
+			AssetEvents.OnPostprocessAllAssets 0.131ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.130ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.130ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.122ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.114ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.094ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.086ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.084ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.070ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.063ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.052ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.051ms
+	PostAssetChangesProfiler: 5.354ms
+	PersistCurrentRevisions: 0.137ms
+	GenerateScriptTypeHashes: 2.131ms
+	GenerateScriptTypeSerializationHashes: 3.540ms
+	Untracked: 1361.502ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+2026-06-21 14:55:37.140 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c876bc0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+SpriteAtlasPacking completed in 0.079652 sec
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+2026-06-21 14:55:37.386 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c877f20 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 14:55:37.390 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c877020 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 14:55:37.393 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0d4972a0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 14:55:37.397 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c876120 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Native extension for OSXStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.248 seconds
+Domain Reload Profiling: 2250ms
+	BeginReloadAssembly (778ms)
+		DisableScriptedObjects (73ms)
+		CreateAndSetChildDomain (582ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (91ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1248ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+		AwakeInstancesAfterBackupRestoration (460ms)
+
+Asset Pipeline Refresh (id=c771710664b994a159a86dfef3ba88e4): Total: 2.501 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1442 ms
+		Asset DB Callback time: managed=25 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1030 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=1570, non-scripts=3491
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 1.004ms
+	ApplyChangesToAssetFolders: 0.555ms
+	Collect global state as custom dependencies: 1.213ms
+	ProcessAssetsWithTransientArtifactChanges: 0.406ms
+	CategorizeAssets: 54.096ms
+	CompileScripts: 1.250ms
+	ImportOutOfDateAssets: 1300.269ms (1258.967ms without children)
+		CollectScriptTypesHashes: 1.026ms
+		ReloadNativeAssets: 0.792ms
+		UnloadImportedAssets: 0.121ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.604ms
+		ImportSchedulerStart: 39.757ms
+	PostProcessAllAssets: 25.245ms
+		MonoPostProcessAllAssets: 25.243ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 7.788ms
+			SyncVS.PostprocessSyncProject 6.300ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 4.597ms
+			AssetChangedListener.OnPostprocessAllAssets 4.081ms
+			AssetPostprocessor.OnPostprocessAllAssets 2.513ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 1.502ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.423ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.413ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.228ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.983ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.570ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.431ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.423ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.356ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.354ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.288ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.262ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.249ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.234ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.233ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.213ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.208ms
+			PostProcessor.OnPostprocessAllAssets 0.195ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.181ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.164ms
+			AssetEvents.OnPostprocessAllAssets 0.131ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.130ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.130ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.122ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.109ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.094ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.092ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.086ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.083ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.070ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.063ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.052ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.051ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.628ms
+	PersistCurrentRevisions: 0.137ms
+	GenerateScriptTypeHashes: 1.915ms
+	GenerateScriptTypeSerializationHashes: 3.175ms
+	Untracked: 1110.325ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.904 ms
+	Integration:            524.813 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   526.730 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x3027c7000 may have been prematurely finalized
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.460 ms
+	Integration:            353.930 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.004 ms
+	Total Operation Time:   355.395 ms
+Unloading 17 unused Assets / (167.2 KB). Loaded Objects now: 9291.
+Memory consumption went from 352.7 MB to 352.6 MB.
+Total: 37.407541 ms (FindLiveObjects: 2.186292 ms CreateObjectMapping: 1.572875 ms MarkObjects: 33.404791 ms  DeleteObjects: 0.242834 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
