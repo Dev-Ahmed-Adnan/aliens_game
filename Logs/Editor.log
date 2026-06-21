@@ -2735,3 +2735,852 @@ Memory consumption went from 352.7 MB to 352.6 MB.
 Total: 37.407541 ms (FindLiveObjects: 2.186292 ms CreateObjectMapping: 1.572875 ms MarkObjects: 33.404791 ms  DeleteObjects: 0.242834 ms)
 
 [Licensing::Client] Successfully resolved entitlement details
+Failed to find entry-points:
+System.DllNotFoundException: Unable to load the unmanaged library `/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib` Reason: dlopen(/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib, 0x0002): tried: '/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib' (slice is not valid mach-o file), '/System/Volumes/Preboot/Cryptexes/OS/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib' (no such file), '/Volumes/AdnanFiles/Coding_Work/Unity/Projects/Aliens/Library/PackageCache/com.unity.burst@6bb9aca3ef38/.Runtime/libburst-llvm-19.dylib' (slice is not valid mach-o file)
+  at Burst.Backend.UnmanagedLibrary+MacOSUnmanagedLibrary.LoadLibrary (System.String name, System.Boolean addPlatformPrefix, System.Boolean addPlatformFileExtension, System.Boolean addArchitecturePostfix) [0x000a1] in <c6081d66416a4b579fa919569b56c9a2>:0 
+  at Burst.Backend.UnmanagedLibrary.LoadLibrary (System.String name, System.Boolean addPlatformPrefix, System.Boolean addPlatformFileExtension, System.Boolean addArchitecturePostfix) [0x00020] in <c6081d66416a4b579fa919569b56c9a2>:0 
+  at Burst.Backend.StandardCompilerBackend..ctor (System.String nativeSharedLibraryName) [0x0000d] in <c6081d66416a4b579fa919569b56c9a2>:0 
+  at Burst.Backend.StandardCompilerBackend.GetSingleton (System.String backendName) [0x0001f] in <c6081d66416a4b579fa919569b56c9a2>:0 
+  at Burst.Compiler.IL.Server.LibraryCompiler..ctor (Burst.Compiler.IL.Server.GlobalContext globalContext, System.String backendName) [0x00026] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+  at Burst.Compiler.IL.Server.CompilerServer.CompileLibrary (Burst.Compiler.IL.Server.CompileLibraryJob request, Burst.Compiler.IL.Server.CompilationMessageStreamer streamer, Burst.Compiler.IL.Server.ProgressMessageHelper progressHelper, System.Threading.CancellationToken cancellationToken) [0x000bd] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+  at Burst.Compiler.IL.Server.CompilerServer+<>c__DisplayClass25_0.<RunTask>b__0 () [0x00138] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+  at Burst.Compiler.IL.Server.CompilerServer.RunTask (Burst.Compiler.IL.Server.TargetKey target, System.String taskName, System.String[] assemblyFolders, System.Threading.CancellationToken cancellationToken, System.Func`2[T,TResult] function) [0x0012e] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+  at Burst.Compiler.IL.Server.CompilerServer.Compile (Burst.Compiler.IL.Server.CompilerServerOptions options, Burst.Compiler.IL.Server.CompilationMessageStreamer streamer, System.Threading.CancellationToken cancellationToken) [0x003d5] in <e55fa4270c8a4cb18b54084f9d890962>:0 
+
+While compiling job:
+Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/b12eb167-c26f-4dea-90aa-3bb147663190", HTTP error code 401
+.[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "iidduaaR"... (expires: 2026-06-21T14:30:37Z)
+Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/b12eb167-c26f-4dea-90aa-3bb147663190", HTTP error code 401
+.UPID Received 'b12eb167-c26f-4dea-90aa-3bb147663190'.
+[Licensing::Client] Successfully resolved entitlement details
+
+Asset Pipeline Refresh (id=f594de1e057024b36adf809132a3a1c4): Total: 0.760 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=742 ms
+		Asset DB Callback time: managed=0 ms, native=10 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1570, non-scripts=3491
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 8.272ms
+	ApplyChangesToAssetFolders: 40.800ms
+	Scan: 593.952ms
+	Collect global state as custom dependencies: 4.771ms
+	GatherAllCurrentPrimaryImportResultRevisions: 34.591ms
+	UnloadStreamsBegin: 47.050ms
+	UnloadStreamsEnd: 0.068ms
+	Untracked: 25.060ms
+
+2026-06-21 16:02:25.952 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c8759a0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Thread 0x17f497000 may have been prematurely finalized
+SpriteAtlasPacking completed in 0.172685 sec
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+2026-06-21 16:02:26.679 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c864f00 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 16:02:26.684 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c866440 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 16:02:26.689 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c866620 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 16:02:26.693 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c84be80 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.835 seconds
+Domain Reload Profiling: 4900ms
+	BeginReloadAssembly (2503ms)
+		DisableScriptedObjects (224ms)
+		CreateAndSetChildDomain (1769ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (442ms)
+		LoadAssemblies (537ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1836ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (383ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (800ms)
+
+Asset Pipeline Refresh (id=a1bbca3dab2414a2896f07bad1e4053b): Total: 5.721 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2337 ms
+		Asset DB Callback time: managed=28 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=3352 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1570, non-scripts=3491
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 0.832ms
+	ApplyChangesToAssetFolders: 0.416ms
+	Collect global state as custom dependencies: 5.908ms
+	ProcessAssetsWithTransientArtifactChanges: 4.186ms
+	CategorizeAssets: 249.183ms
+	CompileScripts: 1.839ms
+	ImportOutOfDateAssets: 1908.956ms (1866.983ms without children)
+		CollectScriptTypesHashes: 8.215ms
+		ReloadNativeAssets: 0.847ms
+		UnloadImportedAssets: 0.321ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.644ms
+		ImportSchedulerStart: 40.099ms
+	PostProcessAllAssets: 28.720ms
+		MonoPostProcessAllAssets: 28.717ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 10.396ms
+			SyncVS.PostprocessSyncProject 7.748ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 4.597ms
+			AssetChangedListener.OnPostprocessAllAssets 4.081ms
+			AssetPostprocessor.OnPostprocessAllAssets 2.513ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 1.502ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.423ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.286ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.157ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.983ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.570ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.423ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.406ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.356ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.354ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.288ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.262ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.249ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.233ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.230ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.208ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.204ms
+			PostProcessor.OnPostprocessAllAssets 0.195ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.181ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.177ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.133ms
+			AssetEvents.OnPostprocessAllAssets 0.131ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.130ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.130ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.122ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.094ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.086ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.086ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.079ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.070ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.063ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.052ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.051ms
+	GatherAllCurrentPrimaryImportResultRevisions: 7.187ms
+	PersistCurrentRevisions: 0.136ms
+	GenerateScriptTypeHashes: 2.429ms
+	GenerateScriptTypeSerializationHashes: 4.118ms
+	Untracked: 3501.848ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.817 ms
+	Integration:            472.325 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.003 ms
+	Total Operation Time:   475.147 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16d007000 may have been prematurely finalized
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            13.342 ms
+	Integration:            484.008 ms
+	Integration of assets:  0.148 ms
+	Thread Wait Time:       -0.127 ms
+	Total Operation Time:   497.370 ms
+Unloading 35 unused Assets / (261.8 KB). Loaded Objects now: 9282.
+Memory consumption went from 333.5 MB to 333.3 MB.
+Total: 48.163250 ms (FindLiveObjects: 4.205209 ms CreateObjectMapping: 2.411208 ms MarkObjects: 39.702250 ms  DeleteObjects: 1.843375 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+2026-06-21 16:03:33.204 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c84bca0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+
+Asset Pipeline Refresh (id=9e29b435e0b014cccb99cc6f2e6282cc): Total: 0.586 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=576 ms
+		Asset DB Callback time: managed=0 ms, native=4 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1570, non-scripts=3491
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 4.993ms
+	ApplyChangesToAssetFolders: 4.201ms
+	Scan: 528.224ms
+	Collect global state as custom dependencies: 5.700ms
+	GatherAllCurrentPrimaryImportResultRevisions: 5.243ms
+	UnloadStreamsBegin: 23.628ms
+	UnloadStreamsEnd: 0.070ms
+	Untracked: 9.183ms
+
+2026-06-21 16:09:53.387 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa105db2a0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Importing 'GUID: 1fe170fdb000847d298db951e22782d0 - Path: Assets/Animations' with importer (DefaultImporter)
+Imported 'GUID: 1fe170fdb000847d298db951e22782d0' -> (Import Result ID: '73a6d62b2abba036c319fee7694c3fd0') in 0.042 seconds [static dependencies only]. Details - ImportResultOutputID=eb997b32192a859142f2ec23ce2dace5 DependenciesID=412499d3dcdb679373bfee6fdbd858d4 StaticDependenciesID=0c4a40946917b97983de6aeada5eb251 
+Importing 'GUID: 4ed185cf73a87451c9468042da81466c - Path: Assets/Animations/player_walking.anim' with importer (NativeFormatImporter)
+Imported 'GUID: 4ed185cf73a87451c9468042da81466c' -> (Import Result ID: '8d40d3be7c8b7b00f61375fee56186f2') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=0f953dd7dce6a8be29be65f1ba4685c6 DependenciesID=1f2045f0dc29e46ccf19efa7fa8a9cb5 StaticDependenciesID=e470f561c18bbefa7218adfb9629d2f1 
+
+Asset Pipeline Refresh (id=0420ef7894db54bcc8176579cb83bc5f): Total: 0.488 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=2 (actual=2, local cache=0, cache server=0)
+		Asset DB Process Time: managed=11 ms, native=389 ms
+		Asset DB Callback time: managed=64 ms, native=21 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1571, non-scripts=3492
+		Asset File Changes: new=2, changed=2, moved=0, deleted=0
+		Scan Filter Count: 3
+	InvokeCustomDependenciesCallbacks: 0.114ms
+	ApplyChangesToAssetFolders: 1.377ms
+	Scan: 39.068ms
+	Collect global state as custom dependencies: 3.508ms
+	OnSourceAssetsModified: 2.443ms
+	CategorizeScriptCompilationAssets: 0.122ms
+	ProcessAssetsWithTransientArtifactChanges: 0.953ms
+	CategorizeAssets: 95.679ms
+	ImportOutOfDateAssets: 211.508ms (69.859ms without children)
+		ImportManagerImport: 51.687ms (2.611ms without children)
+		ReloadNativeAssets: 0.331ms
+		UnloadImportedAssets: 0.109ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.522ms
+		InitializingProgressBar: 28.858ms
+		ImportSchedulerStart: 60.138ms
+	PostProcessAllAssets: 66.813ms
+		XRBuildSystem.XRAssetImported 8.455ms
+		MonoPostProcessAllAssets: 56.561ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 11.141ms
+			AssetChangedListener.OnPostprocessAllAssets 10.169ms
+			AssetPostprocessor.OnPostprocessAllAssets 7.820ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 3.060ms
+			SyncVS.PostprocessSyncProject 2.682ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 2.359ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.315ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 2.178ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.523ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 1.072ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.940ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.864ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.689ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.605ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 0.590ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.545ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.515ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.417ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.396ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.312ms
+			PostProcessor.OnPostprocessAllAssets 0.307ms
+			AssetEvents.OnPostprocessAllAssets 0.183ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.176ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.160ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.147ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.146ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.115ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.097ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.070ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.057ms
+	PostAssetChangesProfiler: 16.624ms
+	GatherAllCurrentPrimaryImportResultRevisions: 5.557ms
+	UnloadStreamsBegin: 0.185ms
+	PersistCurrentRevisions: 0.213ms
+	Untracked: 43.686ms
+
+Importing 'GUID: 02b48cfd612b944e29a91009bf60538c - Path: Assets/Animations/Player.controller' with importer (NativeFormatImporter)
+Imported 'GUID: 02b48cfd612b944e29a91009bf60538c' -> (Import Result ID: '6330ffb17cb1efeba625528148e5d34d') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=f8dc2b9ffdf35905b2386241f89f2009 DependenciesID=7ef5bf1d692671d25ad4105d538c5874 StaticDependenciesID=29b74674feb75c8523a6d3e01eb3acb6 
+Asset Pipeline Refresh (id=6496ddb3801bb41bc8f7b558f56b80af): Total: 0.146 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+2026-06-21 16:10:25.487 Unity[68888:3607816] Dragging multiple files using the deprecated NSFilenamesPboardType and dragging API. Please update to the NSDraggingSession API.
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditorInternal.DopeSheetEditor.SelectTypeForCreatingNewPptrDopeline (System.Object userData, System.String[] options, System.Int32 selected) [0x0001f] in /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs:892 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs Line: 892)
+
+2026-06-21 16:10:32.693 Unity[68888:3607816] Dragging multiple files using the deprecated NSFilenamesPboardType and dragging API. Please update to the NSDraggingSession API.
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditorInternal.DopeSheetEditor.SelectTypeForCreatingNewPptrDopeline (System.Object userData, System.String[] options, System.Int32 selected) [0x0001f] in /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs:892 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs Line: 892)
+
+2026-06-21 16:10:48.919 Unity[68888:3607816] Dragging multiple files using the deprecated NSFilenamesPboardType and dragging API. Please update to the NSDraggingSession API.
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditorInternal.DopeSheetEditor.SelectTypeForCreatingNewPptrDopeline (System.Object userData, System.String[] options, System.Int32 selected) [0x0001f] in /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs:892 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs Line: 892)
+
+
+Asset Pipeline Refresh (id=874c36654a46341509a21b3b684511f7): Total: 0.532 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=515 ms
+		Asset DB Callback time: managed=0 ms, native=13 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1571, non-scripts=3493
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 13.394ms
+	ApplyChangesToAssetFolders: 2.069ms
+	Scan: 483.218ms
+	Collect global state as custom dependencies: 2.838ms
+	GatherAllCurrentPrimaryImportResultRevisions: 4.788ms
+	UnloadStreamsBegin: 15.886ms
+	UnloadStreamsEnd: 0.128ms
+	Untracked: 8.993ms
+
+
+Asset Pipeline Refresh (id=a2b3312d6b7844d6abf6ea49be937801): Total: 0.359 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=351 ms
+		Asset DB Callback time: managed=0 ms, native=5 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1571, non-scripts=3493
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 4.731ms
+	ApplyChangesToAssetFolders: 5.342ms
+	Scan: 334.724ms
+	Collect global state as custom dependencies: 1.779ms
+	GatherAllCurrentPrimaryImportResultRevisions: 3.346ms
+	UnloadStreamsBegin: 0.270ms
+	UnloadStreamsEnd: 0.118ms
+	Untracked: 8.517ms
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditorInternal.DopeSheetEditor.SelectTypeForCreatingNewPptrDopeline (System.Object userData, System.String[] options, System.Int32 selected) [0x0001f] in /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs:892 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs Line: 892)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditorInternal.DopeSheetEditor.SelectTypeForCreatingNewPptrDopeline (System.Object userData, System.String[] options, System.Int32 selected) [0x0001f] in /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs:892 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs Line: 892)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditorInternal.DopeSheetEditor.SelectTypeForCreatingNewPptrDopeline (System.Object userData, System.String[] options, System.Int32 selected) [0x0001f] in /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs:892 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs Line: 892)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditorInternal.DopeSheetEditor.SelectTypeForCreatingNewPptrDopeline (System.Object userData, System.String[] options, System.Int32 selected) [0x0001f] in /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs:892 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs Line: 892)
+
+
+Asset Pipeline Refresh (id=3c3261aa1da6448718313946b69d9d46): Total: 0.428 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=420 ms
+		Asset DB Callback time: managed=0 ms, native=7 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1571, non-scripts=3493
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 5.780ms
+	ApplyChangesToAssetFolders: 3.573ms
+	Scan: 399.165ms
+	Collect global state as custom dependencies: 3.759ms
+	GatherAllCurrentPrimaryImportResultRevisions: 2.982ms
+	UnloadStreamsBegin: 2.958ms
+	UnloadStreamsEnd: 0.150ms
+	Untracked: 8.711ms
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditorInternal.DopeSheetEditor.SelectTypeForCreatingNewPptrDopeline (System.Object userData, System.String[] options, System.Int32 selected) [0x0001f] in /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs:892 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs Line: 892)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditorInternal.DopeSheetEditor.SelectTypeForCreatingNewPptrDopeline (System.Object userData, System.String[] options, System.Int32 selected) [0x0001f] in /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs:892 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs Line: 892)
+
+2026-06-21 16:13:38.736 Unity[68888:3607816] Dragging multiple files using the deprecated NSFilenamesPboardType and dragging API. Please update to the NSDraggingSession API.
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditorInternal.DopeSheetEditor.SelectTypeForCreatingNewPptrDopeline (System.Object userData, System.String[] options, System.Int32 selected) [0x0001f] in /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs:892 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs Line: 892)
+
+2026-06-21 16:13:46.583 Unity[68888:3607816] Dragging multiple files using the deprecated NSFilenamesPboardType and dragging API. Please update to the NSDraggingSession API.
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditorInternal.DopeSheetEditor.SelectTypeForCreatingNewPptrDopeline (System.Object userData, System.String[] options, System.Int32 selected) [0x0001f] in /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs:892 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs Line: 892)
+
+
+Asset Pipeline Refresh (id=8b8a69a116a3949e5b0b610c8d57b712): Total: 0.313 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=309 ms
+		Asset DB Callback time: managed=0 ms, native=2 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1571, non-scripts=3493
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 1.860ms
+	ApplyChangesToAssetFolders: 0.999ms
+	Scan: 292.984ms
+	Collect global state as custom dependencies: 0.880ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.817ms
+	UnloadStreamsBegin: 9.895ms
+	UnloadStreamsEnd: 0.126ms
+	Untracked: 4.577ms
+
+2026-06-21 16:13:53.807 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c84af80 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Importing 'GUID: 02b48cfd612b944e29a91009bf60538c - Path: Assets/Animations/Player.controller' with importer (NativeFormatImporter)
+Imported 'GUID: 02b48cfd612b944e29a91009bf60538c' -> (Import Result ID: 'e3476cfd8b2ef174b89e4dd3742f17de') in 0.014 seconds [static dependencies only]. Details - ImportResultOutputID=f8dc2b9ffdf35905b2386241f89f2009 DependenciesID=b8d1b85280658d8ee609bb858bdd6ba2 StaticDependenciesID=5c2865a56f7dc6a072893f2f91529238 
+Refreshing native plugins compatible for Editor in 4.77 ms, found 3 plugins.
+Asset Pipeline Refresh (id=8eea4bd2ddfd341aba88d9f370855c27): Total: 0.295 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 0d252538c20bb46448b5309beb49c740 - Path: Assets/Scenes/level1.unity' with importer (DefaultImporter)
+Imported 'GUID: 0d252538c20bb46448b5309beb49c740' -> (Import Result ID: '44cce7348453a6f735dd56c4034d227b') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=c72d9a302a49bc3b8c75f098cdb4d46b DependenciesID=7a5bb87a24c5dc2ca162e1213a7dad57 StaticDependenciesID=6bd605a0a92513f85f048a00e4c3e269 
+Asset Pipeline Refresh (id=c6a716877f23c430b9ef113611b23423): Total: 0.077 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditorInternal.DopeSheetEditor.SelectTypeForCreatingNewPptrDopeline (System.Object userData, System.String[] options, System.Int32 selected) [0x0001f] in /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs:892 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs Line: 892)
+
+
+Asset Pipeline Refresh (id=d500e79a4ed0f45c99da39f9daf7d09e): Total: 0.507 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=502 ms
+		Asset DB Callback time: managed=0 ms, native=4 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1571, non-scripts=3493
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 3.884ms
+	ApplyChangesToAssetFolders: 6.382ms
+	Scan: 468.274ms
+	Collect global state as custom dependencies: 1.491ms
+	GatherAllCurrentPrimaryImportResultRevisions: 3.397ms
+	UnloadStreamsBegin: 17.755ms
+	UnloadStreamsEnd: 0.163ms
+	Untracked: 5.839ms
+
+2026-06-21 16:15:13.790 Unity[68888:3607816] Dragging multiple files using the deprecated NSFilenamesPboardType and dragging API. Please update to the NSDraggingSession API.
+2026-06-21 16:16:11.142 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c855fe0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 16:16:38.467 Unity[68888:3607816] Dragging multiple files using the deprecated NSFilenamesPboardType and dragging API. Please update to the NSDraggingSession API.
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditorInternal.DopeSheetEditor.SelectTypeForCreatingNewPptrDopeline (System.Object userData, System.String[] options, System.Int32 selected) [0x0001f] in /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs:892 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs Line: 892)
+
+2026-06-21 16:16:45.515 Unity[68888:3607816] Dragging multiple files using the deprecated NSFilenamesPboardType and dragging API. Please update to the NSDraggingSession API.
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditorInternal.DopeSheetEditor.SelectTypeForCreatingNewPptrDopeline (System.Object userData, System.String[] options, System.Int32 selected) [0x0001f] in /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs:892 
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Animation/AnimationWindow/DopeSheetEditor.cs Line: 892)
+
+2026-06-21 16:18:21.115 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c867c00 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Thread 0x179b5f000 may have been prematurely finalized
+SpriteAtlasPacking completed in 0.162435 sec
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+2026-06-21 16:19:15.034 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c854320 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 16:19:15.039 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0d4954a0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 16:19:15.045 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c8555e0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 16:19:15.050 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa105db2a0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.386 seconds
+Domain Reload Profiling: 3729ms
+	BeginReloadAssembly (1839ms)
+		DisableScriptedObjects (116ms)
+		CreateAndSetChildDomain (1316ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (395ms)
+		LoadAssemblies (453ms)
+		AnalyzeDomain (51ms)
+			TypeCache.Refresh (27ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1387ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+		AwakeInstancesAfterBackupRestoration (520ms)
+
+Asset Pipeline Refresh (id=dfa5432f49c904cd7bc0d6fb216e24e1): Total: 4.288 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1776 ms
+		Asset DB Callback time: managed=27 ms, native=1 ms
+		Scripting: domain reloads=1, domain reload time=2480 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1571, non-scripts=3493
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.197ms
+	ApplyChangesToAssetFolders: 0.357ms
+	Collect global state as custom dependencies: 3.494ms
+	OnSourceAssetsModified: 0.175ms
+	ProcessAssetsWithTransientArtifactChanges: 0.698ms
+	CategorizeAssets: 191.332ms
+	CompileScripts: 1.553ms
+	ImportOutOfDateAssets: 1446.205ms (1403.989ms without children)
+		CollectScriptTypesHashes: 3.221ms
+		ReloadNativeAssets: 0.959ms
+		UnloadImportedAssets: 0.178ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.648ms
+		ImportSchedulerStart: 40.390ms
+	PostProcessAllAssets: 27.020ms
+		MonoPostProcessAllAssets: 27.017ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 8.143ms
+			SyncVS.PostprocessSyncProject 6.644ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.454ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.098ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.492ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.229ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.210ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.191ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.156ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.105ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.090ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.089ms
+			AssetPostprocessor.OnPostprocessAllAssets 0.080ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.075ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.494ms
+	UnloadStreamsBegin: 3.195ms
+	PersistCurrentRevisions: 0.139ms
+	GenerateScriptTypeHashes: 2.640ms
+	GenerateScriptTypeSerializationHashes: 4.401ms
+	Untracked: 2603.634ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.176 ms
+	Integration:            467.374 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.003 ms
+	Total Operation Time:   469.555 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x17f407000 may have been prematurely finalized
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.481 ms
+	Integration:            399.441 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.020 ms
+	Total Operation Time:   400.943 ms
+Unloading 194 unused Assets / (314.7 KB). Loaded Objects now: 9455.
+Memory consumption went from 358.3 MB to 358.0 MB.
+Total: 42.801000 ms (FindLiveObjects: 0.906458 ms CreateObjectMapping: 0.948417 ms MarkObjects: 37.456708 ms  DeleteObjects: 3.488333 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x17f407000 may have been prematurely finalized
+SpriteAtlasPacking completed in 0.072337 sec
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+2026-06-21 16:19:45.405 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c84c320 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 16:19:45.409 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0d4977a0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 16:19:45.413 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0d497a20 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 16:19:45.417 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c848f00 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.394 seconds
+Domain Reload Profiling: 2614ms
+	BeginReloadAssembly (989ms)
+		DisableScriptedObjects (64ms)
+		CreateAndSetChildDomain (705ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (143ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (9ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1394ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (284ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+		AwakeInstancesAfterBackupRestoration (466ms)
+
+Asset Pipeline Refresh (id=c39d19cf68e7b4d859c3144335684d4e): Total: 3.072 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1734 ms
+		Asset DB Callback time: managed=28 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1306 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1571, non-scripts=3493
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 1.113ms
+	ApplyChangesToAssetFolders: 0.480ms
+	Collect global state as custom dependencies: 3.207ms
+	ProcessAssetsWithTransientArtifactChanges: 0.506ms
+	CategorizeAssets: 123.910ms
+	CompileScripts: 1.608ms
+	ImportOutOfDateAssets: 1458.516ms (1408.795ms without children)
+		CollectScriptTypesHashes: 1.199ms
+		ReloadNativeAssets: 0.902ms
+		UnloadImportedAssets: 0.170ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.658ms
+		ImportSchedulerStart: 47.951ms
+	PostProcessAllAssets: 28.895ms
+		MonoPostProcessAllAssets: 28.891ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 8.300ms
+			SyncVS.PostprocessSyncProject 6.455ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.551ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.356ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.464ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.240ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.226ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.191ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.174ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.131ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.093ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.086ms
+			AssetPostprocessor.OnPostprocessAllAssets 0.080ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.075ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.646ms
+	UnloadStreamsBegin: 0.170ms
+	PersistCurrentRevisions: 0.138ms
+	GenerateScriptTypeHashes: 2.124ms
+	GenerateScriptTypeSerializationHashes: 3.540ms
+	Untracked: 1448.421ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.419 ms
+	Integration:            607.212 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.009 ms
+	Total Operation Time:   608.644 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x350c5f000 may have been prematurely finalized
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.646 ms
+	Integration:            373.194 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   374.852 ms
+Unloading 19 unused Assets / (113.7 KB). Loaded Objects now: 9480.
+Memory consumption went from 357.6 MB to 357.5 MB.
+Total: 30.074750 ms (FindLiveObjects: 0.926167 ms CreateObjectMapping: 1.787417 ms MarkObjects: 27.052041 ms  DeleteObjects: 0.308583 ms)
+
+2026-06-21 16:20:34.101 Unity[68888:3607816] Dragging multiple files using the deprecated NSFilenamesPboardType and dragging API. Please update to the NSDraggingSession API.
+Thread 0x3027c7000 may have been prematurely finalized
+SpriteAtlasPacking completed in 0.109000 sec
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+2026-06-21 16:20:52.065 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa104119a0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 16:20:52.070 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa105db340 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 16:20:52.074 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa10411f40 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-21 16:20:52.078 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa0c82b5c0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Refreshing native plugins compatible for Editor in 3.56 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.319 seconds
+Domain Reload Profiling: 2577ms
+	BeginReloadAssembly (1026ms)
+		DisableScriptedObjects (82ms)
+		CreateAndSetChildDomain (713ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (140ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (9ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1320ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+		AwakeInstancesAfterBackupRestoration (488ms)
+
+Asset Pipeline Refresh (id=cdf89f5fe26ff47468c2dea4285f294e): Total: 3.116 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1712 ms
+		Asset DB Callback time: managed=26 ms, native=1 ms
+		Scripting: domain reloads=1, domain reload time=1372 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1571, non-scripts=3493
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.435ms
+	ApplyChangesToAssetFolders: 0.363ms
+	Collect global state as custom dependencies: 3.649ms
+	OnSourceAssetsModified: 0.197ms
+	ProcessAssetsWithTransientArtifactChanges: 1.025ms
+	CategorizeAssets: 203.590ms
+	CompileScripts: 1.602ms
+	ImportOutOfDateAssets: 1382.149ms (1336.360ms without children)
+		CollectScriptTypesHashes: 0.959ms
+		ReloadNativeAssets: 1.030ms
+		UnloadImportedAssets: 0.167ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.645ms
+		ImportSchedulerStart: 43.911ms
+	PostProcessAllAssets: 26.776ms
+		MonoPostProcessAllAssets: 26.774ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 7.507ms
+			SyncVS.PostprocessSyncProject 6.228ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.457ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.275ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.487ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.232ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.221ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.191ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.172ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.149ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.103ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.092ms
+			AssetPostprocessor.OnPostprocessAllAssets 0.080ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.075ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.576ms
+	UnloadStreamsBegin: 4.549ms
+	PersistCurrentRevisions: 0.137ms
+	GenerateScriptTypeHashes: 2.427ms
+	GenerateScriptTypeSerializationHashes: 4.179ms
+	Untracked: 1483.028ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.256 ms
+	Integration:            615.900 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.004 ms
+	Total Operation Time:   617.161 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x17f487000 may have been prematurely finalized
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.094 ms
+	Integration:            425.725 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.003 ms
+	Total Operation Time:   428.824 ms
+Unloading 19 unused Assets / (148.2 KB). Loaded Objects now: 9502.
+Memory consumption went from 345.9 MB to 345.8 MB.
+Total: 42.999125 ms (FindLiveObjects: 3.857708 ms CreateObjectMapping: 1.939042 ms MarkObjects: 36.442208 ms  DeleteObjects: 0.758708 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+2026-06-21 16:21:43.811 Unity[68888:3607816] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa105dab20 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Importing 'GUID: 4ed185cf73a87451c9468042da81466c - Path: Assets/Animations/player_walking.anim' with importer (NativeFormatImporter)
+Imported 'GUID: 4ed185cf73a87451c9468042da81466c' -> (Import Result ID: '64c47336e0f6290fad7a8a2f39b04135') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=0f953dd7dce6a8be29be65f1ba4685c6 DependenciesID=0b60a075753369f6ca79a63cdd0dcd4f StaticDependenciesID=fe89afa0e1ec681b682167bcec4c6fea 
+
+Asset Pipeline Refresh (id=55166b42d1eaa46fabd281d0e40d5457): Total: 0.329 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=2 ms, native=280 ms
+		Asset DB Callback time: managed=33 ms, native=11 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1571, non-scripts=3493
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 3
+	ApplyChangesToAssetFolders: 0.106ms
+	Scan: 12.530ms
+	Collect global state as custom dependencies: 0.929ms
+	OnSourceAssetsModified: 1.247ms
+	CategorizeScriptCompilationAssets: 0.121ms
+	ProcessAssetsWithTransientArtifactChanges: 0.664ms
+	CategorizeAssets: 89.659ms
+	ImportOutOfDateAssets: 163.497ms (88.070ms without children)
+		ImportManagerImport: 13.923ms (1.073ms without children)
+		ReloadNativeAssets: 0.380ms
+		UnloadImportedAssets: 0.107ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.498ms
+		InitializingProgressBar: 0.204ms
+		ImportSchedulerStart: 60.314ms
+	PostProcessAllAssets: 40.717ms
+		XRBuildSystem.XRAssetImported 6.402ms
+		PostProcessCallbackCreateDeferredMaterials 0.138ms
+		AssemblyValidation.PostprocessAllAssets 0.123ms
+		MonoPostProcessAllAssets: 32.700ms
+			AssetChangedListener.OnPostprocessAllAssets 7.797ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 6.120ms
+			AssetPostprocessor.OnPostprocessAllAssets 3.334ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.932ms
+			SyncVS.PostprocessSyncProject 1.768ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.395ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.217ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 1.032ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.874ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.558ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.472ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.428ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.417ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.388ms
+			PostProcessor.OnPostprocessAllAssets 0.363ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 0.300ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.295ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.289ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.270ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.245ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.240ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.164ms
+			AssetEvents.OnPostprocessAllAssets 0.154ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.135ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.112ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.100ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.084ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.076ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.069ms
+			AssetProcessor.OnPostprocessAllAssets 0.055ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.055ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.050ms
+	PostAssetChangesProfiler: 3.035ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.557ms
+	PersistCurrentRevisions: 0.473ms
+	Untracked: 15.346ms
+
+
+Asset Pipeline Refresh (id=0c312bbfa0cd14ef6b815391b156cbf2): Total: 0.587 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=581 ms
+		Asset DB Callback time: managed=0 ms, native=4 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1571, non-scripts=3493
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 4.200ms
+	ApplyChangesToAssetFolders: 2.028ms
+	Scan: 569.347ms
+	Collect global state as custom dependencies: 1.912ms
+	GatherAllCurrentPrimaryImportResultRevisions: 1.689ms
+	UnloadStreamsBegin: 2.283ms
+	UnloadStreamsEnd: 0.122ms
+	Untracked: 4.676ms
+
+[Worker0] Imported GUID: 02b48cfd612b944e29a91009bf60538c - Path: Assets/Animations/Player.controller - Importer: PreviewImporter -> (ImportResultId: '4c609bee2e4001a344d56e5cb4cf96fe') in 0.3004095 seconds
+GUILayout: Mismatched LayoutGroup.mouseDrag

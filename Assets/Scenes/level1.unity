@@ -509,8 +509,9 @@ GameObject:
   - component: {fileID: 1817928513}
   - component: {fileID: 1817928512}
   - component: {fileID: 1817928514}
+  - component: {fileID: 1817928515}
   m_Layer: 0
-  m_Name: alienBlue_front_0
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -738,6 +739,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 646aaca8759df429fb6a7fca4dd5eb6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
+  _jumpVelocity: 5
+  _horizontalVelocity: 5
+  _jumpDuration: 0.5
+  _defaultSprite: {fileID: 402502597922571196, guid: ac1765b4669de47b99a8c4ee650308dc, type: 3}
+  _jumpSprite: {fileID: 3810435283219779972, guid: a03f7c8b51ce34564a8edbef685c6467, type: 3}
+  _walkingSprite: {fileID: 7275200586497731420, guid: 63f76a04f714c4c19b38aede599a0d9a, type: 3}
+--- !u!95 &1817928515
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817928509}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 02b48cfd612b944e29a91009bf60538c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
