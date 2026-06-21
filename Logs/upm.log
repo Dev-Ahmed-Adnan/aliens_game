@@ -25,3 +25,39 @@ params: {}
 [2026-06-21T10:54:39.985Z][INFO] project:list-packages <-- Request received
 params: {}
 [2026-06-21T10:54:40.780Z][INFO] project:list-packages --> 200 (801 ms)
+[2026-06-21T11:07:26.792Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-21T11:07:26.972Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-21T11:07:27.032Z][INFO] project:list-packages --> 200 (257 ms)
+[2026-06-21T11:07:27.065Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-06-21T11:07:27.068Z][INFO] config:project:get-registries --> 200 (3 ms)
+[2026-06-21T11:07:27.127Z][INFO] project:list-packages --> 200 (155 ms)
+[2026-06-21T11:07:32.924Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-21T11:07:33.037Z][INFO] project:list-packages --> 200 (113 ms)
+[2026-06-21T11:07:33.141Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-21T11:07:33.230Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-06-21T11:07:33.235Z][INFO] project:list-packages --> 200 (93 ms)
+[2026-06-21T11:07:33.235Z][INFO] config:project:get-registries --> 200 (5 ms)
+[2026-06-21T11:12:05.604Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-21T11:12:05.817Z][INFO] project:list-packages --> 200 (214 ms)
+[2026-06-21T11:12:05.860Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-21T11:12:05.955Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-06-21T11:12:05.962Z][INFO] config:project:get-registries --> 200 (7 ms)
+[2026-06-21T11:12:06.000Z][INFO] project:list-packages --> 200 (140 ms)
+[2026-06-21T11:12:35.839Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-21T11:12:36.671Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-21T11:12:36.972Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-06-21T11:12:37.007Z][INFO] config:project:get-registries --> 200 (36 ms)
+[2026-06-21T11:12:37.336Z][INFO] project:list-packages --> 200 (1499 ms)
+[2026-06-21T11:12:37.377Z][INFO] project:list-packages --> 200 (708 ms)
