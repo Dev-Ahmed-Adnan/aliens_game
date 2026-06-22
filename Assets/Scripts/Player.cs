@@ -71,6 +71,9 @@ public class Player : MonoBehaviour
         {
             _jumpEndTime = Time.time + _jumpDuration;
             _remainingJumps--;
+
+            _aduioSource.pitch = (_remainingJumps > 0) ? 1f : 1.2f;
+
             _aduioSource.Play();
         }
 
