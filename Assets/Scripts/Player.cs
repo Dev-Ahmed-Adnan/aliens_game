@@ -23,9 +23,9 @@ public class Player : MonoBehaviour
 
     private Animator _animator;
 
+    [SerializeField] private float _footOffest = 0.3f;
 
-
-    void Start()
+    void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
@@ -33,14 +33,24 @@ public class Player : MonoBehaviour
         _animator = GetComponent<Animator>();
     }
 
+    void OnDrawGizmos()
+    {
+        if (_spriteRenderer == null) return;
+        Gizmos.color = Color.red;
+        float bottomY = transform.position.y - _spriteRenderer.bounds.extents.y;
+        Vector2 origin = new Vector2(transform.position.x, bottomY);
+        Gizmos.DrawLine(origin, origin + Vector2.down * 0.1f);
+
+        origin = new Vector2(transform.position.x - _footOffest, bottomY);
+        Gizmos.DrawLine(origin, origin + Vector2.down * 0.1f);
+
+        origin = new Vector2(transform.position.x + _footOffest, bottomY);
+        Gizmos.DrawLine(origin, origin + Vector2.down * 0.1f);
+    }
+
     void Update()
     {
-        Vector2 origin = new Vector2(transform.position.x, transform.position.y - _spriteRenderer.bounds.extents.y);
-        var hit = Physics2D.Raycast(origin, Vector2.down, 0.1f, _layerMask);
-        if (hit.collider != null)
-            IsGrounded = true;
-        else 
-            IsGrounded = false;
+        UpdateGrounded();
 
         _horizontal = 0f;
 
@@ -54,7 +64,8 @@ public class Player : MonoBehaviour
 
         var vertical = _rb.linearVelocity.y;
 
-        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame) {
+        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
             _jumpEndTime = Time.time + _jumpDuration;
         }
 
@@ -67,6 +78,27 @@ public class Player : MonoBehaviour
         _rb.linearVelocity = new Vector2(_horizontal, vertical);
 
         UpdateSprite();
+    }
+
+    private void UpdateGrounded()
+    {
+        IsGrounded = false;
+        float bottomY = transform.position.y - _spriteRenderer.bounds.extents.y;
+        
+        Vector2 origin = new Vector2(transform.position.x, bottomY);
+        var hit = Physics2D.Raycast(origin, Vector2.down, 0.1f, _layerMask);
+        if (hit.collider != null)
+            IsGrounded = true;
+        
+        origin = new Vector2(transform.position.x - _footOffest, bottomY);
+        hit = Physics2D.Raycast(origin, Vector2.down, 0.1f, _layerMask);
+        if (hit.collider != null)
+            IsGrounded = true;
+        
+        origin = new Vector2(transform.position.x + _footOffest, bottomY);
+        hit = Physics2D.Raycast(origin, Vector2.down, 0.1f, _layerMask);
+        if (hit.collider != null)
+            IsGrounded = true;
     }
 
     private void UpdateSprite()

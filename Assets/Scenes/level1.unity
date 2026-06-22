@@ -770,7 +770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 646aaca8759df429fb6a7fca4dd5eb6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  _jumpVelocity: 5
+  _jumpVelocity: 8
   _horizontalVelocity: 5
   _jumpDuration: 0.5
   _defaultSprite: {fileID: 402502597922571196, guid: ac1765b4669de47b99a8c4ee650308dc, type: 3}
@@ -779,6 +779,7 @@ MonoBehaviour:
   _layerMask:
     serializedVersion: 2
     m_Bits: 55
+  _footOffest: 0
 --- !u!95 &1817928515
 Animator:
   serializedVersion: 7
