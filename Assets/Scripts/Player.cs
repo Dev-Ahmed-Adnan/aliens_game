@@ -20,6 +20,8 @@ public class Player : MonoBehaviour
 
     private float _horizontal;
 
+    private Animator _animator;
+
 
 
     void Start()
@@ -27,6 +29,7 @@ public class Player : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _defaultSprite = _spriteRenderer.sprite;
+        _animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -67,10 +70,8 @@ public class Player : MonoBehaviour
 
     private void UpdateSprite()
     {
-        if (IsGrounded)
-            _spriteRenderer.sprite = _defaultSprite;
-        else 
-            _spriteRenderer.sprite = _jumpSprite;
+        _animator.SetBool("IsGrounded", IsGrounded);
+        _animator.SetFloat("HorizontalSpeed", Mathf.Abs(_horizontal));
 
         if (_horizontal > 0f)
             _spriteRenderer.flipX = false;
