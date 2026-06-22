@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
     private Animator _animator;
 
     [SerializeField] private float _footOffest = 0.3f;
+    private int _remainingJumps;
 
     void Awake()
     {
@@ -64,12 +65,13 @@ public class Player : MonoBehaviour
 
         var vertical = _rb.linearVelocity.y;
 
-        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame)
+        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame && _remainingJumps > 0)
         {
             _jumpEndTime = Time.time + _jumpDuration;
+            _remainingJumps--;
         }
 
-        if (Keyboard.current != null && Keyboard.current.spaceKey.isPressed && Time.time < _jumpEndTime && IsGrounded)
+        if (Keyboard.current != null && Keyboard.current.spaceKey.isPressed && Time.time < _jumpEndTime)
         {
             vertical = _jumpVelocity;
         }
@@ -99,6 +101,9 @@ public class Player : MonoBehaviour
         hit = Physics2D.Raycast(origin, Vector2.down, 0.1f, _layerMask);
         if (hit.collider != null)
             IsGrounded = true;
+
+        if (IsGrounded && _rb.linearVelocity.y <= 0f)
+            _remainingJumps = 2;
     }
 
     private void UpdateSprite()
