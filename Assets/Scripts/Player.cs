@@ -25,6 +25,7 @@ public class Player : MonoBehaviour
 
     [SerializeField] private float _footOffest = 0.3f;
     private int _remainingJumps;
+    private AudioSource _aduioSource;
 
     void Awake()
     {
@@ -32,6 +33,7 @@ public class Player : MonoBehaviour
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _defaultSprite = _spriteRenderer.sprite;
         _animator = GetComponent<Animator>();
+        _aduioSource = GetComponent<AudioSource>();
     }
 
     void OnDrawGizmos()
@@ -69,6 +71,7 @@ public class Player : MonoBehaviour
         {
             _jumpEndTime = Time.time + _jumpDuration;
             _remainingJumps--;
+            _aduioSource.Play();
         }
 
         if (Keyboard.current != null && Keyboard.current.spaceKey.isPressed && Time.time < _jumpEndTime)
