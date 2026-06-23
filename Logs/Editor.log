@@ -2341,3 +2341,483 @@ Asset Pipeline Refresh (id=b971a26fc5a4945e1a242432f80804da): Total: 0.874 secon
 Importing 'GUID: 0d252538c20bb46448b5309beb49c740 - Path: Assets/Scenes/level1.unity' with importer (DefaultImporter)
 Imported 'GUID: 0d252538c20bb46448b5309beb49c740' -> (Import Result ID: 'aa84d42001bc49538c87ef80fa485d41') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=c72d9a302a49bc3b8c75f098cdb4d46b DependenciesID=4daf11b293de97bfc1d2730c597c03cb StaticDependenciesID=53f73edaba768e3557abeb768703a111 
 Asset Pipeline Refresh (id=b005b252dfca0491da0ebac0c4ca2b39): Total: 0.096 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 0.302ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 10.940ms
+Scanning for USB devices : 0.048ms
+Scanning for USB devices : 4.421ms
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 2.537ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+
+Asset Pipeline Refresh (id=52e225aea919e44d7b9d486ff3a70016): Total: 1.112 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1098 ms
+		Asset DB Callback time: managed=0 ms, native=9 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1640, non-scripts=3617
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 6.436ms
+	ApplyChangesToAssetFolders: 34.822ms
+	Scan: 808.925ms
+	Collect global state as custom dependencies: 10.875ms
+	GatherAllCurrentPrimaryImportResultRevisions: 22.195ms
+	UnloadStreamsBegin: 207.105ms
+	UnloadStreamsEnd: 0.144ms
+	Untracked: 18.822ms
+
+Scanning for USB devices : 1.499ms
+Scanning for USB devices : 0.043ms
+Scanning for USB devices : 0.104ms
+
+Asset Pipeline Refresh (id=15cf230b8f0924adda95b46c0dadb807): Total: 0.395 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=391 ms
+		Asset DB Callback time: managed=0 ms, native=2 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1640, non-scripts=3617
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 2.713ms
+	ApplyChangesToAssetFolders: 1.794ms
+	Scan: 379.300ms
+	Collect global state as custom dependencies: 1.287ms
+	GatherAllCurrentPrimaryImportResultRevisions: 6.100ms
+	UnloadStreamsEnd: 0.093ms
+	Untracked: 3.450ms
+
+Scanning for USB devices : 1.547ms
+Scanning for USB devices : 0.579ms
+Scanning for USB devices : 0.029ms
+Scanning for USB devices : 0.098ms
+Scanning for USB devices : 0.028ms
+Scanning for USB devices : 0.082ms
+Scanning for USB devices : 0.039ms
+Scanning for USB devices : 0.106ms
+Scanning for USB devices : 0.404ms
+Scanning for USB devices : 1.091ms
+Scanning for USB devices : 0.065ms
+Scanning for USB devices : 0.097ms
+
+Asset Pipeline Refresh (id=1d63e262fc18e445bb0bbdac3956ffcb): Total: 0.560 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=554 ms
+		Asset DB Callback time: managed=0 ms, native=2 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1640, non-scripts=3617
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 2.625ms
+	ApplyChangesToAssetFolders: 20.754ms
+	Scan: 502.582ms
+	Collect global state as custom dependencies: 3.786ms
+	GatherAllCurrentPrimaryImportResultRevisions: 18.519ms
+	UnloadStreamsBegin: 0.482ms
+	UnloadStreamsEnd: 0.108ms
+	Untracked: 10.663ms
+
+Failed acquiring screen capture permissions. Color picker will not be able to sample from other apps.
+Navigate to System Settings -> Privacy & Security -> Screen Recording to give permissions and restart the Unity Editor.
+
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.EyeDropper:Start (UnityEditor.GUIView,System.Action`1<UnityEngine.Color>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/ColorPicker.cs:1379)
+UnityEditor.EyeDropper:Start (UnityEditor.GUIView) (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/ColorPicker.cs:1368)
+UnityEditor.EditorGUI:DoColorField (UnityEngine.Rect,int,UnityEngine.Color,bool,bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorGUI.cs:5698)
+UnityEditor.EditorGUI:ColorField (UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.Color,bool,bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorGUI.cs:5623)
+UnityEditor.EditorGUI:DefaultPropertyField (UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorGUI.cs:7834)
+UnityEditor.PropertyHandler:OnGUI (UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent,bool,UnityEngine.Rect) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/Core/ScriptAttributeGUI/PropertyHandler.cs:256)
+UnityEditor.PropertyHandler:OnGUI (UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/Core/ScriptAttributeGUI/PropertyHandler.cs:204)
+UnityEditor.PropertyHandler:OnGUILayout (UnityEditor.SerializedProperty,UnityEngine.GUIContent,bool,UnityEngine.GUILayoutOption[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/Core/ScriptAttributeGUI/PropertyHandler.cs:359)
+UnityEditor.EditorGUILayout:PropertyField (UnityEditor.SerializedProperty,UnityEngine.GUIContent,bool,UnityEngine.GUILayoutOption[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorGUILayout.cs:2080)
+UnityEditor.EditorGUILayout:PropertyField (UnityEditor.SerializedProperty,UnityEngine.GUIContent,UnityEngine.GUILayoutOption[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorGUILayout.cs:2069)
+UnityEditor.CameraEditor/Settings:DrawBackgroundColor () (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/CameraEditor.cs:312)
+UnityEditor.Rendering.Universal.UniversalRenderPipelineCameraUI/Environment:Drawer_Environment_ClearFlags (UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.universal@0c18adc4ff89/Editor/Camera/UniversalRenderPipelineCameraUI.Environment.Drawers.cs:99)
+UnityEditor.Rendering.CoreEditorDrawer`1/GroupDrawerInternal<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera>:UnityEditor.Rendering.CoreEditorDrawer<TData>.IDrawer.Draw (UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.core@f43b729f1f6e/Editor/CoreEditorDrawers.cs:388)
+UnityEditor.Rendering.CoreEditorDrawersExtensions:Draw<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera> (System.Collections.Generic.IEnumerable`1<UnityEditor.Rendering.CoreEditorDrawer`1/IDrawer<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera>>,UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.core@f43b729f1f6e/Editor/CoreEditorDrawers.cs:988)
+UnityEditor.Rendering.CoreEditorDrawer`1/ConditionalDrawerInternal<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera>:UnityEditor.Rendering.CoreEditorDrawer<TData>.IDrawer.Draw (UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.core@f43b729f1f6e/Editor/CoreEditorDrawers.cs:149)
+UnityEditor.Rendering.CoreEditorDrawersExtensions:Draw<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera> (System.Collections.Generic.IEnumerable`1<UnityEditor.Rendering.CoreEditorDrawer`1/IDrawer<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera>>,UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.core@f43b729f1f6e/Editor/CoreEditorDrawers.cs:988)
+UnityEditor.Rendering.CoreEditorDrawer`1/FoldoutGroupDrawerInternal`1<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera, UnityEditor.Rendering.Universal.UniversalRenderPipelineCameraUI/Expandable>:UnityEditor.Rendering.CoreEditorDrawer<TData>.IDrawer.Draw (UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.core@f43b729f1f6e/Editor/CoreEditorDrawers.cs:484)
+UnityEditor.Rendering.CoreEditorDrawersExtensions:Draw<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera> (System.Collections.Generic.IEnumerable`1<UnityEditor.Rendering.CoreEditorDrawer`1/IDrawer<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera>>,UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.core@f43b729f1f6e/Editor/CoreEditorDrawers.cs:988)
+UnityEditor.Rendering.Universal.UniversalRenderPipelineCameraEditor:OnInspectorGUI () (at ./Library/PackageCache/com.unity.render-pipelines.universal@0c18adc4ff89/Editor/Camera/UniversalRenderPipelineCameraEditor.cs:356)
+UnityEditor.UIElements.InspectorElement/<>c__DisplayClass85_0:<CreateInspectorElementUsingIMGUI>b__2 () (at /Users/bokken/build/output/unity/unity/Editor/Mono/UIElements/Inspector/InspectorElement.cs:839)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:380)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:705)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:675)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:668)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:628)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:617)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:769)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Events/EventDispatchUtilities.cs:325)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Events/EventDispatchUtilities.cs:532)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Events/EventDispatchUtilities.cs:569)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Events/PointerEvents.cs:1437)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/EventDispatcher.cs:420)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/EventDispatcher.cs:216)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:723)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event) (at /Users/bokken/build/output/unity/unity/Modules/UIElementsEditor/EditorEventDispatchUtility.cs:89)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event) (at /Users/bokken/build/output/unity/unity/Modules/UIElementsEditor/WindowBackends/DefaultWindowBackend.cs:114)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&) (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUIView.cs:70)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/ColorPicker.cs Line: 1379)
+
+Failed acquiring screen capture permissions. Color picker will not be able to sample from other apps.
+Navigate to System Settings -> Privacy & Security -> Screen Recording to give permissions and restart the Unity Editor.
+
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.EyeDropper:Start (UnityEditor.GUIView,System.Action`1<UnityEngine.Color>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/ColorPicker.cs:1379)
+UnityEditor.EyeDropper:Start (UnityEditor.GUIView) (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/ColorPicker.cs:1368)
+UnityEditor.EditorGUI:DoColorField (UnityEngine.Rect,int,UnityEngine.Color,bool,bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorGUI.cs:5698)
+UnityEditor.EditorGUI:ColorField (UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.Color,bool,bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorGUI.cs:5623)
+UnityEditor.EditorGUI:DefaultPropertyField (UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorGUI.cs:7834)
+UnityEditor.PropertyHandler:OnGUI (UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent,bool,UnityEngine.Rect) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/Core/ScriptAttributeGUI/PropertyHandler.cs:256)
+UnityEditor.PropertyHandler:OnGUI (UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/Core/ScriptAttributeGUI/PropertyHandler.cs:204)
+UnityEditor.PropertyHandler:OnGUILayout (UnityEditor.SerializedProperty,UnityEngine.GUIContent,bool,UnityEngine.GUILayoutOption[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/Core/ScriptAttributeGUI/PropertyHandler.cs:359)
+UnityEditor.EditorGUILayout:PropertyField (UnityEditor.SerializedProperty,UnityEngine.GUIContent,bool,UnityEngine.GUILayoutOption[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorGUILayout.cs:2080)
+UnityEditor.EditorGUILayout:PropertyField (UnityEditor.SerializedProperty,UnityEngine.GUIContent,UnityEngine.GUILayoutOption[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorGUILayout.cs:2069)
+UnityEditor.CameraEditor/Settings:DrawBackgroundColor () (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/CameraEditor.cs:312)
+UnityEditor.Rendering.Universal.UniversalRenderPipelineCameraUI/Environment:Drawer_Environment_ClearFlags (UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.universal@0c18adc4ff89/Editor/Camera/UniversalRenderPipelineCameraUI.Environment.Drawers.cs:99)
+UnityEditor.Rendering.CoreEditorDrawer`1/GroupDrawerInternal<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera>:UnityEditor.Rendering.CoreEditorDrawer<TData>.IDrawer.Draw (UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.core@f43b729f1f6e/Editor/CoreEditorDrawers.cs:388)
+UnityEditor.Rendering.CoreEditorDrawersExtensions:Draw<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera> (System.Collections.Generic.IEnumerable`1<UnityEditor.Rendering.CoreEditorDrawer`1/IDrawer<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera>>,UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.core@f43b729f1f6e/Editor/CoreEditorDrawers.cs:988)
+UnityEditor.Rendering.CoreEditorDrawer`1/ConditionalDrawerInternal<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera>:UnityEditor.Rendering.CoreEditorDrawer<TData>.IDrawer.Draw (UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.core@f43b729f1f6e/Editor/CoreEditorDrawers.cs:149)
+UnityEditor.Rendering.CoreEditorDrawersExtensions:Draw<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera> (System.Collections.Generic.IEnumerable`1<UnityEditor.Rendering.CoreEditorDrawer`1/IDrawer<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera>>,UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.core@f43b729f1f6e/Editor/CoreEditorDrawers.cs:988)
+UnityEditor.Rendering.CoreEditorDrawer`1/FoldoutGroupDrawerInternal`1<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera, UnityEditor.Rendering.Universal.UniversalRenderPipelineCameraUI/Expandable>:UnityEditor.Rendering.CoreEditorDrawer<TData>.IDrawer.Draw (UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.core@f43b729f1f6e/Editor/CoreEditorDrawers.cs:484)
+UnityEditor.Rendering.CoreEditorDrawersExtensions:Draw<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera> (System.Collections.Generic.IEnumerable`1<UnityEditor.Rendering.CoreEditorDrawer`1/IDrawer<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera>>,UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.core@f43b729f1f6e/Editor/CoreEditorDrawers.cs:988)
+UnityEditor.Rendering.Universal.UniversalRenderPipelineCameraEditor:OnInspectorGUI () (at ./Library/PackageCache/com.unity.render-pipelines.universal@0c18adc4ff89/Editor/Camera/UniversalRenderPipelineCameraEditor.cs:356)
+UnityEditor.UIElements.InspectorElement/<>c__DisplayClass85_0:<CreateInspectorElementUsingIMGUI>b__2 () (at /Users/bokken/build/output/unity/unity/Editor/Mono/UIElements/Inspector/InspectorElement.cs:839)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:380)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:705)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:675)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:668)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:628)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:617)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:769)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Events/EventDispatchUtilities.cs:325)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Events/EventDispatchUtilities.cs:532)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Events/EventDispatchUtilities.cs:569)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Events/PointerEvents.cs:1437)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/EventDispatcher.cs:420)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/EventDispatcher.cs:216)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:723)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event) (at /Users/bokken/build/output/unity/unity/Modules/UIElementsEditor/EditorEventDispatchUtility.cs:89)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event) (at /Users/bokken/build/output/unity/unity/Modules/UIElementsEditor/WindowBackends/DefaultWindowBackend.cs:114)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&) (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUIView.cs:70)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/ColorPicker.cs Line: 1379)
+
+Failed acquiring screen capture permissions. Color picker will not be able to sample from other apps.
+Navigate to System Settings -> Privacy & Security -> Screen Recording to give permissions and restart the Unity Editor.
+
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.EyeDropper:Start (UnityEditor.GUIView,System.Action`1<UnityEngine.Color>) (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/ColorPicker.cs:1379)
+UnityEditor.EyeDropper:Start (UnityEditor.GUIView) (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/ColorPicker.cs:1368)
+UnityEditor.EditorGUI:DoColorField (UnityEngine.Rect,int,UnityEngine.Color,bool,bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorGUI.cs:5698)
+UnityEditor.EditorGUI:ColorField (UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.Color,bool,bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorGUI.cs:5623)
+UnityEditor.EditorGUI:DefaultPropertyField (UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorGUI.cs:7834)
+UnityEditor.PropertyHandler:OnGUI (UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent,bool,UnityEngine.Rect) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/Core/ScriptAttributeGUI/PropertyHandler.cs:256)
+UnityEditor.PropertyHandler:OnGUI (UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/Core/ScriptAttributeGUI/PropertyHandler.cs:204)
+UnityEditor.PropertyHandler:OnGUILayout (UnityEditor.SerializedProperty,UnityEngine.GUIContent,bool,UnityEngine.GUILayoutOption[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/Core/ScriptAttributeGUI/PropertyHandler.cs:359)
+UnityEditor.EditorGUILayout:PropertyField (UnityEditor.SerializedProperty,UnityEngine.GUIContent,bool,UnityEngine.GUILayoutOption[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorGUILayout.cs:2080)
+UnityEditor.EditorGUILayout:PropertyField (UnityEditor.SerializedProperty,UnityEngine.GUIContent,UnityEngine.GUILayoutOption[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorGUILayout.cs:2069)
+UnityEditor.CameraEditor/Settings:DrawBackgroundColor () (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/CameraEditor.cs:312)
+UnityEditor.Rendering.Universal.UniversalRenderPipelineCameraUI/Environment:Drawer_Environment_ClearFlags (UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.universal@0c18adc4ff89/Editor/Camera/UniversalRenderPipelineCameraUI.Environment.Drawers.cs:99)
+UnityEditor.Rendering.CoreEditorDrawer`1/GroupDrawerInternal<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera>:UnityEditor.Rendering.CoreEditorDrawer<TData>.IDrawer.Draw (UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.core@f43b729f1f6e/Editor/CoreEditorDrawers.cs:388)
+UnityEditor.Rendering.CoreEditorDrawersExtensions:Draw<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera> (System.Collections.Generic.IEnumerable`1<UnityEditor.Rendering.CoreEditorDrawer`1/IDrawer<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera>>,UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.core@f43b729f1f6e/Editor/CoreEditorDrawers.cs:988)
+UnityEditor.Rendering.CoreEditorDrawer`1/ConditionalDrawerInternal<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera>:UnityEditor.Rendering.CoreEditorDrawer<TData>.IDrawer.Draw (UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.core@f43b729f1f6e/Editor/CoreEditorDrawers.cs:149)
+UnityEditor.Rendering.CoreEditorDrawersExtensions:Draw<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera> (System.Collections.Generic.IEnumerable`1<UnityEditor.Rendering.CoreEditorDrawer`1/IDrawer<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera>>,UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.core@f43b729f1f6e/Editor/CoreEditorDrawers.cs:988)
+UnityEditor.Rendering.CoreEditorDrawer`1/FoldoutGroupDrawerInternal`1<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera, UnityEditor.Rendering.Universal.UniversalRenderPipelineCameraUI/Expandable>:UnityEditor.Rendering.CoreEditorDrawer<TData>.IDrawer.Draw (UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.core@f43b729f1f6e/Editor/CoreEditorDrawers.cs:484)
+UnityEditor.Rendering.CoreEditorDrawersExtensions:Draw<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera> (System.Collections.Generic.IEnumerable`1<UnityEditor.Rendering.CoreEditorDrawer`1/IDrawer<UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera>>,UnityEditor.Rendering.Universal.UniversalRenderPipelineSerializedCamera,UnityEditor.Editor) (at ./Library/PackageCache/com.unity.render-pipelines.core@f43b729f1f6e/Editor/CoreEditorDrawers.cs:988)
+UnityEditor.Rendering.Universal.UniversalRenderPipelineCameraEditor:OnInspectorGUI () (at ./Library/PackageCache/com.unity.render-pipelines.universal@0c18adc4ff89/Editor/Camera/UniversalRenderPipelineCameraEditor.cs:356)
+UnityEditor.UIElements.InspectorElement/<>c__DisplayClass85_0:<CreateInspectorElementUsingIMGUI>b__2 () (at /Users/bokken/build/output/unity/unity/Editor/Mono/UIElements/Inspector/InspectorElement.cs:839)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:380)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:705)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,System.Action,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:675)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:668)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUIRaw (UnityEngine.UIElements.EventBase,bool,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:628)
+UnityEngine.UIElements.IMGUIContainer:SendEventToIMGUI (UnityEngine.UIElements.EventBase,bool,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:617)
+UnityEngine.UIElements.IMGUIContainer:HandleEventBubbleUp (UnityEngine.UIElements.EventBase) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/IMGUIContainer.cs:769)
+UnityEngine.UIElements.EventDispatchUtilities:HandleEventAcrossPropagationPathWithCompatibilityEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.VisualElement,bool) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Events/EventDispatchUtilities.cs:325)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToElementUnderPointerOrPanelRoot (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Events/EventDispatchUtilities.cs:532)
+UnityEngine.UIElements.EventDispatchUtilities:DispatchToCapturingElementOrElementUnderPointer (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,int,UnityEngine.Vector2) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Events/EventDispatchUtilities.cs:569)
+UnityEngine.UIElements.PointerDownEvent:Dispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Events/PointerEvents.cs:1437)
+UnityEngine.UIElements.EventDispatcher:ProcessEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/EventDispatcher.cs:420)
+UnityEngine.UIElements.EventDispatcher:Dispatch (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.UIElements.DispatchMode) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/EventDispatcher.cs:216)
+UnityEngine.UIElements.BaseVisualElementPanel:SendEvent (UnityEngine.UIElements.EventBase,UnityEngine.UIElements.DispatchMode) (at /Users/bokken/build/output/unity/unity/Modules/UIElements/Core/Panel.cs:723)
+UnityEditor.UIElements.EditorEventDispatchUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel,UnityEngine.Event) (at /Users/bokken/build/output/unity/unity/Modules/UIElementsEditor/EditorEventDispatchUtility.cs:89)
+UnityEditor.UIElements.DefaultWindowBackend:ProcessEvent (UnityEngine.Event) (at /Users/bokken/build/output/unity/unity/Modules/UIElementsEditor/WindowBackends/DefaultWindowBackend.cs:114)
+UnityEditor.GUIView:ProcessEvent (UnityEngine.EntityId,intptr,bool&) (at /Users/bokken/build/output/unity/unity/Editor/Mono/GUIView.cs:70)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/GUI/ColorPicker.cs Line: 1379)
+
+[Worker0] Imported GUID: a732629034a0b4f0c9023c9a205d61ac - Path: Assets/Art/Ground/Dirt - Importer: PreviewImporter -> (ImportResultId: '366d1abe19f55f570f6ad8a83c414421') in 0.395288083 seconds
+2026-06-24 00:36:27.553 Unity[60687:1410423] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x80e9e0280 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Importing 'GUID: c0f3219adb51a4ef8a7827898ff3b252 - Path: Assets/Art/Ground/Grass/grassCliffAlt_right.png' with importer (TextureImporter)
+Imported 'GUID: c0f3219adb51a4ef8a7827898ff3b252' -> (Import Result ID: '5a793865169e93554893b1a5b763ec99') in 0.070 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=53de616b950461b4195d814e35f8147f DependenciesID=9ce7fbcaac4647110b5343b8db6b4762 StaticDependenciesID=b7a49442d2748c8839d3ff799983a8cb 
+Importing 'GUID: e0293cce1daeb4905afe362284e91923 - Path: Assets/Art/Ground/Grass/grass.png' with importer (TextureImporter)
+Imported 'GUID: e0293cce1daeb4905afe362284e91923' -> (Import Result ID: 'd6476521fb29353e6398f99086280655') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41f22188cdaa2f73e13eed5eadbc92c1 DependenciesID=f4d4d68328d0914ddb4bf6e667cd5038 StaticDependenciesID=44ace4b2e4b0b52cc7b4af926f738d5c 
+Importing 'GUID: 2277491fce066452d87bd4d16ff84db0 - Path: Assets/Art/Ground/Grass/grassCorner_right.png' with importer (TextureImporter)
+Imported 'GUID: 2277491fce066452d87bd4d16ff84db0' -> (Import Result ID: '6fdf91f3827311b4b25d9810ff23db5e') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0deb49f908359d7d37dbea900d736a73 DependenciesID=d582bf279e8e9fb997907e7e6abcfeb5 StaticDependenciesID=8ba6468846be8c70546435eb24f20f34 
+Importing 'GUID: 82e23faeef59d45c1aa5c0c46b577f92 - Path: Assets/Art/Ground/Grass/grassHill_right.png' with importer (TextureImporter)
+Imported 'GUID: 82e23faeef59d45c1aa5c0c46b577f92' -> (Import Result ID: '726096b7781c41e7ccb21f77e0e540ae') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=639917e379084288162576ec2a19ffa1 DependenciesID=a38904814f585e447a01b9812136bb37 StaticDependenciesID=17724c95f84f98fcef8195437a4125b7 
+Importing 'GUID: d2a946320df8a4e3887ac16d9b8dbbb8 - Path: Assets/Art/Ground/Grass/grassHalf_right.png' with importer (TextureImporter)
+Imported 'GUID: d2a946320df8a4e3887ac16d9b8dbbb8' -> (Import Result ID: 'c76ba4f353213eba2175e3c63fc29ebf') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7924de723314c1ad337080f17dc1a428 DependenciesID=fc2c90b0bbf6b56441097936f3640a7e StaticDependenciesID=61c50b6aef6d801622dd48e17910955a 
+Importing 'GUID: 6331f63bd3c354a8cad13d0313920adc - Path: Assets/Art/Ground/Grass/grassHalf_left.png' with importer (TextureImporter)
+Imported 'GUID: 6331f63bd3c354a8cad13d0313920adc' -> (Import Result ID: '6cf23d8d7a979183b1978dc60e76bfc3') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d99b1af17b774b5b41fc340309cab274 DependenciesID=6702cf04f8b351967103dd3df8eecfd0 StaticDependenciesID=98ba18c2e7ffd36f656cb418d947830d 
+Importing 'GUID: e3cb229f0551046b498c4213bf1adc1f - Path: Assets/Art/Ground/Grass/grassMid.png' with importer (TextureImporter)
+Imported 'GUID: e3cb229f0551046b498c4213bf1adc1f' -> (Import Result ID: 'a481e33c2b88f224ecf38512364bee30') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=54b6a40604e8f5d37caec7b4e2152cc8 DependenciesID=d407479f5bc6b4afd3990d1c85e18fb6 StaticDependenciesID=91ff95826b83b007fc7dc5d270578225 
+Importing 'GUID: c827acb0559db4c038b08e8106a306f7 - Path: Assets/Art/Ground/Grass/grassHill_left.png' with importer (TextureImporter)
+Imported 'GUID: c827acb0559db4c038b08e8106a306f7' -> (Import Result ID: '3388d7fc63972b8d87262de2698c0681') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=935bd68177eb2ea44f5b79c3a492b6db DependenciesID=2d69d8531f44fbca4bdee4dc78f20367 StaticDependenciesID=72dff9427b0b15128211ac1b73a0adca 
+Importing 'GUID: 39a6289c75d364d5f8b069051353d37e - Path: Assets/Art/Ground/Grass/grassHalf.png' with importer (TextureImporter)
+Imported 'GUID: 39a6289c75d364d5f8b069051353d37e' -> (Import Result ID: '3570defc2c0003626801d41e5f89fd78') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc8f89f0d35a8242bb60953fb7a429a1 DependenciesID=e749389d30e83895ed4c2a2383c246ea StaticDependenciesID=cd0285019e802cc2a1e3a1dc667ecb65 
+Importing 'GUID: aa40e5da81dda45baab00afc84212c1a - Path: Assets/Art/Ground/Grass/grassRight.png' with importer (TextureImporter)
+Imported 'GUID: aa40e5da81dda45baab00afc84212c1a' -> (Import Result ID: 'c4f58c1c4376559249ea0c4193e74dd3') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=91637995750ff791bdcd53529dd59b09 DependenciesID=d3b8cad060bbd799d66a81b03e488b69 StaticDependenciesID=0c730fa0aa2bcebfe64d79dd0bf9d672 
+Importing 'GUID: 0b2c9a8b5a0074ade8ae519e3562deaa - Path: Assets/Art/Ground/Grass/grassHalf_mid.png' with importer (TextureImporter)
+Imported 'GUID: 0b2c9a8b5a0074ade8ae519e3562deaa' -> (Import Result ID: 'd097b11dcf029fe2f2759fe6c8847a16') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ed27f2ce2c0bf4e3c28c40dac150bc3b DependenciesID=f9fbd7cc23090997ccd1beacc9ed2230 StaticDependenciesID=dbb89a6513bb110a4dee1270af5a4b00 
+Importing 'GUID: cb30f273df7124ffe9832edf5b9780d7 - Path: Assets/Art/Ground/Grass/grassCorner_left.png' with importer (TextureImporter)
+Imported 'GUID: cb30f273df7124ffe9832edf5b9780d7' -> (Import Result ID: '9d7105f1004747a1c0862f5f734e5385') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=816d0f1c52416251c459b948e8ea648b DependenciesID=f9d3a9534ede1893c910b8305626d744 StaticDependenciesID=81194215e62743d4f6530e84096e6f38 
+Importing 'GUID: 1ce63b96b614a4524bffc664854b947c - Path: Assets/Art/Ground/Grass/grassCliffAlt_left.png' with importer (TextureImporter)
+Imported 'GUID: 1ce63b96b614a4524bffc664854b947c' -> (Import Result ID: 'a42c4ab512fd4c8ea62906023e6cf063') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5e1af7394ef052fc92080743d94e93bc DependenciesID=683b4c6c81726ba07409673a56ef7d20 StaticDependenciesID=4499afac6f4f5980868d227b83017011 
+Importing 'GUID: ecf2436da674a4222993e6361153fbd9 - Path: Assets/Art/Ground/Grass/grassCliff_left.png' with importer (TextureImporter)
+Imported 'GUID: ecf2436da674a4222993e6361153fbd9' -> (Import Result ID: '5310e9ceb5c3a4644ce9a759ae862924') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f942f088464e4d1e71b561b0b8e2bb60 DependenciesID=74fbf4c8ecd641cfe7f717205dece84d StaticDependenciesID=1797d77d03fda76a92f4cb0fc26c5c7a 
+Importing 'GUID: dd8f829f4f18e41a58c72032b60f9dba - Path: Assets/Art/Ground/Grass/grassCenter_round.png' with importer (TextureImporter)
+Imported 'GUID: dd8f829f4f18e41a58c72032b60f9dba' -> (Import Result ID: 'abee590d4729c1251a40c17f2f6a43f2') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d960195d3749bc37073f885bc48f5b55 DependenciesID=573192a11fea6f945066e846ac907cdf StaticDependenciesID=101b8a7e254862f0caa715b2ea0ea21d 
+Importing 'GUID: fdd52e37e873b43698a60b2d9909de50 - Path: Assets/Art/Ground/Grass/grassLeft.png' with importer (TextureImporter)
+Imported 'GUID: fdd52e37e873b43698a60b2d9909de50' -> (Import Result ID: 'ef0c32a5b55e9f4ef7f2321749667a45') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4f2dd6777a157e1a85899160fd245ea4 DependenciesID=48a9b215766d590b11f093e1ab8332d4 StaticDependenciesID=b772ddab2de3fbebd48afc8cf72d178b 
+Importing 'GUID: 0f0cb8aa057d5400f84f97dd07e15eca - Path: Assets/Art/Ground/Grass/grassCliff_right.png' with importer (TextureImporter)
+Imported 'GUID: 0f0cb8aa057d5400f84f97dd07e15eca' -> (Import Result ID: '7d2b9c8f71964fe28a78981d0c310f0c') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=66ea155d39c4cfbddb185fa13b8bf7b8 DependenciesID=9ba592b1767e8e8506ebc5d08c54e1c0 StaticDependenciesID=3cc9c3c98d667f65c0a08dd88c81b561 
+Importing 'GUID: 3f908a7b2266540bbb7c2f9bda33e4fc - Path: Assets/Art/Ground/Grass/grassCenter.png' with importer (TextureImporter)
+Imported 'GUID: 3f908a7b2266540bbb7c2f9bda33e4fc' -> (Import Result ID: 'cefcddfc4dae26a7a29a32e5d67cb7e7') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c174a83e9d0733a7746fc0aba9ef5ae2 DependenciesID=2f69d4b748546a77e8b71250240893bf StaticDependenciesID=6227d20dcb56f6e7a359cfea0bb9413d 
+Refreshing native plugins compatible for Editor in 6.01 ms, found 3 plugins.
+
+Asset Pipeline Refresh (id=8e405c45fa63945d4899cd8740364c81): Total: 0.755 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=18 (actual=18, local cache=0, cache server=0)
+		Asset DB Process Time: managed=55 ms, native=617 ms
+		Asset DB Callback time: managed=30 ms, native=50 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1640, non-scripts=3617
+		Asset File Changes: new=0, changed=17, moved=0, deleted=0
+		Scan Filter Count: 22
+	ApplyChangesToAssetFolders: 0.609ms
+	Scan: 44.909ms
+	Collect global state as custom dependencies: 0.769ms
+	OnSourceAssetsModified: 1.800ms
+	CategorizeScriptCompilationAssets: 5.416ms
+	ProcessAssetsWithTransientArtifactChanges: 9.076ms
+	CategorizeAssets: 105.767ms
+	ImportOutOfDateAssets: 378.894ms (101.760ms without children)
+		ImportManagerImport: 136.922ms (0.722ms without children)
+			UpdateCategorizedAssets: 0.136ms
+		ReloadNativeAssets: 0.417ms
+		UnloadImportedAssets: 6.160ms
+		ReloadImportedAssets: 7.252ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.513ms
+		InitializingProgressBar: 71.495ms
+		ImportSchedulerStart: 61.622ms
+	PostProcessAllAssets: 35.516ms
+		XRBuildSystem.XRAssetImported 3.306ms
+		AssemblyValidation.PostprocessAllAssets 0.125ms
+		PostprocessAssetsUpdateCachedIcon 0.113ms
+		PostProcessCallbackCreateDeferredMaterials 0.059ms
+		SpriteAtlasDatabase.OnAssetPostprocessCallback 0.059ms
+		MonoPostProcessAllAssets: 30.402ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 8.521ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 4.615ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 3.708ms
+			SyncVS.PostprocessSyncProject 3.298ms
+			AssetPostprocessor.OnPostprocessAllAssets 3.081ms
+			AssetChangedListener.OnPostprocessAllAssets 1.615ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.755ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.632ms
+			CinemachineSettings.OnPostprocessAllAssets 0.587ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.253ms
+			PostProcessor.OnPostprocessAllAssets 0.126ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 0.118ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.104ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.077ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.062ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.051ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.051ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.050ms
+	PostAssetChangesProfiler: 44.930ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.732ms
+	UnloadStreamsBegin: 1.811ms
+	PersistCurrentRevisions: 0.251ms
+	Untracked: 122.181ms
+
+[Worker0] Imported GUID: e0293cce1daeb4905afe362284e91923 - Path: Assets/Art/Ground/Grass/grass.png - Importer: PreviewImporter -> (ImportResultId: '82232f2adce9f189534cddf433615f3f') in 0.447994 seconds
+[Worker0] Imported GUID: dd8f829f4f18e41a58c72032b60f9dba - Path: Assets/Art/Ground/Grass/grassCenter_round.png - Importer: PreviewImporter -> (ImportResultId: 'af2f68c61e946f8eb9bb8e78b0fdf732') in 0.026335333 seconds
+[Worker0] Imported GUID: 3f908a7b2266540bbb7c2f9bda33e4fc - Path: Assets/Art/Ground/Grass/grassCenter.png - Importer: PreviewImporter -> (ImportResultId: '01a27a92ec1f16494587e8a8270f18cc') in 0.022156458 seconds
+
+Asset Pipeline Refresh (id=1fd94f4c690a44f6897b53f3c7ec1f17): Total: 0.412 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=408 ms
+		Asset DB Callback time: managed=0 ms, native=3 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1640, non-scripts=3617
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 3.478ms
+	ApplyChangesToAssetFolders: 2.428ms
+	Scan: 398.048ms
+	Collect global state as custom dependencies: 1.106ms
+	GatherAllCurrentPrimaryImportResultRevisions: 2.553ms
+	UnloadStreamsBegin: 0.251ms
+	UnloadStreamsEnd: 0.089ms
+	Untracked: 4.317ms
+
+2026-06-24 00:37:32.253 Unity[60687:1410423] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x80ec22bc0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Thread 0x176113000 may have been prematurely finalized
+SpriteAtlasPacking completed in 0.139362 sec
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+2026-06-24 00:38:15.414 Unity[60687:1410423] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x8095a4e60 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-24 00:38:15.421 Unity[60687:1410423] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x8094fc460 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-24 00:38:15.427 Unity[60687:1410423] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x809503980 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-24 00:38:15.433 Unity[60687:1410423] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x80ec200a0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 4.10 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.689 seconds
+Domain Reload Profiling: 5098ms
+	BeginReloadAssembly (2843ms)
+		DisableScriptedObjects (148ms)
+		CreateAndSetChildDomain (2008ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (471ms)
+		LoadAssemblies (665ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1689ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+		AwakeInstancesAfterBackupRestoration (667ms)
+
+Asset Pipeline Refresh (id=0ee737c2fc4d94713bb25a9ce35b66ac): Total: 5.855 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2116 ms
+		Asset DB Callback time: managed=27 ms, native=1 ms
+		Scripting: domain reloads=1, domain reload time=3707 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1640, non-scripts=3617
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 1.900ms
+	ApplyChangesToAssetFolders: 0.420ms
+	Collect global state as custom dependencies: 4.704ms
+	OnSourceAssetsModified: 0.185ms
+	ProcessAssetsWithTransientArtifactChanges: 6.505ms
+	CategorizeAssets: 203.592ms
+	CompileScripts: 1.587ms
+	ImportOutOfDateAssets: 1757.865ms (1708.238ms without children)
+		CollectScriptTypesHashes: 5.797ms
+		ReloadNativeAssets: 0.877ms
+		UnloadImportedAssets: 0.304ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.744ms
+		ImportSchedulerStart: 47.632ms
+	PostProcessAllAssets: 27.422ms
+		MonoPostProcessAllAssets: 27.416ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 10.435ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 8.521ms
+			SyncVS.PostprocessSyncProject 4.981ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 4.615ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 3.708ms
+			AssetPostprocessor.OnPostprocessAllAssets 3.081ms
+			AssetChangedListener.OnPostprocessAllAssets 1.615ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.196ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.156ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.755ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.632ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.400ms
+			CinemachineSettings.OnPostprocessAllAssets 0.359ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.253ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.232ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.220ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.168ms
+			DomainReloadProcessor.OnPostprocessAllAssets 0.139ms
+			PostProcessor.OnPostprocessAllAssets 0.126ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.119ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 0.118ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.104ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.087ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.086ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.077ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.051ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.051ms
+	GatherAllCurrentPrimaryImportResultRevisions: 3.905ms
+	UnloadStreamsBegin: 0.089ms
+	PersistCurrentRevisions: 0.142ms
+	GenerateScriptTypeHashes: 3.681ms
+	GenerateScriptTypeSerializationHashes: 6.376ms
+	Untracked: 3836.670ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            4.383 ms
+	Integration:            465.972 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.003 ms
+	Total Operation Time:   470.359 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+2026-06-24 00:39:04.255 Unity[60687:1410423] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x8095a7980 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Thread 0x17d34b000 may have been prematurely finalized
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.834 ms
+	Integration:            371.037 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   372.884 ms
+Unloading 240 unused Assets / (0.9 MB). Loaded Objects now: 10048.
+Memory consumption went from 371.0 MB to 370.1 MB.
+Total: 35.874417 ms (FindLiveObjects: 2.667125 ms CreateObjectMapping: 1.724167 ms MarkObjects: 27.787042 ms  DeleteObjects: 3.695625 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Importing 'GUID: 0d252538c20bb46448b5309beb49c740 - Path: Assets/Scenes/level1.unity' with importer (DefaultImporter)
+Imported 'GUID: 0d252538c20bb46448b5309beb49c740' -> (Import Result ID: '4592baf20d0cd9a6f8895015274a4dd5') in 0.007 seconds [static dependencies only]. Details - ImportResultOutputID=c72d9a302a49bc3b8c75f098cdb4d46b DependenciesID=5001ed739a35ea6db65498d65f001b89 StaticDependenciesID=161e97880c1e95a400b80aeb18e55921 
+Asset Pipeline Refresh (id=c2d07c0ac45c745daba9ffd0c08fcbb1): Total: 0.127 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
