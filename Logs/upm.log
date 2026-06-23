@@ -209,3 +209,39 @@ params: {}
 [2026-06-23T21:38:20.481Z][INFO] project:list-packages --> 200 (862 ms)
 [2026-06-23T21:38:20.482Z][INFO] project:list-packages --> 200 (742 ms)
 [2026-06-23T21:38:20.483Z][INFO] project:list-packages --> 200 (733 ms)
+[2026-06-23T21:54:28.198Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-23T21:54:28.292Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-23T21:54:28.306Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-23T21:54:28.495Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-06-23T21:54:28.504Z][INFO] config:project:get-registries --> 200 (9 ms)
+[2026-06-23T21:54:28.725Z][INFO] project:list-packages --> 200 (419 ms)
+[2026-06-23T21:54:28.726Z][INFO] project:list-packages --> 200 (434 ms)
+[2026-06-23T21:54:28.726Z][INFO] project:list-packages --> 200 (535 ms)
+[2026-06-23T21:55:18.193Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-23T21:55:18.372Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-23T21:55:18.383Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-23T21:55:18.584Z][INFO] project:list-packages --> 200 (395 ms)
+[2026-06-23T21:55:18.602Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-06-23T21:55:18.606Z][INFO] config:project:get-registries --> 200 (4 ms)
+[2026-06-23T21:55:18.714Z][INFO] project:list-packages --> 200 (342 ms)
+[2026-06-23T21:55:18.715Z][INFO] project:list-packages --> 200 (332 ms)
+[2026-06-23T21:55:41.528Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-23T21:55:41.677Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-23T21:55:41.677Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-06-23T21:55:41.762Z][INFO] project:list-packages --> 200 (235 ms)
+[2026-06-23T21:55:41.837Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-06-23T21:55:41.866Z][INFO] config:project:get-registries --> 200 (29 ms)
+[2026-06-23T21:55:41.928Z][INFO] project:list-packages --> 200 (251 ms)
+[2026-06-23T21:55:41.929Z][INFO] project:list-packages --> 200 (252 ms)
