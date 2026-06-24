@@ -4572,3 +4572,52 @@ Memory consumption went from 185.1 MB to 182.4 MB.
 Total: 30.085083 ms (FindLiveObjects: 2.530833 ms CreateObjectMapping: 0.829667 ms MarkObjects: 26.239791 ms  DeleteObjects: 0.483750 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (2.7 MB). Loaded Objects now: 8537.
+Memory consumption went from 182.5 MB to 179.8 MB.
+Total: 49.873417 ms (FindLiveObjects: 1.938167 ms CreateObjectMapping: 1.711833 ms MarkObjects: 43.977792 ms  DeleteObjects: 2.245209 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T00:07:47.145829Z
+  Time since last request: 319.09820520800002 seconds.
+  importAddress: GUID: 4fd6a405631c643c2bd7b58906e2df8b - Path: Assets/PreFabs/grassPrefab_5w.prefab - Importer: PreviewImporter
+Importing 'GUID: 4fd6a405631c643c2bd7b58906e2df8b - Path: Assets/PreFabs/grassPrefab_5w.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4fd6a405631c643c2bd7b58906e2df8b' -> (Import Result ID: 'f5615afda1e53bded2894293972b76d4') in 0.910 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=21f9cdeaa105d6467122bc8ebb142c8f DependenciesID=2dc361afee189e49c38b1ee8aaa848dd StaticDependenciesID=07b1ea21edff6185d9b84feca2a8b0d0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T00:07:52.182606Z
+  Time since last request: 3.821129583 seconds.
+  importAddress: GUID: ffccbcbe33a0249cd99c80ea38ec8f44 - Path: Assets/PreFabs/grassPrefab_4w.prefab - Importer: PreviewImporter
+Importing 'GUID: ffccbcbe33a0249cd99c80ea38ec8f44 - Path: Assets/PreFabs/grassPrefab_4w.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ffccbcbe33a0249cd99c80ea38ec8f44' -> (Import Result ID: 'c1850921c0dbf6590452db7edb3402cb') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c88af38eb3355401dae8efa55b573ff DependenciesID=0fbd5a97136b348938e344b471ae06e1 StaticDependenciesID=fe36079639f8a84f62341f5e1b8aff9b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T00:18:23.651359Z
+  Time since last request: 631.43871216699995 seconds.
+  importAddress: GUID: 9a256ccf623ba4ec898bb916290079ee - Path: Assets/PreFabs/Spring.prefab - Importer: PreviewImporter
+Importing 'GUID: 9a256ccf623ba4ec898bb916290079ee - Path: Assets/PreFabs/Spring.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9a256ccf623ba4ec898bb916290079ee' -> (Import Result ID: '94e63e77ef52a12f7d9e5fce9f697b13') in 0.139 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2558454ab89c3772becad75e0e61ab92 DependenciesID=52e4105b7c94cc4aa3c9674e1c05be31 StaticDependenciesID=2817b276939e7ad9bb0ba5efeac61d91 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T00:18:36.285392Z
+  Time since last request: 12.382111458 seconds.
+  importAddress: GUID: 0d842b32eb73a4297b832f984910588c - Path: Assets/PreFabs/Water.prefab - Importer: PreviewImporter
+Importing 'GUID: 0d842b32eb73a4297b832f984910588c - Path: Assets/PreFabs/Water.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0d842b32eb73a4297b832f984910588c' -> (Import Result ID: '98d5452b742b8fa05df6150603fec26a') in 0.040 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5d22027005a3560fd01b5a28c5760d1a DependenciesID=b1d2e5c7c07b8725dd1d1c3de38df04c StaticDependenciesID=f51809719c006e81f57af665c0af08d9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17

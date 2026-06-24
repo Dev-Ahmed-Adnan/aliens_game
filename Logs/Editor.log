@@ -6013,3 +6013,231 @@ Asset Pipeline Refresh (id=4521ae1433cd34c18907a50ed3e17abc): Total: 0.363 secon
 Importing 'GUID: 0d252538c20bb46448b5309beb49c740 - Path: Assets/Scenes/level1.unity' with importer (DefaultImporter)
 Imported 'GUID: 0d252538c20bb46448b5309beb49c740' -> (Import Result ID: 'ddd4f651b0a1cbe467b679e810ca71c4') in 0.009 seconds [static dependencies only]. Details - ImportResultOutputID=c72d9a302a49bc3b8c75f098cdb4d46b DependenciesID=7425bc3fba7c5efdc1527399d2b178bf StaticDependenciesID=12aee585c126f929c2eb06ac1b662cfb 
 Asset Pipeline Refresh (id=54e95b3d4d32342c3b7542684db7151d): Total: 0.154 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=d842911dd327249a8a7129744b63cddf): Total: 0.263 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+
+Asset Pipeline Refresh (id=36a30c31714604faaabc6100c5e66527): Total: 0.563 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=553 ms
+		Asset DB Callback time: managed=0 ms, native=6 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1642, non-scripts=3620
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 6.573ms
+	ApplyChangesToAssetFolders: 15.704ms
+	Scan: 520.233ms
+	Collect global state as custom dependencies: 4.780ms
+	GatherAllCurrentPrimaryImportResultRevisions: 1.383ms
+	UnloadStreamsBegin: 0.302ms
+	UnloadStreamsEnd: 0.125ms
+	Untracked: 13.399ms
+
+Importing 'GUID: 4fd6a405631c643c2bd7b58906e2df8b - Path: Assets/PreFabs/grassPrefab (2).prefab' with importer (PrefabImporter)
+Imported 'GUID: 4fd6a405631c643c2bd7b58906e2df8b' -> (Import Result ID: '188638bfd480442563303733f51ca59d') in 0.033 seconds [static dependencies only]. Details - ImportResultOutputID=cb9e4bebae16c52c7741528c95d2859d DependenciesID=33ba40cb18c732c766223b1fe8f59e8e StaticDependenciesID=d8098f6c00e40e5d60fe7f92f9b20375 
+Refreshing native plugins compatible for Editor in 5.17 ms, found 3 plugins.
+
+Asset Pipeline Refresh (id=400579e6fb5574a4897b47d0b02b2375): Total: 1.265 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=7 ms, native=1143 ms
+		Asset DB Callback time: managed=89 ms, native=24 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1642, non-scripts=3621
+		Asset File Changes: new=1, changed=1, moved=0, deleted=0
+		Scan Filter Count: 3
+	ApplyChangesToAssetFolders: 2.266ms
+	Scan: 85.657ms
+	Collect global state as custom dependencies: 2.933ms
+	OnSourceAssetsModified: 9.003ms
+	CategorizeScriptCompilationAssets: 0.702ms
+	ProcessAssetsWithTransientArtifactChanges: 71.130ms
+	CategorizeAssets: 367.567ms
+	ImportOutOfDateAssets: 307.261ms (155.910ms without children)
+		ImportManagerImport: 39.362ms (2.948ms without children)
+		ReloadNativeAssets: 2.107ms
+		UnloadImportedAssets: 0.112ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.516ms
+		InitializingProgressBar: 47.160ms
+		ImportSchedulerStart: 62.091ms
+	PostProcessAllAssets: 23.352ms
+		XRBuildSystem.XRAssetImported 0.530ms
+		SpriteAtlasDatabase.OnAssetPostprocessCallback 0.158ms
+		PostProcessCallbackCreateDeferredMaterials 0.154ms
+		ObjectImages.AssetImported 0.147ms
+		AssemblyValidation.PostprocessAllAssets 0.138ms
+		PostprocessAssetsUpdateCachedIcon 0.090ms
+		MonoPostProcessAllAssets: 20.931ms
+			SyncVS.PostprocessSyncProject 8.077ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 2.369ms
+			AssetChangedListener.OnPostprocessAllAssets 1.655ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.101ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.733ms
+			AssetPostprocessor.OnPostprocessAllAssets 0.559ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.518ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.265ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.108ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.080ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.052ms
+	PostAssetChangesProfiler: 80.817ms
+	GatherAllCurrentPrimaryImportResultRevisions: 5.693ms
+	UnloadStreamsBegin: 7.419ms
+	PersistCurrentRevisions: 0.198ms
+	Untracked: 299.354ms
+
+[Worker1] Imported GUID: 4fd6a405631c643c2bd7b58906e2df8b - Path: Assets/PreFabs/grassPrefab (2).prefab - Importer: PreviewImporter -> (ImportResultId: '5b32f1f01b5c88b54bd77bb29412b9e8') in 1.379522417 seconds
+Importing 'GUID: 4fd6a405631c643c2bd7b58906e2df8b - Path: Assets/PreFabs/grassPrefab_5w.prefab' with importer (PrefabImporter)
+Imported 'GUID: 4fd6a405631c643c2bd7b58906e2df8b' -> (Import Result ID: 'c86f54e76caba650a71af4f49e998ffc') in 0.022 seconds [static dependencies only]. Details - ImportResultOutputID=1fb40a8f9df079d286b76da51abc07bc DependenciesID=7fefb2bfe7912c9dae993507b50a5e1a StaticDependenciesID=db64d3132c03b8f6cd92e07b7fb5c4f1 
+Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
+
+Asset Pipeline Refresh (id=37623e0b3623149a484058f874dfe664): Total: 0.382 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=275 ms
+		Asset DB Callback time: managed=61 ms, native=44 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1642, non-scripts=3621
+		Asset File Changes: new=0, changed=1, moved=1, deleted=0
+		Scan Filter Count: 4
+	ApplyChangesToAssetFolders: 0.888ms
+	Scan: 26.744ms
+	Collect global state as custom dependencies: 1.598ms
+	OnSourceAssetsModified: 1.443ms
+	ProcessAssetsWithTransientArtifactChanges: 0.744ms
+	CategorizeAssets: 47.680ms
+	ImportOutOfDateAssets: 161.238ms (76.343ms without children)
+		ImportManagerImport: 24.520ms (0.569ms without children)
+		ReloadNativeAssets: 0.313ms
+		UnloadImportedAssets: 8.480ms
+		ReloadImportedAssets: 0.402ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.559ms
+		InitializingProgressBar: 0.357ms
+		ImportSchedulerStart: 50.664ms
+	PostProcessAllAssets: 13.208ms
+		XRBuildSystem.XRAssetImported 1.049ms
+		SpriteAtlasDatabase.OnAssetPostprocessCallback 0.125ms
+		AssemblyValidation.PostprocessAllAssets 0.111ms
+		PostProcessCallbackCreateDeferredMaterials 0.104ms
+		MonoPostProcessAllAssets: 10.815ms
+			SyncVS.PostprocessSyncProject 2.109ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.477ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 1.319ms
+			AssetChangedListener.OnPostprocessAllAssets 1.193ms
+			AssetPostprocessor.OnPostprocessAllAssets 0.729ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.623ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 0.370ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.096ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.061ms
+	PostAssetChangesProfiler: 92.174ms
+	GatherAllCurrentPrimaryImportResultRevisions: 4.582ms
+	UnloadStreamsBegin: 0.290ms
+	PersistCurrentRevisions: 0.201ms
+	Untracked: 31.510ms
+
+[Worker0] Imported GUID: 4fd6a405631c643c2bd7b58906e2df8b - Path: Assets/PreFabs/grassPrefab_5w.prefab - Importer: PreviewImporter -> (ImportResultId: 'f5615afda1e53bded2894293972b76d4') in 1.213366958 seconds
+Importing 'GUID: ffccbcbe33a0249cd99c80ea38ec8f44 - Path: Assets/PreFabs/grassPrefab_4w.prefab' with importer (PrefabImporter)
+Imported 'GUID: ffccbcbe33a0249cd99c80ea38ec8f44' -> (Import Result ID: '2acefc0ac9d314612bc8a133cb92ab59') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=082842358ca3f4dd083a5471e517454e DependenciesID=db9841a70be89562b766b25d9f6efb7b StaticDependenciesID=0f430d7efd03fc364a2a9e159f9b6aac 
+Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
+Asset Pipeline Refresh (id=6e53d1ec1e8d74960bad63cbba018e13): Total: 0.157 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: ffccbcbe33a0249cd99c80ea38ec8f44 - Path: Assets/PreFabs/grassPrefab_4w.prefab - Importer: PreviewImporter -> (ImportResultId: 'c1850921c0dbf6590452db7edb3402cb') in 0.034921708 seconds
+
+Asset Pipeline Refresh (id=18c3a7e58f4a6495a971cb3b0a4610ab): Total: 0.361 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=358 ms
+		Asset DB Callback time: managed=0 ms, native=1 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1642, non-scripts=3621
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 1.913ms
+	ApplyChangesToAssetFolders: 2.149ms
+	Scan: 348.435ms
+	Collect global state as custom dependencies: 0.206ms
+	GatherAllCurrentPrimaryImportResultRevisions: 6.262ms
+	UnloadStreamsEnd: 0.098ms
+	Untracked: 1.574ms
+
+2026-06-24 03:08:06.645 Unity[60687:1410423] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x809598e60 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Importing 'GUID: 0d252538c20bb46448b5309beb49c740 - Path: Assets/Scenes/level1.unity' with importer (DefaultImporter)
+Imported 'GUID: 0d252538c20bb46448b5309beb49c740' -> (Import Result ID: 'de015e117b8c3e4c8959a701f3bdc3cf') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=c72d9a302a49bc3b8c75f098cdb4d46b DependenciesID=232bec13c37814bafa0322ec1295c3f0 StaticDependenciesID=13bc36fe21c48030b1c20fc8cb8c0ba7 
+Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
+Asset Pipeline Refresh (id=da98086ea53794c2bb8f3f56a851e27f): Total: 0.106 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+
+Asset Pipeline Refresh (id=c425c9b04d7e442b89afd320df78fe7d): Total: 0.654 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=644 ms
+		Asset DB Callback time: managed=0 ms, native=8 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1642, non-scripts=3621
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 8.154ms
+	ApplyChangesToAssetFolders: 4.088ms
+	Scan: 616.026ms
+	Collect global state as custom dependencies: 3.056ms
+	GatherAllCurrentPrimaryImportResultRevisions: 9.779ms
+	UnloadStreamsBegin: 0.369ms
+	UnloadStreamsEnd: 0.134ms
+	Untracked: 11.976ms
+
+Importing 'GUID: 9a256ccf623ba4ec898bb916290079ee - Path: Assets/PreFabs/Spring.prefab' with importer (PrefabImporter)
+Imported 'GUID: 9a256ccf623ba4ec898bb916290079ee' -> (Import Result ID: '0c2e360803d9a3fad7ec456122707809') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c82c2456356ade858b3213f595d187dc DependenciesID=3656de5d72f0af567fa2325dc657d087 StaticDependenciesID=9e9f583b8120eec2c57ad45b72318e63 
+Refreshing native plugins compatible for Editor in 3.29 ms, found 3 plugins.
+Asset Pipeline Refresh (id=98692efef8ef74ef1ab0e2c1ae3a25ec): Total: 0.300 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 9a256ccf623ba4ec898bb916290079ee - Path: Assets/PreFabs/Spring.prefab - Importer: PreviewImporter -> (ImportResultId: '94e63e77ef52a12f7d9e5fce9f697b13') in 0.250853042 seconds
+Importing 'GUID: 0d842b32eb73a4297b832f984910588c - Path: Assets/PreFabs/Water.prefab' with importer (PrefabImporter)
+Imported 'GUID: 0d842b32eb73a4297b832f984910588c' -> (Import Result ID: 'ce8a08a8ba7c1f0b8205835adb4cf3fa') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9effebe178ec223454d80377e29df91a DependenciesID=96e4393d524e2b3a10d480869b7f8db8 StaticDependenciesID=c412b0425b101657e5996ec532a40063 
+Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Asset Pipeline Refresh (id=1e1648c47ea894daa91704db62edd190): Total: 0.124 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 0d842b32eb73a4297b832f984910588c - Path: Assets/PreFabs/Water.prefab - Importer: PreviewImporter -> (ImportResultId: '98d5452b742b8fa05df6150603fec26a') in 0.056632833 seconds
+
+Asset Pipeline Refresh (id=91d0de9d4ea1748afaf48f008318a37e): Total: 0.381 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=379 ms
+		Asset DB Callback time: managed=0 ms, native=2 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1642, non-scripts=3623
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 1.876ms
+	ApplyChangesToAssetFolders: 5.225ms
+	Scan: 364.800ms
+	Collect global state as custom dependencies: 4.200ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.940ms
+	UnloadStreamsBegin: 0.556ms
+	UnloadStreamsEnd: 0.118ms
+	Untracked: 3.374ms
+
+
+Asset Pipeline Refresh (id=65affa4f94a84451c92f5d33e685c526): Total: 0.333 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=331 ms
+		Asset DB Callback time: managed=0 ms, native=1 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1642, non-scripts=3623
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 1.985ms
+	ApplyChangesToAssetFolders: 3.161ms
+	Scan: 320.436ms
+	Collect global state as custom dependencies: 0.257ms
+	GatherAllCurrentPrimaryImportResultRevisions: 5.122ms
+	UnloadStreamsEnd: 0.105ms
+	Untracked: 1.963ms
+
+Asset Pipeline Refresh (id=03ab2fbe55f8240d7b85c6a6462c3470): Total: 0.189 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: 0d252538c20bb46448b5309beb49c740 - Path: Assets/Scenes/level1.unity' with importer (DefaultImporter)
+Imported 'GUID: 0d252538c20bb46448b5309beb49c740' -> (Import Result ID: '3a4518c6ff9e0276f2e6eb30c8f4ab72') in 0.007 seconds [static dependencies only]. Details - ImportResultOutputID=c72d9a302a49bc3b8c75f098cdb4d46b DependenciesID=d0322b5678d3099dc0255d0d93454d0e StaticDependenciesID=29854b21f3c4b9b87cf62fa84c6ba78e 
+Refreshing native plugins compatible for Editor in 3.60 ms, found 3 plugins.
+Asset Pipeline Refresh (id=54a7ebb12bd764c72817bdb2a3121fb3): Total: 0.265 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
