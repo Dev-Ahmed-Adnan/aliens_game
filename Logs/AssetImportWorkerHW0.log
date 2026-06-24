@@ -4980,3 +4980,1201 @@ Memory consumption went from 183.4 MB to 180.7 MB.
 Total: 42.235667 ms (FindLiveObjects: 0.857125 ms CreateObjectMapping: 0.865083 ms MarkObjects: 39.151542 ms  DeleteObjects: 1.360500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:17.804518Z
+  Time since last request: 20252.72612624999965 seconds.
+  importAddress: GUID: 4b6847336a9cb4a41849d738434fada2 - Path: Assets/Art/Enemies - Importer: PreviewImporter
+Importing 'GUID: 4b6847336a9cb4a41849d738434fada2 - Path: Assets/Art/Enemies - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4b6847336a9cb4a41849d738434fada2' -> (Import Result ID: '426cc88c75b26b4a6db02766cde805a6') in 0.105 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b93aa4d7e5412d7acb8c3c15f40a8268 DependenciesID=16514623091f007b8cf90db0da24469b StaticDependenciesID=c102ba9de4c375b3aff530d04db8b458 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:22.207745Z
+  Time since last request: 3.750332583 seconds.
+  importAddress: GUID: a2f51d9f086374b13b83847ab3c029e5 - Path: Assets/Art/Enemies/fishBlue.png - Importer: PreviewImporter
+Importing 'GUID: a2f51d9f086374b13b83847ab3c029e5 - Path: Assets/Art/Enemies/fishBlue.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a2f51d9f086374b13b83847ab3c029e5' -> (Import Result ID: 'f06e6f655d405833f05c7bc39621cfc2') in 0.687 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3e2af8a2963b3c3143e5ef1c69ce0470 DependenciesID=48ec9a2bcdc64f9d0f5f9d2f82ec0bef StaticDependenciesID=7e027f059fcff20e17ff7e24426ec687 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:22.913018Z
+  Time since last request: 0.004856917 seconds.
+  importAddress: GUID: 4838042cceb9e4af4ac3352c036222ed - Path: Assets/Art/Enemies/fishBlue_fall.png - Importer: PreviewImporter
+Importing 'GUID: 4838042cceb9e4af4ac3352c036222ed - Path: Assets/Art/Enemies/fishBlue_fall.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4838042cceb9e4af4ac3352c036222ed' -> (Import Result ID: '3848f460004cb32818b6c28bd20e92ce') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eff6697f191694c4982f421b71ec19e5 DependenciesID=de862b4c883d6b6a253699abcba85f53 StaticDependenciesID=b2fb644f743a2e43cea8e7025bdd5103 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:22.942643Z
+  Time since last request: 0.003607834 seconds.
+  importAddress: GUID: ae6f37871816742b4a03938d90e4edb4 - Path: Assets/Art/Enemies/fishGreen.png - Importer: PreviewImporter
+Importing 'GUID: ae6f37871816742b4a03938d90e4edb4 - Path: Assets/Art/Enemies/fishGreen.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ae6f37871816742b4a03938d90e4edb4' -> (Import Result ID: '378077297d9b3861d47a3e642d7cb962') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14dd8b5d50bc697773987e2c116c04f3 DependenciesID=a40ad257675a6f101688a63ffa6ce1ee StaticDependenciesID=b8654ed80d5587889341c389e04bb719 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:22.976705Z
+  Time since last request: 0.015762375 seconds.
+  importAddress: GUID: 980be0060202a41d2b1ebc4526f2086d - Path: Assets/Art/Enemies/fishGreen_dead.png - Importer: PreviewImporter
+Importing 'GUID: 980be0060202a41d2b1ebc4526f2086d - Path: Assets/Art/Enemies/fishGreen_dead.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 980be0060202a41d2b1ebc4526f2086d' -> (Import Result ID: '07edc6136d94d9db3984a1ca87cb1d79') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=88e2761f8d2186f7639f45db50525592 DependenciesID=9a0b59f654c0cd6835699a603882baa5 StaticDependenciesID=4b1bef70372e8414d1c2d061b6fa5cc9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:23.172086Z
+  Time since last request: 0.174685709 seconds.
+  importAddress: GUID: d262890b8062644cf87eeaa9e6cc2d5b - Path: Assets/Art/Enemies/fishGreen_move.png - Importer: PreviewImporter
+Importing 'GUID: d262890b8062644cf87eeaa9e6cc2d5b - Path: Assets/Art/Enemies/fishGreen_move.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d262890b8062644cf87eeaa9e6cc2d5b' -> (Import Result ID: '174da63cd9fff6e1689aca9e87c8f90f') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=75b830c4a564cc4e84391e1011cd61cc DependenciesID=ce9566f722376f23ed3ba4b21e6af047 StaticDependenciesID=b2b25b66319f00f20dee7d9742aaa3b3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:23.377408Z
+  Time since last request: 0.184954083 seconds.
+  importAddress: GUID: 6c1b929559ba64f34b4cca9ffee1f8d3 - Path: Assets/Art/Enemies/fishPink.png - Importer: PreviewImporter
+Importing 'GUID: 6c1b929559ba64f34b4cca9ffee1f8d3 - Path: Assets/Art/Enemies/fishPink.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6c1b929559ba64f34b4cca9ffee1f8d3' -> (Import Result ID: 'f395f5c50dc52380aabf716c618f3cd4') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ae9233b1b32f9b4d74ddff63a3bad8fc DependenciesID=b31ae7742becf2da1e2a6a04631fbbab StaticDependenciesID=2a1d58825ef7519288154df504d6f97e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:23.552531Z
+  Time since last request: 0.15715225 seconds.
+  importAddress: GUID: d0c18401cc4834acdb1c90ee214058d6 - Path: Assets/Art/Enemies/fishPink_dead.png - Importer: PreviewImporter
+Importing 'GUID: d0c18401cc4834acdb1c90ee214058d6 - Path: Assets/Art/Enemies/fishPink_dead.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d0c18401cc4834acdb1c90ee214058d6' -> (Import Result ID: '4c8526f0ed50082eb6329e35fae35385') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa35eb13c861a3635cafc90585b2bfe5 DependenciesID=7301b462df595f817ada7730bb828e51 StaticDependenciesID=ad4388b75f611b0d8d705ca9212f5de3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:23.728458Z
+  Time since last request: 0.158768625 seconds.
+  importAddress: GUID: dd76bfb339f114e37aff34416b545a1f - Path: Assets/Art/Enemies/fishPink_move.png - Importer: PreviewImporter
+Importing 'GUID: dd76bfb339f114e37aff34416b545a1f - Path: Assets/Art/Enemies/fishPink_move.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dd76bfb339f114e37aff34416b545a1f' -> (Import Result ID: '5920ae34c351f4f86cb22146c4857976') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bbf8d11cc23c4f399dc0453913964257 DependenciesID=608aeb4f5ec9dba662970a75da504d8d StaticDependenciesID=3675116aedbd5b1ddcec4b4852a8b074 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:23.950906Z
+  Time since last request: 0.205905833 seconds.
+  importAddress: GUID: 980812997d9cf4e21899a684d9e9c774 - Path: Assets/Art/Enemies/fly.png - Importer: PreviewImporter
+Importing 'GUID: 980812997d9cf4e21899a684d9e9c774 - Path: Assets/Art/Enemies/fly.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 980812997d9cf4e21899a684d9e9c774' -> (Import Result ID: '38911bc50fef7511466b7b11c91225ca') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5b7aca35d6f6aa260ff21f1129ae465a DependenciesID=d69449114aab1c4867bcd730ea3f29ce StaticDependenciesID=8582f67eaaf8a1b5074419be292bfec2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:24.134289Z
+  Time since last request: 0.163676167 seconds.
+  importAddress: GUID: d4a7c1db230244f15a42130a25a4d9f0 - Path: Assets/Art/Enemies/fly_dead.png - Importer: PreviewImporter
+Importing 'GUID: d4a7c1db230244f15a42130a25a4d9f0 - Path: Assets/Art/Enemies/fly_dead.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d4a7c1db230244f15a42130a25a4d9f0' -> (Import Result ID: 'b35788511a3a7909b89b645ab038760f') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2c8cddb4036624cd91ef0607383d0741 DependenciesID=2c8047832add8cc2dcc11b2ff5063744 StaticDependenciesID=c5e2c2005d286e5ede3ba47ba2ab961c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:24.341117Z
+  Time since last request: 0.189979833 seconds.
+  importAddress: GUID: 71bf8f29954ad4885b60d5e9420a4224 - Path: Assets/Art/Enemies/fly_move.png - Importer: PreviewImporter
+Importing 'GUID: 71bf8f29954ad4885b60d5e9420a4224 - Path: Assets/Art/Enemies/fly_move.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 71bf8f29954ad4885b60d5e9420a4224' -> (Import Result ID: '1517ba619f64f75855d6057807f51d29') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d769d3c442cd0c34387ce1578deed2f4 DependenciesID=40b54af31636f3944accafe138b920ea StaticDependenciesID=4947f2b13a3af86babc65138698493f4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:24.526218Z
+  Time since last request: 0.167708917 seconds.
+  importAddress: GUID: 9298dd3a3e22a44c68cab6bfb28aba41 - Path: Assets/Art/Enemies/frog.png - Importer: PreviewImporter
+Importing 'GUID: 9298dd3a3e22a44c68cab6bfb28aba41 - Path: Assets/Art/Enemies/frog.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9298dd3a3e22a44c68cab6bfb28aba41' -> (Import Result ID: '29b3b39d81bab996ee513e723b568f40') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=07d14cb84fda0631a2d31ecde9d9e278 DependenciesID=b6ad6562f209dbc4f44bf806abc9522e StaticDependenciesID=98b9b33fbbc3c084b82409f8a04ef627 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:24.719606Z
+  Time since last request: 0.176930208 seconds.
+  importAddress: GUID: 6afb357a6c1f64cd28d968986c309b9e - Path: Assets/Art/Enemies/frog_dead.png - Importer: PreviewImporter
+Importing 'GUID: 6afb357a6c1f64cd28d968986c309b9e - Path: Assets/Art/Enemies/frog_dead.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6afb357a6c1f64cd28d968986c309b9e' -> (Import Result ID: '4ee11fda634614cc2f3f0561db27845e') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=543c1a968e70c974e87cacaa6883f945 DependenciesID=1a799ef875e336660d3a32327f947546 StaticDependenciesID=62036b9cbfdcea37ed6e83ccd11650c1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:24.917905Z
+  Time since last request: 0.181373458 seconds.
+  importAddress: GUID: b248d24b7ec1949e2bd1408a1d1db97c - Path: Assets/Art/Enemies/frog_move.png - Importer: PreviewImporter
+Importing 'GUID: b248d24b7ec1949e2bd1408a1d1db97c - Path: Assets/Art/Enemies/frog_move.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b248d24b7ec1949e2bd1408a1d1db97c' -> (Import Result ID: 'e6e0b100698dc396cdcc1b0ee8b59e27') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f332115166a5fd32a20fce0c1ac08c7d DependenciesID=75384b3675120b6ab2c9c2cee2c7de68 StaticDependenciesID=19e3c4bf75673bf70f424602123e638e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:25.272117Z
+  Time since last request: 0.33743825 seconds.
+  importAddress: GUID: 54c878c9a4c3d4e84beb7cf01eae4e8d - Path: Assets/Art/Enemies/ladybug.png - Importer: PreviewImporter
+Importing 'GUID: 54c878c9a4c3d4e84beb7cf01eae4e8d - Path: Assets/Art/Enemies/ladybug.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 54c878c9a4c3d4e84beb7cf01eae4e8d' -> (Import Result ID: '8cf8df29fdbcb69e672024b8971b44bf') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5e99f954963573db9890839ba2f62d92 DependenciesID=686cac46c448a60f190e13b145ca6ae1 StaticDependenciesID=38b627adef19682615c5c6aa15e1e07d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:25.780796Z
+  Time since last request: 0.491001417 seconds.
+  importAddress: GUID: 4855c9038a9174914a8564a64b40eca4 - Path: Assets/Art/Enemies/ladybug_fly.png - Importer: PreviewImporter
+Importing 'GUID: 4855c9038a9174914a8564a64b40eca4 - Path: Assets/Art/Enemies/ladybug_fly.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4855c9038a9174914a8564a64b40eca4' -> (Import Result ID: '1bd599e3f4427e7ee1088ca7be5aeed2') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6dee43aa4436b291fc0b34950605b496 DependenciesID=1a58a89f5de89cb3dc733106b607c4ef StaticDependenciesID=b3596da52ae4385719e95aeba30ab9cc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:25.938098Z
+  Time since last request: 0.140464833 seconds.
+  importAddress: GUID: de8674fb690d84784bdd14b23ee0d13c - Path: Assets/Art/Enemies/ladybug_move.png - Importer: PreviewImporter
+Importing 'GUID: de8674fb690d84784bdd14b23ee0d13c - Path: Assets/Art/Enemies/ladybug_move.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: de8674fb690d84784bdd14b23ee0d13c' -> (Import Result ID: '7bccc9ed2b79f9bba74eded86b653a35') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a6d50fc26428909172eaa6ac29487de7 DependenciesID=98e26742b40973d85d5a11ba038cce56 StaticDependenciesID=6d979b1e3d1393e2f65e4dc822e5cb73 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:26.13264Z
+  Time since last request: 0.176793334 seconds.
+  importAddress: GUID: 45b013ed916824b16955427ec7af9821 - Path: Assets/Art/Enemies/mouse.png - Importer: PreviewImporter
+Importing 'GUID: 45b013ed916824b16955427ec7af9821 - Path: Assets/Art/Enemies/mouse.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 45b013ed916824b16955427ec7af9821' -> (Import Result ID: '795143908b053dbd2ea1f19bcdc14648') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a38a1848feca15af54d3598f02d42dd5 DependenciesID=d83cd9b89c0b5b1f2259700b11475ca2 StaticDependenciesID=2dcc8c6534506ab3b215febfe746d973 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:26.317586Z
+  Time since last request: 0.168778833 seconds.
+  importAddress: GUID: 56570f0025d414767aa61f43697e7057 - Path: Assets/Art/Enemies/mouse_dead.png - Importer: PreviewImporter
+Importing 'GUID: 56570f0025d414767aa61f43697e7057 - Path: Assets/Art/Enemies/mouse_dead.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 56570f0025d414767aa61f43697e7057' -> (Import Result ID: '523e241a95cbab00532b97ab355e51fd') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=43cb000c5a31a9ac5395a81491445303 DependenciesID=ad7b473a6e37626df122b56f4825ca7e StaticDependenciesID=7037b7da9a3c1b06f04e5cf9fda80591 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:26.506469Z
+  Time since last request: 0.17168125 seconds.
+  importAddress: GUID: d523a7ac6eca14efcafc3c40f3197200 - Path: Assets/Art/Enemies/mouse_move.png - Importer: PreviewImporter
+Importing 'GUID: d523a7ac6eca14efcafc3c40f3197200 - Path: Assets/Art/Enemies/mouse_move.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d523a7ac6eca14efcafc3c40f3197200' -> (Import Result ID: '49991ca6d2b650f70e2841094b00bda3') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cef2dc0ca37adfc48a0e476a59b059a0 DependenciesID=ebd0a01bbfcd0909aa695f17a0b83d47 StaticDependenciesID=4d7a8db631a826c66c7c2259175e2f11 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:26.698631Z
+  Time since last request: 0.174915333 seconds.
+  importAddress: GUID: 55178e1e04c4c49a2be92b799718cfdf - Path: Assets/Art/Enemies/saw.png - Importer: PreviewImporter
+Importing 'GUID: 55178e1e04c4c49a2be92b799718cfdf - Path: Assets/Art/Enemies/saw.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 55178e1e04c4c49a2be92b799718cfdf' -> (Import Result ID: 'fb0ddda1f1c92fcc80b4dad8acde1082') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6c4aa2fdbdc34a227c3f37ecaf5120fb DependenciesID=963bc1821c59de633d7eeb749110cb06 StaticDependenciesID=05aab9961ddb6dd49d1553ab7d6753b6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:26.87547Z
+  Time since last request: 0.159233958 seconds.
+  importAddress: GUID: 7ad5540ebcdc94b21b9937cf91f76e7b - Path: Assets/Art/Enemies/saw_dead.png - Importer: PreviewImporter
+Importing 'GUID: 7ad5540ebcdc94b21b9937cf91f76e7b - Path: Assets/Art/Enemies/saw_dead.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7ad5540ebcdc94b21b9937cf91f76e7b' -> (Import Result ID: 'fa2d38dae36e7f9764a7f4fd287fe3ea') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d11242d798c4c2db79f412f0029ca60 DependenciesID=678f796f4283232a35c705c0e7c0e2d4 StaticDependenciesID=bff76c29a32b427151e8ab98f063b2f4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:27.057794Z
+  Time since last request: 0.164068375 seconds.
+  importAddress: GUID: 67423874578ff4e088017aa9105e24b1 - Path: Assets/Art/Enemies/saw_move.png - Importer: PreviewImporter
+Importing 'GUID: 67423874578ff4e088017aa9105e24b1 - Path: Assets/Art/Enemies/saw_move.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 67423874578ff4e088017aa9105e24b1' -> (Import Result ID: 'e605509d50ec9d191fefbe5ef00e4447') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7cc5321d377861da30c92bbb0f54ebfe DependenciesID=9ded90f49e33091d7007e9d5542e2d8f StaticDependenciesID=cc033aa074616b70d96b54114f136738 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:27.271857Z
+  Time since last request: 0.196714125 seconds.
+  importAddress: GUID: 8390dc57588a44506be8a5c0df75985f - Path: Assets/Art/Enemies/sawHalf.png - Importer: PreviewImporter
+Importing 'GUID: 8390dc57588a44506be8a5c0df75985f - Path: Assets/Art/Enemies/sawHalf.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8390dc57588a44506be8a5c0df75985f' -> (Import Result ID: '4d77746de5ad60948c1979ffe53e3037') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=beab10603407d6f5a33fe001720a8780 DependenciesID=a2cfb865bcd9a3e9be91aa55d94f1b00 StaticDependenciesID=9416f59b708906dc304131706cffa5c4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:27.45227Z
+  Time since last request: 0.16295225 seconds.
+  importAddress: GUID: 743c274e6c0a44b3b8eb1e6173470bc0 - Path: Assets/Art/Enemies/sawHalf_dead.png - Importer: PreviewImporter
+Importing 'GUID: 743c274e6c0a44b3b8eb1e6173470bc0 - Path: Assets/Art/Enemies/sawHalf_dead.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 743c274e6c0a44b3b8eb1e6173470bc0' -> (Import Result ID: 'e59de6b877eb9c00fd382d4bd31e3d32') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=409ae595d8a9067941061c15167a5df6 DependenciesID=7892fada80d788b707f595909d9457ea StaticDependenciesID=be863fcbdec644842c122832c0449dd5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:27.629622Z
+  Time since last request: 0.16111625 seconds.
+  importAddress: GUID: 103e47054590d43d59008cd232ac01d9 - Path: Assets/Art/Enemies/sawHalf_move.png - Importer: PreviewImporter
+Importing 'GUID: 103e47054590d43d59008cd232ac01d9 - Path: Assets/Art/Enemies/sawHalf_move.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 103e47054590d43d59008cd232ac01d9' -> (Import Result ID: 'af25c91bf2a41106cee2fd3d7d443588') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=211c3887e1a7b8ef3c392c844be10027 DependenciesID=1f627db8968724e785ce039deb213e2c StaticDependenciesID=ad2948c14e6663d7c1453c469b3d7920 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:27.803168Z
+  Time since last request: 0.157282375 seconds.
+  importAddress: GUID: 3bac19cded81c450f874a9c018b87a13 - Path: Assets/Art/Enemies/slimeBlock.png - Importer: PreviewImporter
+Importing 'GUID: 3bac19cded81c450f874a9c018b87a13 - Path: Assets/Art/Enemies/slimeBlock.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3bac19cded81c450f874a9c018b87a13' -> (Import Result ID: '021edea1df56590b7233ec50069b1da7') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=81400ef4886cb1b6a8997ecab9f13a6f DependenciesID=2bf5d608a48a7a71b695fd6b96253e76 StaticDependenciesID=d0bcb1f106589019d2686be168f29a39 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:13:27.987059Z
+  Time since last request: 0.166345209 seconds.
+  importAddress: GUID: 0f3b13220b76449279c6773b43c12a27 - Path: Assets/Art/Enemies/slimeBlock_dead.png - Importer: PreviewImporter
+Importing 'GUID: 0f3b13220b76449279c6773b43c12a27 - Path: Assets/Art/Enemies/slimeBlock_dead.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0f3b13220b76449279c6773b43c12a27' -> (Import Result ID: 'fb2a3007e3a8a1fa693e6cecc205a3e0') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=139629878cb6d3e7d3bfbedb2b9ffb77 DependenciesID=91c363cb746bdb49ec374db0c7d3ecac StaticDependenciesID=9ca08aaea6b51eb4076bb1a5e5c1b8e8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:14:18.694004Z
+  Time since last request: 50.690901083 seconds.
+  importAddress: GUID: f3d721c6b8b164dbaa7fa6a5c24ad243 - Path: Assets/Scripts/Spike.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f3d721c6b8b164dbaa7fa6a5c24ad243 - Path: Assets/Scripts/Spike.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f3d721c6b8b164dbaa7fa6a5c24ad243' -> (Import Result ID: '4faa6975fa758b6e67d75ade86e503e7') in 0.228 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=58f3808920b6e34efd75f4c282a2a722 DependenciesID=b74983ac998fb14370b5a32b58e0db99 StaticDependenciesID=c723f9fd40109b9430fefbd2d9a16905 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:14:18.939076Z
+  Time since last request: 0.001273208 seconds.
+  importAddress: GUID: 4da05bc92c97a4e26945ac8c742ce12f - Path: Assets/PreFabs/Spike.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4da05bc92c97a4e26945ac8c742ce12f - Path: Assets/PreFabs/Spike.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4da05bc92c97a4e26945ac8c742ce12f' -> (Import Result ID: '7e3436ec4fd94f78b7ef5769d47c43a0') in 0.087 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eb3b8f3e2f44021c13856bf9b2910da9 DependenciesID=79b3094d475c47004a30cb83da372d29 StaticDependenciesID=97efed9c61ad01d5720d38a2698258ea 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7539 unused Assets / (6.0 MB). Loaded Objects now: 8609.
+Memory consumption went from 187.3 MB to 181.3 MB.
+Total: 44.169875 ms (FindLiveObjects: 3.232750 ms CreateObjectMapping: 1.831834 ms MarkObjects: 32.542000 ms  DeleteObjects: 6.560584 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:14:30.678137Z
+  Time since last request: 11.639296875 seconds.
+  importAddress: GUID: e931a279477b34b1f87c1eea4efea827 - Path: Assets/Scripts/Frog.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e931a279477b34b1f87c1eea4efea827 - Path: Assets/Scripts/Frog.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e931a279477b34b1f87c1eea4efea827' -> (Import Result ID: 'b07c260435bab99436fb7f6e3eb3f4d6') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=854ba00dcc7ffbc75b805f5a4b92e0b4 DependenciesID=1c46a180206e2eb65d912f6da927dcdb StaticDependenciesID=8e989d1f3acb9d24c3d9f59370344642 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:14:30.776973Z
+  Time since last request: 0.059947625 seconds.
+  importAddress: GUID: e931a279477b34b1f87c1eea4efea827 - Path: Assets/Scripts/Frog.cs - Importer: PreviewImporter
+Importing 'GUID: e931a279477b34b1f87c1eea4efea827 - Path: Assets/Scripts/Frog.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e931a279477b34b1f87c1eea4efea827' -> (Import Result ID: '572ccaaa298ff53b3f97ed330426d72e') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5339c8a065c78efd2a573cdedc4320f7 DependenciesID=b578e9b3d9eea26bbab20eb0b4b7ab2b StaticDependenciesID=b05983af4f68b449ae908f3607395a6f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x16ff2f000 may have been prematurely finalized
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.593 seconds
+Domain Reload Profiling: 2909ms
+	BeginReloadAssembly (931ms)
+		DisableScriptedObjects (53ms)
+		CreateAndSetChildDomain (156ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (1261ms)
+		LoadAssemblies (1489ms)
+		AnalyzeDomain (274ms)
+			TypeCache.Refresh (33ms)
+			BuildScriptInfoCaches (224ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (594ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7554 unused Assets / (7.6 MB). Loaded Objects now: 8611.
+Memory consumption went from 195.0 MB to 187.4 MB.
+Total: 11.834458 ms (FindLiveObjects: 0.538958 ms CreateObjectMapping: 1.822292 ms MarkObjects: 6.207042 ms  DeleteObjects: 3.265708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x16ff2f000 may have been prematurely finalized
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.593 seconds
+Domain Reload Profiling: 2472ms
+	BeginReloadAssembly (811ms)
+		DisableScriptedObjects (126ms)
+		CreateAndSetChildDomain (127ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (947ms)
+		LoadAssemblies (888ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (22ms)
+			BuildScriptInfoCaches (180ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (594ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7554 unused Assets / (4.6 MB). Loaded Objects now: 8614.
+Memory consumption went from 196.6 MB to 192.0 MB.
+Total: 23.562166 ms (FindLiveObjects: 6.090250 ms CreateObjectMapping: 3.954875 ms MarkObjects: 7.188209 ms  DeleteObjects: 6.326458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x16ff2f000 may have been prematurely finalized
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.624 seconds
+Domain Reload Profiling: 1340ms
+	BeginReloadAssembly (240ms)
+		DisableScriptedObjects (21ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (402ms)
+		LoadAssemblies (312ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (23ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (625ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7554 unused Assets / (6.7 MB). Loaded Objects now: 8617.
+Memory consumption went from 198.1 MB to 191.4 MB.
+Total: 14.705625 ms (FindLiveObjects: 2.282041 ms CreateObjectMapping: 2.522834 ms MarkObjects: 6.192458 ms  DeleteObjects: 3.707750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x17015f000 may have been prematurely finalized
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.616 seconds
+Domain Reload Profiling: 1327ms
+	BeginReloadAssembly (237ms)
+		DisableScriptedObjects (24ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (405ms)
+		LoadAssemblies (313ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (26ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (617ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7554 unused Assets / (5.2 MB). Loaded Objects now: 8620.
+Memory consumption went from 199.6 MB to 194.4 MB.
+Total: 17.092000 ms (FindLiveObjects: 1.627125 ms CreateObjectMapping: 4.129833 ms MarkObjects: 7.496209 ms  DeleteObjects: 3.838125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x17015f000 may have been prematurely finalized
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.604 seconds
+Domain Reload Profiling: 1510ms
+	BeginReloadAssembly (246ms)
+		DisableScriptedObjects (24ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (596ms)
+		LoadAssemblies (337ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (17ms)
+			BuildScriptInfoCaches (196ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (604ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (231ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7554 unused Assets / (7.4 MB). Loaded Objects now: 8623.
+Memory consumption went from 201.2 MB to 193.9 MB.
+Total: 13.545166 ms (FindLiveObjects: 1.410292 ms CreateObjectMapping: 2.032542 ms MarkObjects: 6.404458 ms  DeleteObjects: 3.694708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x17015f000 may have been prematurely finalized
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.679 seconds
+Domain Reload Profiling: 1413ms
+	BeginReloadAssembly (259ms)
+		DisableScriptedObjects (25ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (406ms)
+		LoadAssemblies (315ms)
+		AnalyzeDomain (44ms)
+			TypeCache.Refresh (25ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (680ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7554 unused Assets / (5.9 MB). Loaded Objects now: 8626.
+Memory consumption went from 202.7 MB to 196.7 MB.
+Total: 22.602375 ms (FindLiveObjects: 7.967208 ms CreateObjectMapping: 2.746750 ms MarkObjects: 7.558583 ms  DeleteObjects: 4.329375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x17015f000 may have been prematurely finalized
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.604 seconds
+Domain Reload Profiling: 1298ms
+	BeginReloadAssembly (222ms)
+		DisableScriptedObjects (23ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (405ms)
+		LoadAssemblies (326ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (23ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (606ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7554 unused Assets / (5.9 MB). Loaded Objects now: 8629.
+Memory consumption went from 204.1 MB to 198.2 MB.
+Total: 15.809291 ms (FindLiveObjects: 1.523709 ms CreateObjectMapping: 3.200458 ms MarkObjects: 7.305000 ms  DeleteObjects: 3.779791 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x16ff2f000 may have been prematurely finalized
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.595 seconds
+Domain Reload Profiling: 2795ms
+	BeginReloadAssembly (1035ms)
+		DisableScriptedObjects (99ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (212ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (124ms)
+	LoadAllAssembliesAndSetupDomain (1019ms)
+		LoadAssemblies (999ms)
+		AnalyzeDomain (291ms)
+			TypeCache.Refresh (30ms)
+			BuildScriptInfoCaches (248ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (596ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7554 unused Assets / (7.5 MB). Loaded Objects now: 8632.
+Memory consumption went from 205.8 MB to 198.3 MB.
+Total: 11.233375 ms (FindLiveObjects: 0.650708 ms CreateObjectMapping: 1.963000 ms MarkObjects: 5.188791 ms  DeleteObjects: 3.430459 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x16ff2f000 may have been prematurely finalized
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.593 seconds
+Domain Reload Profiling: 1337ms
+	BeginReloadAssembly (252ms)
+		DisableScriptedObjects (15ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (311ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (19ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (594ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7554 unused Assets / (6.2 MB). Loaded Objects now: 8635.
+Memory consumption went from 207.2 MB to 201.1 MB.
+Total: 22.204125 ms (FindLiveObjects: 3.617250 ms CreateObjectMapping: 3.823458 ms MarkObjects: 7.050250 ms  DeleteObjects: 7.712500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:28:46.614435Z
+  Time since last request: 855.81662841699995 seconds.
+  importAddress: GUID: 46a928ddbd9734bcb8100b077f1337d1 - Path: Assets/Scripts/Spring.cs - Importer: PreviewImporter
+Importing 'GUID: 46a928ddbd9734bcb8100b077f1337d1 - Path: Assets/Scripts/Spring.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 46a928ddbd9734bcb8100b077f1337d1' -> (Import Result ID: 'b54807fcc5fd4154abb9ed95295a45d9') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a601cfc35858ed4eabab0cc9d414d4d3 DependenciesID=534582b8a02442c26cebbfd39cb3771c StaticDependenciesID=5bdbc470bcbddb13da2f6d8691d59b56 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-24T14:28:48.573134Z
+  Time since last request: 1.918664417 seconds.
+  importAddress: GUID: e931a279477b34b1f87c1eea4efea827 - Path: Assets/Scripts/Frog.cs - Importer: PreviewImporter
+Importing 'GUID: e931a279477b34b1f87c1eea4efea827 - Path: Assets/Scripts/Frog.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e931a279477b34b1f87c1eea4efea827' -> (Import Result ID: '1ef11a74f2275e33e2ccc78d3cc2ece8') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5339c8a065c78efd2a573cdedc4320f7 DependenciesID=9291613b47836e839303c73dc9a0a6b0 StaticDependenciesID=fd9e721e13fa72c8fddcae31fa16f97c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x16ff2f000 may have been prematurely finalized
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.610 seconds
+Domain Reload Profiling: 1310ms
+	BeginReloadAssembly (220ms)
+		DisableScriptedObjects (22ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (416ms)
+		LoadAssemblies (327ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (24ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (611ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7554 unused Assets / (5.7 MB). Loaded Objects now: 8638.
+Memory consumption went from 208.7 MB to 203.1 MB.
+Total: 17.644000 ms (FindLiveObjects: 3.099625 ms CreateObjectMapping: 3.212375 ms MarkObjects: 7.022583 ms  DeleteObjects: 4.308792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x16ff2f000 may have been prematurely finalized
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.888 seconds
+Domain Reload Profiling: 3092ms
+	BeginReloadAssembly (393ms)
+		DisableScriptedObjects (40ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (1728ms)
+		LoadAssemblies (1234ms)
+		AnalyzeDomain (438ms)
+			TypeCache.Refresh (60ms)
+			BuildScriptInfoCaches (322ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (888ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (396ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7554 unused Assets / (8.4 MB). Loaded Objects now: 8641.
+Memory consumption went from 210.4 MB to 201.9 MB.
+Total: 19.343875 ms (FindLiveObjects: 4.001000 ms CreateObjectMapping: 2.523791 ms MarkObjects: 7.537417 ms  DeleteObjects: 5.280541 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x16ff2f000 may have been prematurely finalized
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.803 seconds
+Domain Reload Profiling: 1940ms
+	BeginReloadAssembly (355ms)
+		DisableScriptedObjects (16ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (137ms)
+	LoadAllAssembliesAndSetupDomain (612ms)
+		LoadAssemblies (589ms)
+		AnalyzeDomain (71ms)
+			TypeCache.Refresh (42ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (806ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7554 unused Assets / (5.7 MB). Loaded Objects now: 8644.
+Memory consumption went from 211.8 MB to 206.1 MB.
+Total: 24.828875 ms (FindLiveObjects: 4.845167 ms CreateObjectMapping: 4.337375 ms MarkObjects: 9.955875 ms  DeleteObjects: 5.686459 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x17015f000 may have been prematurely finalized
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.02 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.965 seconds
+Domain Reload Profiling: 2414ms
+	BeginReloadAssembly (495ms)
+		DisableScriptedObjects (21ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (223ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (840ms)
+		LoadAssemblies (469ms)
+		AnalyzeDomain (391ms)
+			TypeCache.Refresh (42ms)
+			BuildScriptInfoCaches (312ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (966ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (372ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7554 unused Assets / (4.4 MB). Loaded Objects now: 8647.
+Memory consumption went from 213.4 MB to 209.1 MB.
+Total: 33.140584 ms (FindLiveObjects: 10.759583 ms CreateObjectMapping: 3.600500 ms MarkObjects: 10.511208 ms  DeleteObjects: 8.267042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x17015f000 may have been prematurely finalized
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.659 seconds
+Domain Reload Profiling: 1449ms
+	BeginReloadAssembly (289ms)
+		DisableScriptedObjects (23ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (427ms)
+		LoadAssemblies (368ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (21ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (659ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (269ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7554 unused Assets / (7.8 MB). Loaded Objects now: 8650.
+Memory consumption went from 214.9 MB to 207.1 MB.
+Total: 13.882916 ms (FindLiveObjects: 0.871042 ms CreateObjectMapping: 2.392000 ms MarkObjects: 6.071541 ms  DeleteObjects: 4.547958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Thread 0x17015f000 may have been prematurely finalized
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.610 seconds
+Domain Reload Profiling: 2838ms
+	BeginReloadAssembly (1018ms)
+		DisableScriptedObjects (168ms)
+		CreateAndSetChildDomain (210ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (186ms)
+	LoadAllAssembliesAndSetupDomain (1001ms)
+		LoadAssemblies (966ms)
+		AnalyzeDomain (291ms)
+			TypeCache.Refresh (40ms)
+			BuildScriptInfoCaches (236ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (611ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7554 unused Assets / (4.8 MB). Loaded Objects now: 8653.
+Memory consumption went from 216.4 MB to 211.5 MB.
+Total: 12.871792 ms (FindLiveObjects: 1.122167 ms CreateObjectMapping: 2.085417 ms MarkObjects: 6.677458 ms  DeleteObjects: 2.986209 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x16ff2f000 may have been prematurely finalized
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.756 seconds
+Domain Reload Profiling: 1576ms
+	BeginReloadAssembly (221ms)
+		DisableScriptedObjects (16ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (121ms)
+	LoadAllAssembliesAndSetupDomain (455ms)
+		LoadAssemblies (363ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (35ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (757ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (321ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7554 unused Assets / (7.8 MB). Loaded Objects now: 8656.
+Memory consumption went from 217.9 MB to 210.1 MB.
+Total: 21.970291 ms (FindLiveObjects: 3.210958 ms CreateObjectMapping: 3.349542 ms MarkObjects: 8.589958 ms  DeleteObjects: 6.818833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (2.7 MB). Loaded Objects now: 8656.
+Memory consumption went from 204.9 MB to 202.1 MB.
+Total: 31.325500 ms (FindLiveObjects: 0.702625 ms CreateObjectMapping: 0.871958 ms MarkObjects: 29.262959 ms  DeleteObjects: 0.487708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
