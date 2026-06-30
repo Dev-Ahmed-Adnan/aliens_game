@@ -853,7 +853,7 @@ GameObject:
   - component: {fileID: 1087173184}
   - component: {fileID: 1087173183}
   m_Layer: 0
-  m_Name: colored_grass_0
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
