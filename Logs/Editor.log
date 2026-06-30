@@ -3059,3 +3059,668 @@ Memory consumption went from 381.5 MB to 381.0 MB.
 Total: 31.903000 ms (FindLiveObjects: 0.646875 ms CreateObjectMapping: 1.039958 ms MarkObjects: 28.928209 ms  DeleteObjects: 1.287333 ms)
 
 [Licensing::Client] Successfully resolved entitlement details
+
+Asset Pipeline Refresh (id=427185071057a4373aaaf6cbb6e35a97): Total: 0.455 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=447 ms
+		Asset DB Callback time: managed=0 ms, native=6 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1662, non-scripts=3765
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 6.027ms
+	ApplyChangesToAssetFolders: 3.784ms
+	Scan: 417.790ms
+	Collect global state as custom dependencies: 4.044ms
+	GatherAllCurrentPrimaryImportResultRevisions: 2.637ms
+	UnloadStreamsBegin: 8.260ms
+	UnloadStreamsEnd: 0.068ms
+	Untracked: 9.812ms
+
+Importing 'GUID: 2bcd2660ca9b64942af0de543d8d7100 - Path: Assets/InputSystem_Actions.inputactions' with importer (ScriptedImporter : Unity.InputSystem:UnityEngine.InputSystem.Editor:InputActionImporter)
+Imported 'GUID: 2bcd2660ca9b64942af0de543d8d7100' -> (Import Result ID: 'e0f530a5e9862062d11808acf0a68df0') in 0.091 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a5d78bbdbb31e03fd2ffa6ae0831ac8e DependenciesID=0b05353283086d5ff7fc5deb083f8fe8 StaticDependenciesID=b3c45982c038332f3c1390b004997a9b 
+
+Asset Pipeline Refresh (id=a5468378c7440418aad8614a3a1f5319): Total: 0.541 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=9 ms, native=477 ms
+		Asset DB Callback time: managed=30 ms, native=22 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1662, non-scripts=3765
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 2
+	ApplyChangesToAssetFolders: 0.865ms
+	Scan: 23.396ms
+	Collect global state as custom dependencies: 1.177ms
+	OnSourceAssetsModified: 1.285ms
+	CategorizeScriptCompilationAssets: 0.140ms
+	ProcessAssetsWithTransientArtifactChanges: 0.548ms
+	CategorizeAssets: 127.042ms
+	ImportOutOfDateAssets: 238.181ms (75.070ms without children)
+		ImportManagerImport: 98.622ms (1.244ms without children)
+		ReloadNativeAssets: 0.186ms
+		UnloadImportedAssets: 0.649ms
+		ReloadImportedAssets: 1.948ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.550ms
+		InitializingProgressBar: 0.266ms
+		ImportSchedulerStart: 62.836ms
+	PostProcessAllAssets: 47.193ms
+		PostprocessAssetsUpdateCachedIcon 8.325ms
+		XRBuildSystem.XRAssetImported 6.262ms
+		AssemblyValidation.PostprocessAllAssets 0.653ms
+		SpriteAtlasDatabase.OnAssetPostprocessCallback 0.252ms
+		RaytracingShaderImportPostprocess 0.235ms
+		ShaderAssetModifiedCallback 0.233ms
+		ComputeShaderImportPostprocess 0.197ms
+		PostProcessCallbackCreateDeferredMaterials 0.139ms
+		MonoPostProcessAllAssets: 29.810ms
+			AssetPostprocessor.OnPostprocessAllAssets 4.984ms
+			AssetChangedListener.OnPostprocessAllAssets 4.429ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 3.096ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 2.305ms
+			SyncVS.PostprocessSyncProject 1.817ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 1.542ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.194ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.186ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.952ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.864ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.629ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.601ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 0.558ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.414ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.377ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.309ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.292ms
+			PostProcessor.OnPostprocessAllAssets 0.192ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.184ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.163ms
+			AssetEvents.OnPostprocessAllAssets 0.161ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.152ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.142ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.140ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.121ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.117ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.090ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.068ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.065ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.052ms
+			AssetProcessor.OnPostprocessAllAssets 0.052ms
+	PostAssetChangesProfiler: 4.864ms
+	GatherAllCurrentPrimaryImportResultRevisions: 5.734ms
+	UnloadStreamsBegin: 1.328ms
+	PersistCurrentRevisions: 0.229ms
+	Untracked: 88.899ms
+
+Asset Pipeline Refresh (id=9c64287100b5e42f8917c339bf404eb1): Total: 0.277 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+
+Asset Pipeline Refresh (id=4d629045571664904aa5c24baa6457b9): Total: 0.317 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=310 ms
+		Asset DB Callback time: managed=0 ms, native=6 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1662, non-scripts=3765
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 5.470ms
+	ApplyChangesToAssetFolders: 17.525ms
+	Scan: 281.664ms
+	Collect global state as custom dependencies: 2.657ms
+	GatherAllCurrentPrimaryImportResultRevisions: 1.815ms
+	UnloadStreamsBegin: 0.395ms
+	UnloadStreamsEnd: 0.112ms
+	Untracked: 7.275ms
+
+2026-06-30 20:39:06.730 Unity[52970:437821] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x9627785a0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-30 20:39:38.801 Unity[52970:437821] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x9544cb200 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-30 20:39:41.147 Unity[52970:437821] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x965b8ae40 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-30 20:39:48.753 Unity[52970:437821] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x9544c99a0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-30 20:39:53.754 Unity[52970:437821] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x965b89ea0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+
+Asset Pipeline Refresh (id=94f288cf806fe49a2838a5fefdec9810): Total: 0.551 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=541 ms
+		Asset DB Callback time: managed=0 ms, native=8 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1662, non-scripts=3765
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 7.567ms
+	ApplyChangesToAssetFolders: 1.666ms
+	Scan: 504.008ms
+	Collect global state as custom dependencies: 3.793ms
+	GatherAllCurrentPrimaryImportResultRevisions: 8.632ms
+	UnloadStreamsBegin: 12.419ms
+	UnloadStreamsEnd: 0.080ms
+	Untracked: 9.481ms
+
+2026-06-30 20:42:48.484 Unity[52970:437821] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x966174a00 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Importing 'GUID: 35d195987c61d46bc85605e1358e5f43 - Path: Assets/Scenes/level2.unity' with importer (DefaultImporter)
+Imported 'GUID: 35d195987c61d46bc85605e1358e5f43' -> (Import Result ID: '8493be207ac609b59c7de0849db9df54') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=2b84f0b6da9a16d02e03236cf0f0afd7 DependenciesID=151cfdc3457e373154a09c593fe9d0e3 StaticDependenciesID=32eec9c865c15b914f0dcfb7d470122e 
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+
+Asset Pipeline Refresh (id=eefc01086446445ba9d3c6a50268222c): Total: 0.326 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=311 ms
+		Asset DB Callback time: managed=7 ms, native=6 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1662, non-scripts=3765
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 3
+	ApplyChangesToAssetFolders: 0.230ms
+	Scan: 16.589ms
+	Collect global state as custom dependencies: 1.187ms
+	OnSourceAssetsModified: 0.864ms
+	CategorizeScriptCompilationAssets: 0.144ms
+	ProcessAssetsWithTransientArtifactChanges: 4.450ms
+	CategorizeAssets: 106.628ms
+	ImportOutOfDateAssets: 150.267ms (83.499ms without children)
+		ImportManagerImport: 5.101ms (0.460ms without children)
+		ReloadNativeAssets: 0.613ms
+		UnloadImportedAssets: 0.133ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.543ms
+		InitializingProgressBar: 0.300ms
+		ImportSchedulerStart: 60.077ms
+	PostProcessAllAssets: 9.679ms
+		XRBuildSystem.XRAssetImported 0.507ms
+		PostProcessCallbackCreateDeferredMaterials 0.122ms
+		SpriteAtlasDatabase.OnAssetPostprocessCallback 0.116ms
+		AssemblyValidation.PostprocessAllAssets 0.113ms
+		ObjectImages.AssetImported 0.086ms
+		MonoPostProcessAllAssets: 7.795ms
+			SyncVS.PostprocessSyncProject 1.601ms
+			AssetPostprocessor.OnPostprocessAllAssets 1.531ms
+			AssetChangedListener.OnPostprocessAllAssets 0.650ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.425ms
+			CinemachineSettings.OnPostprocessAllAssets 0.346ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.301ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.198ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.169ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.160ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.151ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.120ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.117ms
+	PostAssetChangesProfiler: 4.363ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.517ms
+	UnloadStreamsBegin: 3.532ms
+	PersistCurrentRevisions: 0.209ms
+	Untracked: 27.379ms
+
+[Worker0] Imported GUID: 0d252538c20bb46448b5309beb49c740 - Path: Assets/Scenes/level1.unity - Importer: PreviewImporter -> (ImportResultId: '633ed22cfa53b27a577275d8b68ef996') in 0.188782834 seconds
+Importing 'GUID: 35d195987c61d46bc85605e1358e5f43 - Path: Assets/Scenes/level2.unity' with importer (DefaultImporter)
+Imported 'GUID: 35d195987c61d46bc85605e1358e5f43' -> (Import Result ID: '9a981c439e26cbf4e59374818c2859f5') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=2b84f0b6da9a16d02e03236cf0f0afd7 DependenciesID=775fed4812c0d594d118be094a62dbeb StaticDependenciesID=ed26bc286a58675abb9826253d43ce8b 
+Refreshing native plugins compatible for Editor in 4.86 ms, found 3 plugins.
+Asset Pipeline Refresh (id=ba5ac5a8242eb4562a993bcb134ef89d): Total: 0.234 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/level1.unity'
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/level1.unity'
+	Deserialize:            5.640 ms
+	Integration:            540.195 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.003 ms
+	Total Operation Time:   545.839 ms
+Unloading 209 unused Assets / (0.8 MB). Loaded Objects now: 10494.
+Memory consumption went from 420.2 MB to 419.4 MB.
+Total: 45.314209 ms (FindLiveObjects: 1.619167 ms CreateObjectMapping: 0.919750 ms MarkObjects: 40.523000 ms  DeleteObjects: 2.251000 ms)
+
+Loaded scene 'Library/Unused/ab5164835c2694844be373deb9e0a7d4'
+	Deserialize:            1.019 ms
+	Integration:            0.357 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.005 ms
+	Total Operation Time:   1.382 ms
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (62.9 KB). Loaded Objects now: 10589.
+Memory consumption went from 400.9 MB to 400.9 MB.
+Total: 45.532250 ms (FindLiveObjects: 1.132834 ms CreateObjectMapping: 0.967667 ms MarkObjects: 43.296250 ms  DeleteObjects: 0.134584 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (59.7 KB). Loaded Objects now: 10577.
+Memory consumption went from 402.8 MB to 402.7 MB.
+Total: 35.324292 ms (FindLiveObjects: 1.521166 ms CreateObjectMapping: 0.816792 ms MarkObjects: 32.968958 ms  DeleteObjects: 0.016875 ms)
+
+
+Asset Pipeline Refresh (id=bc019646c9c1348d588a0326c4aeaa41): Total: 0.478 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=472 ms
+		Asset DB Callback time: managed=0 ms, native=4 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1662, non-scripts=3765
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 3.901ms
+	ApplyChangesToAssetFolders: 1.921ms
+	Scan: 458.663ms
+	Collect global state as custom dependencies: 1.686ms
+	GatherAllCurrentPrimaryImportResultRevisions: 2.291ms
+	UnloadStreamsBegin: 2.869ms
+	UnloadStreamsEnd: 0.076ms
+	Untracked: 4.586ms
+
+Importing 'GUID: 093a765ab93c246268ba65f295207fd6 - Path: Assets/PreFabs/Player.prefab' with importer (PrefabImporter)
+Imported 'GUID: 093a765ab93c246268ba65f295207fd6' -> (Import Result ID: '84f11217695845c326fe29c216e9a021') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4ad6d19ee9cc00dc8312f06946103e49 DependenciesID=26cdfa02d5fa56a3fdcd55b9c48a5d47 StaticDependenciesID=07de90a044bd0c30ea60b0f469f5386d 
+
+Asset Pipeline Refresh (id=e94b9a5730e5a46dc9247b472db8c244): Total: 0.325 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=2 ms, native=302 ms
+		Asset DB Callback time: managed=2 ms, native=17 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1662, non-scripts=3765
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 3
+	ApplyChangesToAssetFolders: 0.633ms
+	Scan: 16.362ms
+	Collect global state as custom dependencies: 1.638ms
+	OnSourceAssetsModified: 0.804ms
+	CategorizeScriptCompilationAssets: 0.381ms
+	ProcessAssetsWithTransientArtifactChanges: 0.388ms
+	CategorizeAssets: 98.925ms
+	ImportOutOfDateAssets: 163.110ms (82.876ms without children)
+		ImportManagerImport: 15.559ms (0.607ms without children)
+		ReloadNativeAssets: 0.404ms
+		UnloadImportedAssets: 0.893ms
+		ReloadImportedAssets: 1.305ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.542ms
+		InitializingProgressBar: 0.263ms
+		ImportSchedulerStart: 62.573ms
+	PostProcessAllAssets: 6.951ms
+		XRBuildSystem.XRAssetImported 3.082ms
+		PostProcessCallbackCreateDeferredMaterials 0.110ms
+		SpriteAtlasDatabase.OnAssetPostprocessCallback 0.107ms
+		AssemblyValidation.PostprocessAllAssets 0.104ms
+		MonoPostProcessAllAssets: 2.909ms
+			SyncVS.PostprocessSyncProject 1.655ms
+			AssetPostprocessor.OnPostprocessAllAssets 0.265ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.128ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.111ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.091ms
+			AssetChangedListener.OnPostprocessAllAssets 0.068ms
+	PostAssetChangesProfiler: 12.321ms
+	GatherAllCurrentPrimaryImportResultRevisions: 1.585ms
+	PersistCurrentRevisions: 0.213ms
+	GenerateScriptTypeHashes: 0.328ms
+	GenerateScriptTypeSerializationHashes: 0.367ms
+	Untracked: 21.623ms
+
+2026-06-30 20:45:10.648 Unity[52970:437821] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x965b8a1c0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Importing 'GUID: 0d252538c20bb46448b5309beb49c740 - Path: Assets/Scenes/level1.unity' with importer (DefaultImporter)
+Imported 'GUID: 0d252538c20bb46448b5309beb49c740' -> (Import Result ID: '802f8debdcbf9cee1a45c7b9a9791fe4') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=c72d9a302a49bc3b8c75f098cdb4d46b DependenciesID=48651d080a0fe5525cf3b11b83a9f035 StaticDependenciesID=4e6108ddd9b2f549b0c9b52e1f028c30 
+Asset Pipeline Refresh (id=bbd7b3cc162624349bb8758c2af19505): Total: 0.098 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 35d195987c61d46bc85605e1358e5f43 - Path: Assets/Scenes/level2.unity - Importer: PreviewImporter -> (ImportResultId: 'eb7c8832c91a007c255c8f063190eec9') in 0.036095416 seconds
+Opening scene 'Assets/Scenes/level2.unity'
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/level2.unity'
+	Deserialize:            5.153 ms
+	Integration:            382.824 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.002 ms
+	Total Operation Time:   387.981 ms
+Unloading 185 unused Assets / (0.8 MB). Loaded Objects now: 10514.
+Memory consumption went from 432.3 MB to 431.5 MB.
+Total: 53.268583 ms (FindLiveObjects: 1.871625 ms CreateObjectMapping: 1.200375 ms MarkObjects: 45.875208 ms  DeleteObjects: 4.320292 ms)
+
+[Worker0] Imported GUID: 0d252538c20bb46448b5309beb49c740 - Path: Assets/Scenes/level1.unity - Importer: PreviewImporter -> (ImportResultId: '00b14ac1465a4e06efa9791ae904b3be') in 0.0215965 seconds
+Opening scene 'Assets/Scenes/level1.unity'
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/level1.unity'
+	Deserialize:            1.924 ms
+	Integration:            396.136 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.027 ms
+	Total Operation Time:   398.089 ms
+Unloading 9 unused Assets / (0.9 MB). Loaded Objects now: 10507.
+Memory consumption went from 388.2 MB to 387.3 MB.
+Total: 48.781583 ms (FindLiveObjects: 6.190292 ms CreateObjectMapping: 1.072666 ms MarkObjects: 39.953709 ms  DeleteObjects: 1.564208 ms)
+
+Opening scene 'Assets/Scenes/level1.unity'
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/level1.unity'
+	Deserialize:            1.318 ms
+	Integration:            187.939 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.002 ms
+	Total Operation Time:   189.261 ms
+Unloading 4 unused Assets / (26.7 KB). Loaded Objects now: 10507.
+Memory consumption went from 386.2 MB to 386.1 MB.
+Total: 18.654875 ms (FindLiveObjects: 0.370083 ms CreateObjectMapping: 0.820208 ms MarkObjects: 17.332833 ms  DeleteObjects: 0.130917 ms)
+
+
+Asset Pipeline Refresh (id=7b8a97075d2724d34a40a299075ff656): Total: 0.545 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=537 ms
+		Asset DB Callback time: managed=0 ms, native=7 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1662, non-scripts=3765
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 7.326ms
+	ApplyChangesToAssetFolders: 2.689ms
+	Scan: 495.621ms
+	Collect global state as custom dependencies: 1.945ms
+	GatherAllCurrentPrimaryImportResultRevisions: 1.384ms
+	UnloadStreamsBegin: 22.801ms
+	UnloadStreamsEnd: 0.078ms
+	Untracked: 10.929ms
+
+Opening scene 'Assets/Scenes/level2.unity'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/level2.unity'
+	Deserialize:            14.645 ms
+	Integration:            393.680 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.005 ms
+	Total Operation Time:   408.334 ms
+Unloading 6 unused Assets / (1.5 KB). Loaded Objects now: 10517.
+Memory consumption went from 386.3 MB to 386.3 MB.
+Total: 39.857417 ms (FindLiveObjects: 0.442584 ms CreateObjectMapping: 0.811041 ms MarkObjects: 38.451167 ms  DeleteObjects: 0.150959 ms)
+
+Opening scene 'Assets/Scenes/level2.unity'
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/level2.unity'
+	Deserialize:            2.338 ms
+	Integration:            288.794 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.014 ms
+	Total Operation Time:   291.146 ms
+Unloading 6 unused Assets / (22.7 KB). Loaded Objects now: 10515.
+Memory consumption went from 386.2 MB to 386.2 MB.
+Total: 24.119583 ms (FindLiveObjects: 0.456875 ms CreateObjectMapping: 0.908250 ms MarkObjects: 22.641917 ms  DeleteObjects: 0.111625 ms)
+
+
+Asset Pipeline Refresh (id=089dc8bb7d37d4126adbc18bd1f5d22b): Total: 0.443 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=435 ms
+		Asset DB Callback time: managed=0 ms, native=7 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1662, non-scripts=3765
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 6.458ms
+	ApplyChangesToAssetFolders: 2.380ms
+	Scan: 416.188ms
+	Collect global state as custom dependencies: 1.490ms
+	GatherAllCurrentPrimaryImportResultRevisions: 2.228ms
+	UnloadStreamsBegin: 3.624ms
+	UnloadStreamsEnd: 0.075ms
+	Untracked: 7.325ms
+
+2026-06-30 20:49:12.371 Unity[52970:437821] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x965b89e00 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Importing 'GUID: 2e7077da502fd427ca92db4963c86130 - Path: Assets/PreFabs/PlayerInputManager.prefab' with importer (PrefabImporter)
+Imported 'GUID: 2e7077da502fd427ca92db4963c86130' -> (Import Result ID: '67dacdaf66ceec5b82be4def95a5c0a3') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=77abce50698dfe7a16126331ecd406c1 DependenciesID=f621f3a67c45dbca87964a71e4bb160f StaticDependenciesID=1fde1499d074301b194b06d7d8d65af9 
+
+Asset Pipeline Refresh (id=ea9936e838a754b2589ec81ad60c82d2): Total: 0.309 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=270 ms
+		Asset DB Callback time: managed=30 ms, native=7 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1662, non-scripts=3766
+		Asset File Changes: new=1, changed=1, moved=0, deleted=0
+		Scan Filter Count: 3
+	ApplyChangesToAssetFolders: 0.475ms
+	Scan: 13.199ms
+	Collect global state as custom dependencies: 0.107ms
+	OnSourceAssetsModified: 1.213ms
+	CategorizeScriptCompilationAssets: 0.125ms
+	ProcessAssetsWithTransientArtifactChanges: 0.606ms
+	CategorizeAssets: 85.074ms
+	ImportOutOfDateAssets: 144.123ms (65.708ms without children)
+		ImportManagerImport: 19.475ms (0.521ms without children)
+		ReloadNativeAssets: 0.222ms
+		UnloadImportedAssets: 0.125ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.518ms
+		InitializingProgressBar: 0.301ms
+		ImportSchedulerStart: 57.773ms
+	PostProcessAllAssets: 14.559ms
+		XRBuildSystem.XRAssetImported 3.089ms
+		SpriteAtlasDatabase.OnAssetPostprocessCallback 0.122ms
+		AssemblyValidation.PostprocessAllAssets 0.108ms
+		MonoPostProcessAllAssets: 10.571ms
+			SyncVS.PostprocessSyncProject 4.849ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.018ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.882ms
+			AssetPostprocessor.OnPostprocessAllAssets 0.460ms
+			AssetChangedListener.OnPostprocessAllAssets 0.449ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.402ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.208ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.104ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.095ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.060ms
+	PostAssetChangesProfiler: 22.145ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.796ms
+	UnloadStreamsBegin: 0.074ms
+	PersistCurrentRevisions: 0.279ms
+	GenerateScriptTypeSerializationHashes: 0.062ms
+	Untracked: 25.840ms
+
+[Worker0] Imported GUID: 2e7077da502fd427ca92db4963c86130 - Path: Assets/PreFabs/PlayerInputManager.prefab - Importer: PreviewImporter -> (ImportResultId: 'e373a2272965feb3cbe0e64243b9445f') in 0.398803459 seconds
+Importing 'GUID: 2e7077da502fd427ca92db4963c86130 - Path: Assets/PreFabs/PlayerInputManager.prefab' with importer (PrefabImporter)
+Imported 'GUID: 2e7077da502fd427ca92db4963c86130' -> (Import Result ID: 'c15ad19c2e36ed4f7b324b8c763578a3') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=be05cc48340f89d59f7a113dd4993ade DependenciesID=067c54451cc175a61fb67abb1a4ff839 StaticDependenciesID=d1c7dd5dfcfcc03b5bb6ec3db7627135 
+Asset Pipeline Refresh (id=86cfffd95653141e79ab8d3601a81ce9): Total: 0.138 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 2e7077da502fd427ca92db4963c86130 - Path: Assets/PreFabs/PlayerInputManager.prefab - Importer: PreviewImporter -> (ImportResultId: '09eb35df31852b220a5f1831c8971f4b') in 0.083288042 seconds
+Importing 'GUID: 35d195987c61d46bc85605e1358e5f43 - Path: Assets/Scenes/level2.unity' with importer (DefaultImporter)
+Imported 'GUID: 35d195987c61d46bc85605e1358e5f43' -> (Import Result ID: 'ae52a38f026284ce02a3c4067cbc640f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=2b84f0b6da9a16d02e03236cf0f0afd7 DependenciesID=cb5ede00a97c77465ebcc4588917c791 StaticDependenciesID=7e8352ac288f263b75edb0fc0a254880 
+Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
+Asset Pipeline Refresh (id=f23b49d7036e14149b6eccc43f0f72a7): Total: 0.085 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/level1.unity'
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/level1.unity'
+	Deserialize:            2.655 ms
+	Integration:            376.094 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.004 ms
+	Total Operation Time:   378.755 ms
+Unloading 194 unused Assets / (22.7 MB). Loaded Objects now: 10508.
+Memory consumption went from 430.0 MB to 407.4 MB.
+Total: 62.536167 ms (FindLiveObjects: 6.086459 ms CreateObjectMapping: 1.116583 ms MarkObjects: 48.791833 ms  DeleteObjects: 6.540458 ms)
+
+Thread 0x17f65b000 may have been prematurely finalized
+SpriteAtlasPacking completed in 0.062926 sec
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+2026-06-30 20:49:57.225 Unity[52970:437821] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x965b8abc0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-30 20:49:57.230 Unity[52970:437821] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x9544cb700 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-30 20:49:57.235 Unity[52970:437821] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x962933160 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-06-30 20:49:57.240 Unity[52970:437821] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x965b88a00 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.357 seconds
+Domain Reload Profiling: 3043ms
+	BeginReloadAssembly (1213ms)
+		DisableScriptedObjects (81ms)
+		CreateAndSetChildDomain (774ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (384ms)
+		LoadAssemblies (455ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (12ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1358ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (321ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+		AwakeInstancesAfterBackupRestoration (416ms)
+
+Asset Pipeline Refresh (id=485c3275401cb4e8486852e1a5bc51b9): Total: 3.450 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1578 ms
+		Asset DB Callback time: managed=22 ms, native=2 ms
+		Scripting: domain reloads=1, domain reload time=1845 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=1662, non-scripts=3766
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.802ms
+	ApplyChangesToAssetFolders: 0.395ms
+	Collect global state as custom dependencies: 2.976ms
+	ProcessAssetsWithTransientArtifactChanges: 0.413ms
+	CategorizeAssets: 60.872ms
+	CompileScripts: 1.596ms
+	ImportOutOfDateAssets: 1419.091ms (1372.945ms without children)
+		CollectScriptTypesHashes: 1.963ms
+		ReloadNativeAssets: 0.780ms
+		UnloadImportedAssets: 0.196ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.702ms
+		ImportSchedulerStart: 44.424ms
+	PostProcessAllAssets: 22.721ms
+		MonoPostProcessAllAssets: 22.719ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 6.765ms
+			SyncVS.PostprocessSyncProject 4.973ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.073ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.033ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.396ms
+			CinemachineSettings.OnPostprocessAllAssets 0.290ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.264ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.259ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.207ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.202ms
+			AssetPostprocessor.OnPostprocessAllAssets 0.166ms
+			DomainReloadProcessor.OnPostprocessAllAssets 0.157ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.154ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.108ms
+			AssetChangedListener.OnPostprocessAllAssets 0.097ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.097ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.091ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.075ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.973ms
+	UnloadStreamsBegin: 0.299ms
+	PersistCurrentRevisions: 0.147ms
+	GenerateScriptTypeHashes: 2.617ms
+	GenerateScriptTypeSerializationHashes: 4.561ms
+	Untracked: 1931.603ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            6.055 ms
+	Integration:            465.490 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       -0.001 ms
+	Total Operation Time:   471.550 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.533625 ms
+Loaded scene 'Assets/Scenes/Menu.unity'
+	Deserialize:            79.329 ms
+	Integration:            447.859 ms
+	Integration of assets:  10.445 ms
+	Thread Wait Time:       3.198 ms
+	Total Operation Time:   540.830 ms
+Unloading 182 unused Assets / (1.4 MB). Loaded Objects now: 10387.
+Memory consumption went from 370.1 MB to 368.6 MB.
+Total: 37.849625 ms (FindLiveObjects: 7.754834 ms CreateObjectMapping: 0.883583 ms MarkObjects: 24.127875 ms  DeleteObjects: 5.080916 ms)
+
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.192792 ms
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            31.634 ms
+	Integration:            339.848 ms
+	Integration of assets:  2.002 ms
+	Thread Wait Time:       2.989 ms
+	Total Operation Time:   376.473 ms
+Unloading 80 unused Assets / (0.9 MB). Loaded Objects now: 10515.
+Memory consumption went from 370.1 MB to 369.2 MB.
+Total: 40.708166 ms (FindLiveObjects: 7.934875 ms CreateObjectMapping: 1.760209 ms MarkObjects: 30.364625 ms  DeleteObjects: 0.647584 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.943958 ms
+Loaded scene 'Assets/Scenes/level2.unity'
+	Deserialize:            6.803 ms
+	Integration:            329.168 ms
+	Integration of assets:  0.507 ms
+	Thread Wait Time:       2.985 ms
+	Total Operation Time:   339.462 ms
+Unloading 67 unused Assets / (0.9 MB). Loaded Objects now: 10517.
+Memory consumption went from 373.0 MB to 372.1 MB.
+Total: 44.296667 ms (FindLiveObjects: 9.112000 ms CreateObjectMapping: 1.938542 ms MarkObjects: 31.842375 ms  DeleteObjects: 1.403250 ms)
+
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.364625 ms
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            7.520 ms
+	Integration:            347.669 ms
+	Integration of assets:  1.307 ms
+	Thread Wait Time:       4.500 ms
+	Total Operation Time:   360.996 ms
+Unloading 66 unused Assets / (1.5 MB). Loaded Objects now: 10517.
+Memory consumption went from 372.8 MB to 371.3 MB.
+Total: 44.545375 ms (FindLiveObjects: 6.592709 ms CreateObjectMapping: 1.368708 ms MarkObjects: 36.280291 ms  DeleteObjects: 0.302958 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.013459 ms
+Loaded scene 'Assets/Scenes/Menu.unity'
+	Deserialize:            7.497 ms
+	Integration:            348.974 ms
+	Integration of assets:  0.251 ms
+	Thread Wait Time:       3.024 ms
+	Total Operation Time:   359.746 ms
+Unloading 69 unused Assets / (0.8 MB). Loaded Objects now: 10388.
+Memory consumption went from 369.0 MB to 368.2 MB.
+Total: 42.065458 ms (FindLiveObjects: 4.119875 ms CreateObjectMapping: 1.503541 ms MarkObjects: 35.521458 ms  DeleteObjects: 0.919833 ms)
+
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.504042 ms
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            20.678 ms
+	Integration:            315.552 ms
+	Integration of assets:  0.882 ms
+	Thread Wait Time:       3.186 ms
+	Total Operation Time:   340.298 ms
+Unloading 80 unused Assets / (493.6 KB). Loaded Objects now: 10515.
+Memory consumption went from 368.7 MB to 368.2 MB.
+Total: 44.086416 ms (FindLiveObjects: 4.386375 ms CreateObjectMapping: 1.004625 ms MarkObjects: 38.274583 ms  DeleteObjects: 0.420000 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.487167 ms
+Loaded scene 'Assets/Scenes/Menu.unity'
+	Deserialize:            4.962 ms
+	Integration:            413.906 ms
+	Integration of assets:  0.247 ms
+	Thread Wait Time:       2.981 ms
+	Total Operation Time:   422.096 ms
+Unloading 69 unused Assets / (1.8 MB). Loaded Objects now: 10388.
+Memory consumption went from 375.0 MB to 373.2 MB.
+Total: 50.243875 ms (FindLiveObjects: 12.083084 ms CreateObjectMapping: 1.066125 ms MarkObjects: 35.762500 ms  DeleteObjects: 1.331000 ms)
+
+Thread 0x17f393000 may have been prematurely finalized
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            4.880 ms
+	Integration:            338.543 ms
+	Integration of assets:  0.762 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   344.194 ms
+Unloading 17 unused Assets / (358.0 KB). Loaded Objects now: 10463.
+Memory consumption went from 372.1 MB to 371.7 MB.
+Total: 24.443875 ms (FindLiveObjects: 1.919833 ms CreateObjectMapping: 1.009917 ms MarkObjects: 21.207250 ms  DeleteObjects: 0.304583 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
