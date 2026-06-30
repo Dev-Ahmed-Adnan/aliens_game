@@ -3,29 +3,27 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
-    private float _jumpEndTime;
-
-    private Rigidbody2D _rb;
-    private SpriteRenderer _spriteRenderer;
-
-    private bool IsGrounded;
-
-    [SerializeField] private float _jumpVelocity = 5f;
-    [SerializeField] private float _horizontalVelocity = 5f;
-    [SerializeField] private float _jumpDuration = 0.5f;
+    [SerializeField] float _jumpVelocity = 5f;
+    [SerializeField] float _horizontalVelocity = 5f;
+    [SerializeField] float _jumpDuration = 0.5f;
 
     [SerializeField] Sprite _defaultSprite;
     [SerializeField] Sprite _jumpSprite;
     [SerializeField] Sprite _walkingSprite;
     [SerializeField] LayerMask _layerMask;
+    [SerializeField] float _footOffest = 0.3f;
 
-    private float _horizontal;
+    Animator _animator;
 
-    private Animator _animator;
+    AudioSource _aduioSource;
+    PlayerInput _playerInput;
+    Rigidbody2D _rb;
+    SpriteRenderer _spriteRenderer;
 
-    [SerializeField] private float _footOffest = 0.3f;
-    private int _remainingJumps;
-    private AudioSource _aduioSource;
+    float _horizontal;
+    float _jumpEndTime;
+    bool IsGrounded;
+    int _remainingJumps;
 
     void Awake()
     {
@@ -34,6 +32,7 @@ public class Player : MonoBehaviour
         _defaultSprite = _spriteRenderer.sprite;
         _animator = GetComponent<Animator>();
         _aduioSource = GetComponent<AudioSource>();
+        _playerInput = GetComponent<PlayerInput>();
     }
 
     void OnDrawGizmos()
@@ -57,17 +56,14 @@ public class Player : MonoBehaviour
 
         _horizontal = 0f;
 
-        if (Keyboard.current != null)
-        {
-            if (Keyboard.current.dKey.isPressed || Keyboard.current.rightArrowKey.isPressed)
-                _horizontal += 1f;
-            if (Keyboard.current.aKey.isPressed || Keyboard.current.leftArrowKey.isPressed)
-                _horizontal -= 1f;
-        }
+        if (_playerInput.actions["Move"].ReadValue<Vector2>().x > 0f)
+            _horizontal += 1f;
+        if (_playerInput.actions["Move"].ReadValue<Vector2>().x < 0f)
+            _horizontal -= 1f;
 
         var vertical = _rb.linearVelocity.y;
 
-        if (Keyboard.current != null && Keyboard.current.spaceKey.wasPressedThisFrame && _remainingJumps > 0)
+        if (_playerInput.actions["Jump"].WasPerformedThisFrame() && _remainingJumps > 0)
         {
             _jumpEndTime = Time.time + _jumpDuration;
             _remainingJumps--;
@@ -77,7 +73,7 @@ public class Player : MonoBehaviour
             _aduioSource.Play();
         }
 
-        if (Keyboard.current != null && Keyboard.current.spaceKey.isPressed && Time.time < _jumpEndTime)
+        if (_playerInput.actions["Jump"].IsPressed() && Time.time < _jumpEndTime)
         {
             vertical = _jumpVelocity;
         }
